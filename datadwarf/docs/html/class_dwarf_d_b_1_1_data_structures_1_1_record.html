@@ -19,6 +19,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="namespaces.html"><span>Packages</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+      <li><a href="files.html"><span>Files</span></a></li>
       <li id="searchli">
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -47,7 +48,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
   <div class="navpath">
     <ul>
-      <li><b>DwarfDB</b>      </li>
+      <li><a class="el" href="namespace_dwarf_d_b.html">DwarfDB</a>      </li>
       <li><a class="el" href="namespace_dwarf_d_b_1_1_data_structures.html">DataStructures</a>      </li>
       <li><a class="el" href="class_dwarf_d_b_1_1_data_structures_1_1_record.html">Record</a>      </li>
     </ul>
@@ -84,12 +85,10 @@ Collaboration diagram for DwarfDB.DataStructures.Record:<!-- endSectionHeader --
 <table class="memberdecls">
 <tr><td colspan="2"><h2><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac6bae5700b3a08e9903a5c592d810de0"></a><!-- doxytag: member="DwarfDB::DataStructures::Record::Record" ref="ac6bae5700b3a08e9903a5c592d810de0" args="(DataContainer _owner_dc)" -->
-&#160;</td><td class="memItemRight" valign="bottom"><b>Record</b> (<a class="el" href="class_dwarf_d_b_1_1_data_structures_1_1_data_container.html">DataContainer</a> _owner_dc)</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a184d66ff6a8abfd88fc08aec61635295"></a><!-- doxytag: member="DwarfDB::DataStructures::Record::Record" ref="a184d66ff6a8abfd88fc08aec61635295" args="(SerializationInfo info, StreamingContext ctxt)" -->
-&#160;</td><td class="memItemRight" valign="bottom"><b>Record</b> (SerializationInfo info, StreamingContext ctxt)</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac10ee5af7dc2c00f831de89d0ac6592e"></a><!-- doxytag: member="DwarfDB::DataStructures::Record::GetObjectData" ref="ac10ee5af7dc2c00f831de89d0ac6592e" args="(SerializationInfo info, StreamingContext ctxt)" -->
-void&#160;</td><td class="memItemRight" valign="bottom"><b>GetObjectData</b> (SerializationInfo info, StreamingContext ctxt)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_d_b_1_1_data_structures_1_1_record.html#af420ab0f78acfe777062f1197d7edcee">Record</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_d_b_1_1_data_structures_1_1_record.html#ac6bae5700b3a08e9903a5c592d810de0">Record</a> (<a class="el" href="class_dwarf_d_b_1_1_data_structures_1_1_data_container.html">DataContainer</a> _owner_dc)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_d_b_1_1_data_structures_1_1_record.html#a184d66ff6a8abfd88fc08aec61635295">Record</a> (SerializationInfo info, StreamingContext ctxt)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_d_b_1_1_data_structures_1_1_record.html#ac10ee5af7dc2c00f831de89d0ac6592e">GetObjectData</a> (SerializationInfo info, StreamingContext ctxt)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_d_b_1_1_data_structures_1_1_record.html#a01889e57146fd3882228b09d2d54d51c">Save</a> ()</td></tr>
 <tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Save changes to file chunk.  <a href="#a01889e57146fd3882228b09d2d54d51c"></a><br/></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_d_b_1_1_data_structures_1_1_record.html#aba01a54cf8111326625980fd9b1d4d92">Load</a> (<a class="el" href="class_dwarf_d_b_1_1_data_structures_1_1_index.html">Index</a> index)</td></tr>
@@ -104,22 +103,16 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>GetObjectData</b> (Se
 <tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroying an index for an element ( for deletion )  <a href="#a6548196371053293f6333d4c29fd5f0d"></a><br/></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_d_b_1_1_data_structures_1_1_record.html#a81ac5ba44d5682bfba61592af0195cd0">LoadFromChunkDir</a> (string dirpath, <a class="el" href="class_dwarf_d_b_1_1_data_structures_1_1_index.html">Index</a> index)</td></tr>
 <tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Load <a class="el" href="class_dwarf_d_b_1_1_data_structures_1_1_record.html" title="Record is the element of DataContainer.">Record</a> from file chunk directory.  <a href="#a81ac5ba44d5682bfba61592af0195cd0"></a><br/></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aefa85cab909d8d9b60aeabbb23bbc5c7"></a><!-- doxytag: member="DwarfDB::DataStructures::Record::Reset" ref="aefa85cab909d8d9b60aeabbb23bbc5c7" args="()" -->
-void&#160;</td><td class="memItemRight" valign="bottom"><b>Reset</b> ()</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad86f08f6a15fc5bef549031789a01ff8"></a><!-- doxytag: member="DwarfDB::DataStructures::Record::MoveNext" ref="ad86f08f6a15fc5bef549031789a01ff8" args="()" -->
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>MoveNext</b> ()</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a17055913d08d7d28c235547f248d4540"></a><!-- doxytag: member="DwarfDB::DataStructures::Record::Dispose" ref="a17055913d08d7d28c235547f248d4540" args="()" -->
-void&#160;</td><td class="memItemRight" valign="bottom"><b>Dispose</b> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_d_b_1_1_data_structures_1_1_record.html#aefa85cab909d8d9b60aeabbb23bbc5c7">Reset</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_d_b_1_1_data_structures_1_1_record.html#ad86f08f6a15fc5bef549031789a01ff8">MoveNext</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_d_b_1_1_data_structures_1_1_record.html#a17055913d08d7d28c235547f248d4540">Dispose</a> ()</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_dwarf_d_b_1_1_data_structures_1_1_i_structure.html">IStructure</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_d_b_1_1_data_structures_1_1_record.html#a25e43ac7cdffc69c75cc466c859ce0ad">Clone</a> ()</td></tr>
 <tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Cloning procedure for DataStructure with reassigning a new owner object( for DC! )  <a href="#a25e43ac7cdffc69c75cc466c859ce0ad"></a><br/></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afccd7c4257b4a7953265490700ca5d84"></a><!-- doxytag: member="DwarfDB::DataStructures::Record::AssignOwnerDC" ref="afccd7c4257b4a7953265490700ca5d84" args="(DataContainer _owner_dc)" -->
-void&#160;</td><td class="memItemRight" valign="bottom"><b>AssignOwnerDC</b> (<a class="el" href="class_dwarf_d_b_1_1_data_structures_1_1_data_container.html">DataContainer</a> _owner_dc)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_d_b_1_1_data_structures_1_1_record.html#afccd7c4257b4a7953265490700ca5d84">AssignOwnerDC</a> (<a class="el" href="class_dwarf_d_b_1_1_data_structures_1_1_data_container.html">DataContainer</a> _owner_dc)</td></tr>
 <tr><td colspan="2"><h2><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4db0f67a22a56cb80011e181956ac11e"></a><!-- doxytag: member="DwarfDB::DataStructures::Record::current_index" ref="a4db0f67a22a56cb80011e181956ac11e" args="" -->
-<a class="el" href="class_dwarf_d_b_1_1_data_structures_1_1_index.html">Index</a>&#160;</td><td class="memItemRight" valign="bottom"><b>current_index</b></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af547c3e838f95ede8120ec33ea410be2"></a><!-- doxytag: member="DwarfDB::DataStructures::Record::position" ref="af547c3e838f95ede8120ec33ea410be2" args="" -->
-int&#160;</td><td class="memItemRight" valign="bottom"><b>position</b> = -1</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_dwarf_d_b_1_1_data_structures_1_1_index.html">Index</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_d_b_1_1_data_structures_1_1_record.html#a4db0f67a22a56cb80011e181956ac11e">current_index</a></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_d_b_1_1_data_structures_1_1_record.html#af547c3e838f95ede8120ec33ea410be2">position</a> = -1</td></tr>
 <tr><td colspan="2"><h2><a name="properties"></a>
 Properties</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">Int64&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_d_b_1_1_data_structures_1_1_record.html#a6b9df97308b20ff8504cd88c56aded41">Id</a><code> [get, set]</code></td></tr>
@@ -128,12 +121,89 @@ Properties</h2></td></tr>
 <tr><td class="mdescLeft">&#160;</td><td class="mdescRight">List of fields.  <a href="#ae901326df950b811aa2cbb5f632a21c3"></a><br/></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_dwarf_d_b_1_1_data_structures_1_1_field.html">Field</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_d_b_1_1_data_structures_1_1_record.html#a303a0895fdeb635fa47469b2ac46c4a3">this</a> [string field_name]<code> [get, set]</code></td></tr>
 <tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Getting fields and their values.  <a href="#a303a0895fdeb635fa47469b2ac46c4a3"></a><br/></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adc6c66e17187956974f6102e89054528"></a><!-- doxytag: member="DwarfDB::DataStructures::Record::OwnerDC" ref="adc6c66e17187956974f6102e89054528" args="" -->
-<a class="el" href="class_dwarf_d_b_1_1_data_structures_1_1_data_container.html">DataContainer</a>&#160;</td><td class="memItemRight" valign="bottom"><b>OwnerDC</b><code> [get, set]</code></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_dwarf_d_b_1_1_data_structures_1_1_data_container.html">DataContainer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dwarf_d_b_1_1_data_structures_1_1_record.html#adc6c66e17187956974f6102e89054528">OwnerDC</a><code> [get, set]</code></td></tr>
 </table>
 <hr/><a name="_details"></a><h2>Detailed Description</h2>
 <p><a class="el" href="class_dwarf_d_b_1_1_data_structures_1_1_record.html" title="Record is the element of DataContainer.">Record</a> is the element of <a class="el" href="class_dwarf_d_b_1_1_data_structures_1_1_data_container.html" title="DataContainer is the base element of DwarfDB data structure.">DataContainer</a>. </p>
+<hr/><h2>Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="af420ab0f78acfe777062f1197d7edcee"></a><!-- doxytag: member="DwarfDB::DataStructures::Record::Record" ref="af420ab0f78acfe777062f1197d7edcee" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">DwarfDB.DataStructures.Record.Record </td>
+          <td>(</td>
+          <td class="paramname">&#160;)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ac6bae5700b3a08e9903a5c592d810de0"></a><!-- doxytag: member="DwarfDB::DataStructures::Record::Record" ref="ac6bae5700b3a08e9903a5c592d810de0" args="(DataContainer _owner_dc)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">DwarfDB.DataStructures.Record.Record </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_dwarf_d_b_1_1_data_structures_1_1_data_container.html">DataContainer</a>&#160;</td>
+          <td class="paramname"> <em>_owner_dc</em>&#160;)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a184d66ff6a8abfd88fc08aec61635295"></a><!-- doxytag: member="DwarfDB::DataStructures::Record::Record" ref="a184d66ff6a8abfd88fc08aec61635295" args="(SerializationInfo info, StreamingContext ctxt)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">DwarfDB.DataStructures.Record.Record </td>
+          <td>(</td>
+          <td class="paramtype">SerializationInfo&#160;</td>
+          <td class="paramname"> <em>info</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">StreamingContext&#160;</td>
+          <td class="paramname"> <em>ctxt</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+</div>
+</div>
 <hr/><h2>Member Function Documentation</h2>
+<a class="anchor" id="afccd7c4257b4a7953265490700ca5d84"></a><!-- doxytag: member="DwarfDB::DataStructures::Record::AssignOwnerDC" ref="afccd7c4257b4a7953265490700ca5d84" args="(DataContainer _owner_dc)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DwarfDB.DataStructures.Record.AssignOwnerDC </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_dwarf_d_b_1_1_data_structures_1_1_data_container.html">DataContainer</a>&#160;</td>
+          <td class="paramname"> <em>_owner_dc</em>&#160;)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="ab4ae005ad5474eb98a8aa45d7f8dd195"></a><!-- doxytag: member="DwarfDB::DataStructures::Record::BuildIndex" ref="ab4ae005ad5474eb98a8aa45d7f8dd195" args="()" -->
 <div class="memitem">
 <div class="memproto">
@@ -193,6 +263,22 @@ Properties</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a17055913d08d7d28c235547f248d4540"></a><!-- doxytag: member="DwarfDB::DataStructures::Record::Dispose" ref="a17055913d08d7d28c235547f248d4540" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DwarfDB.DataStructures.Record.Dispose </td>
+          <td>(</td>
+          <td class="paramname">&#160;)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="abf7b1ed28e2f443a17f7658222b59c8f"></a><!-- doxytag: member="DwarfDB::DataStructures::Record::GetIndex" ref="abf7b1ed28e2f443a17f7658222b59c8f" args="()" -->
 <div class="memitem">
 <div class="memproto">
@@ -211,6 +297,42 @@ Properties</h2></td></tr>
 <dl class="return"><dt><b>Returns:</b></dt><dd></dd></dl>
 
 <p>Implements <a class="el" href="interface_dwarf_d_b_1_1_data_structures_1_1_i_structure.html#a6fb14f0bf9df3268084bcc31dfd9c56f">DwarfDB.DataStructures.IStructure</a>.</p>
+
+<p><!-- startSectionHeader --><div class="dynheader">
+Here is the caller graph for this function:<!-- endSectionHeader --></div>
+<!-- startSectionSummary --><!-- endSectionSummary --><!-- startSectionContent --><div class="dyncontent">
+<div class="center"><img src="class_dwarf_d_b_1_1_data_structures_1_1_record_abf7b1ed28e2f443a17f7658222b59c8f_icgraph.jpg" border="0" usemap="#class_dwarf_d_b_1_1_data_structures_1_1_record_abf7b1ed28e2f443a17f7658222b59c8f_icgraph" alt=""/></div>
+<map name="class_dwarf_d_b_1_1_data_structures_1_1_record_abf7b1ed28e2f443a17f7658222b59c8f_icgraph" id="class_dwarf_d_b_1_1_data_structures_1_1_record_abf7b1ed28e2f443a17f7658222b59c8f_icgraph">
+<area shape="rect" id="node3" href="class_dwarf_d_b_1_1_chunk_manager_1_1_chunk_manager.html#a96ab6bd09f2a5b1d05fe92163e40b512" title="Creates a new chunk for records." alt="" coords="324,5,657,32"/><area shape="rect" id="node5" href="class_dwarf_d_b_1_1_chunk_manager_1_1_chunk_manager.html#ae75710040c6048aebd07ec5161945386" title="Removes a record from chunk." alt="" coords="318,56,663,83"/></map>
+<!-- endSectionContent --></div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="ac10ee5af7dc2c00f831de89d0ac6592e"></a><!-- doxytag: member="DwarfDB::DataStructures::Record::GetObjectData" ref="ac10ee5af7dc2c00f831de89d0ac6592e" args="(SerializationInfo info, StreamingContext ctxt)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DwarfDB.DataStructures.Record.GetObjectData </td>
+          <td>(</td>
+          <td class="paramtype">SerializationInfo&#160;</td>
+          <td class="paramname"> <em>info</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">StreamingContext&#160;</td>
+          <td class="paramname"> <em>ctxt</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
 
 </div>
 </div>
@@ -280,6 +402,38 @@ Properties</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="ad86f08f6a15fc5bef549031789a01ff8"></a><!-- doxytag: member="DwarfDB::DataStructures::Record::MoveNext" ref="ad86f08f6a15fc5bef549031789a01ff8" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool DwarfDB.DataStructures.Record.MoveNext </td>
+          <td>(</td>
+          <td class="paramname">&#160;)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aefa85cab909d8d9b60aeabbb23bbc5c7"></a><!-- doxytag: member="DwarfDB::DataStructures::Record::Reset" ref="aefa85cab909d8d9b60aeabbb23bbc5c7" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DwarfDB.DataStructures.Record.Reset </td>
+          <td>(</td>
+          <td class="paramname">&#160;)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a01889e57146fd3882228b09d2d54d51c"></a><!-- doxytag: member="DwarfDB::DataStructures::Record::Save" ref="a01889e57146fd3882228b09d2d54d51c" args="()" -->
 <div class="memitem">
 <div class="memproto">
@@ -327,6 +481,33 @@ Properties</h2></td></tr>
 
 </div>
 </div>
+<hr/><h2>Member Data Documentation</h2>
+<a class="anchor" id="a4db0f67a22a56cb80011e181956ac11e"></a><!-- doxytag: member="DwarfDB::DataStructures::Record::current_index" ref="a4db0f67a22a56cb80011e181956ac11e" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_dwarf_d_b_1_1_data_structures_1_1_index.html">Index</a> <a class="el" href="class_dwarf_d_b_1_1_data_structures_1_1_record.html#a4db0f67a22a56cb80011e181956ac11e">DwarfDB.DataStructures.Record.current_index</a><code> [protected]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="af547c3e838f95ede8120ec33ea410be2"></a><!-- doxytag: member="DwarfDB::DataStructures::Record::position" ref="af547c3e838f95ede8120ec33ea410be2" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="class_dwarf_d_b_1_1_data_structures_1_1_record.html#af547c3e838f95ede8120ec33ea410be2">DwarfDB.DataStructures.Record.position</a> = -1<code> [protected]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+</div>
+</div>
 <hr/><h2>Property Documentation</h2>
 <a class="anchor" id="ae901326df950b811aa2cbb5f632a21c3"></a><!-- doxytag: member="DwarfDB::DataStructures::Record::Fields" ref="ae901326df950b811aa2cbb5f632a21c3" args="" -->
 <div class="memitem">
@@ -360,6 +541,19 @@ Properties</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="adc6c66e17187956974f6102e89054528"></a><!-- doxytag: member="DwarfDB::DataStructures::Record::OwnerDC" ref="adc6c66e17187956974f6102e89054528" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_dwarf_d_b_1_1_data_structures_1_1_data_container.html">DataContainer</a> DwarfDB.DataStructures.Record.OwnerDC<code> [get, set]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a303a0895fdeb635fa47469b2ac46c4a3"></a><!-- doxytag: member="DwarfDB::DataStructures::Record::this" ref="a303a0895fdeb635fa47469b2ac46c4a3" args="[string field_name]" -->
 <div class="memitem">
 <div class="memproto">
@@ -376,7 +570,7 @@ Properties</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>DataStructures/Record.cs</li>
+<li>DataStructures/<a class="el" href="_record_8cs.html">Record.cs</a></li>
 </ul>
 </div>
 <!--- window showing the filter options -->
@@ -384,7 +578,7 @@ Properties</h2></td></tr>
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Properties</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Properties</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -393,7 +587,7 @@ Properties</h2></td></tr>
 </iframe>
 </div>
 
-<hr class="footer"/><address class="footer"><small>Generated on Tue Nov 10 2015 16:12:39 for DwarfDB by&#160;
+<hr class="footer"/><address class="footer"><small>Generated on Tue Nov 10 2015 16:23:22 for DwarfDB by&#160;
 <a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.7.2 </small></address>
 </body>

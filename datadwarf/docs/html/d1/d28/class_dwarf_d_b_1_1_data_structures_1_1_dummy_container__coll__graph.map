@@ -1,0 +1,10 @@
+<map id="G" name="G">
+<area shape="rect" id="node2" href="$d0/dbb/class_dwarf_d_b_1_1_data_structures_1_1_data_container.html" title="DataContainer is the base element of DwarfDB data structure." alt="" coords="1510,136,1653,168"/>
+<area shape="rect" id="node4" href="$d2/d8a/interface_dwarf_d_b_1_1_data_structures_1_1_i_structure.html" title="An interface for DwarfDB data structures, such as: DataContainer and Record." alt="" coords="624,5,728,37"/>
+<area shape="rect" id="node8" href="$d1/d31/class_dwarf_d_b_1_1_data_structures_1_1_record.html" title="Record is the element of DataContainer." alt="" coords="1069,45,1365,77"/>
+<area shape="rect" id="node6" href="$db/db1/interface_dwarf_d_b_1_1_data_structures_1_1_i_structure_access.html" title="Description of IStructureAccess." alt="" coords="79,236,247,268"/>
+<area shape="rect" id="node15" href="$da/dfc/class_dwarf_d_b_1_1_data_structures_1_1_data_base.html" title="a class for database object" alt="" coords="1059,303,1375,335"/>
+<area shape="rect" id="node18" href="$d3/d82/class_dwarf_d_b_1_1_data_structures_1_1_d_s_access_manager.html" title="Description of DSAccessManager." alt="" coords="477,236,875,268"/>
+<area shape="rect" id="node11" href="$db/d3d/class_dwarf_d_b_1_1_data_structures_1_1_index.html" title="Index of data structure elements." alt="" coords="536,92,816,124"/>
+<area shape="rect" id="node13" href="$d2/d8a/interface_dwarf_d_b_1_1_data_structures_1_1_i_structure.html" title="An interface for DwarfDB data structures, such as: DataContainer and Record." alt="" coords="5,92,320,124"/>
+</map>

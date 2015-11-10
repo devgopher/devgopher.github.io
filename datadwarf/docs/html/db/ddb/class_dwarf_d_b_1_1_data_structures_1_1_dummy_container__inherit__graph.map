@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node2" href="$d0/dbb/class_dwarf_d_b_1_1_data_structures_1_1_data_container.html" title="DataContainer is the base element of DwarfDB data structure." alt="" coords="123,85,265,117"/>
+<area shape="rect" id="node4" href="$d2/d8a/interface_dwarf_d_b_1_1_data_structures_1_1_i_structure.html" title="An interface for DwarfDB data structures, such as: DataContainer and Record." alt="" coords="63,5,167,37"/>
+<area shape="rect" id="node6" href="$db/db1/interface_dwarf_d_b_1_1_data_structures_1_1_i_structure_access.html" title="Description of IStructureAccess." alt="" coords="191,5,359,37"/>
+</map>

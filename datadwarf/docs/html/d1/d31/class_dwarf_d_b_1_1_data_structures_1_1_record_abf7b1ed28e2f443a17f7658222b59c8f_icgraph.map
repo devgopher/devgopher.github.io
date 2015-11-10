@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$dc/d3e/class_dwarf_d_b_1_1_chunk_manager_1_1_chunk_manager.html#a53f3552003e75838a62348b9a9a33198" title="Finds a chunk with index space, that can contain an Index &quot;idx&quot;." alt="" coords="433,5,1021,37"/>
+<area shape="rect" id="node5" href="$dc/d3e/class_dwarf_d_b_1_1_chunk_manager_1_1_chunk_manager.html#ae8bd1b4ff40ef82cd807c013c18ec5fd" title="DwarfDB.ChunkManager.ChunkManager.IndexComparer" alt="" coords="478,61,975,93"/>
+<area shape="rect" id="node7" href="$dc/d3e/class_dwarf_d_b_1_1_chunk_manager_1_1_chunk_manager.html#ae75710040c6048aebd07ec5161945386" title="Removes a record from chunk." alt="" coords="477,117,977,149"/>
+</map>
