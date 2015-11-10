@@ -1,0 +1,10 @@
+<map id="G" name="G">
+<area shape="rect" id="node1" href="$interface_dwarf_d_b_1_1_data_structures_1_1_i_structure.html" title="An interface for DwarfDB data structures, such as: DataContainer and Record." alt="" coords="27,31,250,57"/>
+<area shape="rect" id="node3" href="$class_dwarf_d_b_1_1_data_structures_1_1_data_container.html" title="DataContainer is the base element of DwarfDB data structure." alt="" coords="335,56,585,83"/>
+<area shape="rect" id="node7" href="$class_dwarf_d_b_1_1_data_structures_1_1_record.html" title="Record is the element of DataContainer." alt="" coords="356,5,564,32"/>
+<area shape="rect" id="node5" href="$class_dwarf_d_b_1_1_data_structures_1_1_dummy_container.html" title="DummyContainer class &#45; it&#39;s class for using instead of NULL." alt="" coords="648,56,915,83"/>
+<area shape="rect" id="node9" href="$class_dwarf_d_b_1_1_data_structures_1_1_dummy_record.html" title="DummyRecord class &#45; it&#39;s class for using instead of NULL." alt="" coords="655,5,908,32"/>
+<area shape="rect" id="node10" href="$interface_dwarf_d_b_1_1_data_structures_1_1_i_structure_access.html" title="Description of IStructureAccess." alt="" coords="5,107,272,133"/>
+<area shape="rect" id="node12" href="$class_dwarf_d_b_1_1_data_structures_1_1_data_base.html" title="a class for database object" alt="" coords="348,107,572,133"/>
+<area shape="rect" id="node15" href="$class_dwarf_d_b_1_1_data_structures_1_1_d_s_access_manager.html" title="Description of DSAccessManager." alt="" coords="321,157,599,184"/>
+</map>
