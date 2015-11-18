@@ -1,0 +1,20 @@
+digraph "DwarfDB.AccessFunctions.Access.Instance"
+{
+  edge [fontname="Helvetica",fontsize="14",labelfontname="Helvetica",labelfontsize="14"];
+  node [fontname="Helvetica",fontsize="14",shape=record];
+  rankdir="LR";
+  Node1 [label="DwarfDB.AccessFunctions.\lAccess.Instance",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="14",style="solid",fontname="Helvetica"];
+  Node2 [label="DwarfDB.DataStructures.DSAccess\lManager.AddAccess",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d3/d82/class_dwarf_d_b_1_1_data_structures_1_1_d_s_access_manager.html#a0708fdb4b27cd177a440fb9c2a1811ed",tooltip="Adding a new access record for our DataStructure "];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="14",style="solid",fontname="Helvetica"];
+  Node3 [label="DwarfDB.DataStructures.Data\lBase.AddAccess",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/dfc/class_dwarf_d_b_1_1_data_structures_1_1_data_base.html#a70e49a729cd901852e9c5a86717939c2",tooltip="Adding a new access record for our DB "];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="14",style="solid",fontname="Helvetica"];
+  Node4 [label="DwarfDB.Program.DataBase\lChunkCreation",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d9a/class_dwarf_d_b_1_1_program.html#af6bc5554955f41aa161cd638dd1fcbc1"];
+  Node3 -> Node5 [dir="back",color="midnightblue",fontsize="14",style="solid",fontname="Helvetica"];
+  Node5 [label="DwarfDB.Program.Employees",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d9a/class_dwarf_d_b_1_1_program.html#a59b46f2c792386b7eaaf5419cd7656a0"];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="14",style="solid",fontname="Helvetica"];
+  Node6 [label="DwarfDB.Program.Main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d9a/class_dwarf_d_b_1_1_program.html#ad191792c625399b2912062074ad4476b"];
+  Node2 -> Node7 [dir="back",color="midnightblue",fontsize="14",style="solid",fontname="Helvetica"];
+  Node7 [label="DwarfDB.DataStructures.Data\lContainer.AddAccess",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/dbb/class_dwarf_d_b_1_1_data_structures_1_1_data_container.html#a6a6ab45d3aafedd286e55eb1f0725d00",tooltip="Adding a new access record for our DC "];
+  Node7 -> Node3 [dir="back",color="midnightblue",fontsize="14",style="solid",fontname="Helvetica"];
+}

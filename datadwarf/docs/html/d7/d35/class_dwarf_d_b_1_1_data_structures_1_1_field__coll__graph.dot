@@ -1,0 +1,10 @@
+digraph "DwarfDB.DataStructures.Field"
+{
+  edge [fontname="Helvetica",fontsize="14",labelfontname="Helvetica",labelfontsize="14"];
+  node [fontname="Helvetica",fontsize="14",shape=record];
+  Node1 [label="DwarfDB.DataStructures.Field",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="14",style="dashed",label=" own_column" ,fontname="Helvetica"];
+  Node2 [label="DwarfDB.DataStructures.Column",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/def/class_dwarf_d_b_1_1_data_structures_1_1_column.html"];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="14",style="solid",fontname="Helvetica"];
+  Node3 [label="ISerializable",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+}

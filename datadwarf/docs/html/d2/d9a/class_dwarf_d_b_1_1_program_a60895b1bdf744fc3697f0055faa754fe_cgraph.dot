@@ -1,0 +1,15 @@
+digraph "DwarfDB.Program.DataTableChunkCreationBin"
+{
+  edge [fontname="Helvetica",fontsize="14",labelfontname="Helvetica",labelfontsize="14"];
+  node [fontname="Helvetica",fontsize="14",shape=record];
+  rankdir="LR";
+  Node1 [label="DwarfDB.Program.DataTable\lChunkCreationBin",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="14",style="solid",fontname="Helvetica"];
+  Node2 [label="DwarfDB.ChunkManager.Chunk\lManager.ChunkManager",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d3e/class_dwarf_d_b_1_1_chunk_manager_1_1_chunk_manager.html#af588b4a35c0cce78a9c7ac3261d7bb78"];
+  Node1 -> Node3 [color="midnightblue",fontsize="14",style="solid",fontname="Helvetica"];
+  Node3 [label="DwarfDB.DataStructures.Data\lBase.Create",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/dfc/class_dwarf_d_b_1_1_data_structures_1_1_data_base.html#a2125965bbb7654634bced7627cc5ad88"];
+  Node1 -> Node4 [color="midnightblue",fontsize="14",style="solid",fontname="Helvetica"];
+  Node4 [label="DwarfDB.DataStructures.Data\lBase.LoadFrom",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/dfc/class_dwarf_d_b_1_1_data_structures_1_1_data_base.html#af709d60f64dc5065a95dc678ebc03f30"];
+  Node1 -> Node5 [color="midnightblue",fontsize="14",style="solid",fontname="Helvetica"];
+  Node5 [label="DwarfDB.DataStructures.Data\lBase.GetDataContainer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/dfc/class_dwarf_d_b_1_1_data_structures_1_1_data_base.html#a215058bbdbbca645117e63578a9443e8",tooltip="Getting DataContainer by name "];
+}

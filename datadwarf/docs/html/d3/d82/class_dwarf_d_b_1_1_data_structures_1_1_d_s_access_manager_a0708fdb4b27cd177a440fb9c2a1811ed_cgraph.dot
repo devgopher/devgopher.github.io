@@ -1,0 +1,9 @@
+digraph "DwarfDB.DataStructures.DSAccessManager.AddAccess"
+{
+  edge [fontname="Helvetica",fontsize="14",labelfontname="Helvetica",labelfontsize="14"];
+  node [fontname="Helvetica",fontsize="14",shape=record];
+  rankdir="LR";
+  Node1 [label="DwarfDB.DataStructures.DSAccess\lManager.AddAccess",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="14",style="solid",fontname="Helvetica"];
+  Node2 [label="DwarfDB.AccessFunctions.\lAccess.Instance",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/dbc/class_dwarf_d_b_1_1_access_functions_1_1_access.html#a5d908d2f2c1fc8df5f8d738ebc8e18d0",tooltip="Getting an instance for given user, level and object "];
+}

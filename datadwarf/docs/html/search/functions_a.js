@@ -1,7 +1,8 @@
 var searchData=
 [
-  ['save',['Save',['../class_dwarf_d_b_1_1_data_structures_1_1_data_container.html#a3ca82caee7d6f38c74dbb4e2a637aecb',1,'DwarfDB.DataStructures.DataContainer.Save()'],['../interface_dwarf_d_b_1_1_data_structures_1_1_i_structure.html#aa97bbd5250cf7456849fa6ca6ffcc0b4',1,'DwarfDB.DataStructures.IStructure.Save()'],['../class_dwarf_d_b_1_1_data_structures_1_1_record.html#a01889e57146fd3882228b09d2d54d51c',1,'DwarfDB.DataStructures.Record.Save()']]],
-  ['saveindexes',['SaveIndexes',['../class_dwarf_d_b_1_1_chunk_manager_1_1_chunk_manager.html#af8099b5fa9a87264defdb4687e9851b0',1,'DwarfDB::ChunkManager::ChunkManager']]],
-  ['saverecord',['SaveRecord',['../class_dwarf_d_b_1_1_chunk_manager_1_1_chunk_manager.html#ae2d3285067ca56d3f8bc0806f9e3904a',1,'DwarfDB::ChunkManager::ChunkManager']]],
-  ['settransaction',['SetTransaction',['../class_dwarf_d_b_1_1_data_structures_1_1_data_container.html#a40b2dc31b54b0d41b29e58ea5ea4a3fb',1,'DwarfDB.DataStructures.DataContainer.SetTransaction()'],['../interface_dwarf_d_b_1_1_data_structures_1_1_i_structure.html#aa89d0ecc5915538b89865bc3086d8b0a',1,'DwarfDB.DataStructures.IStructure.SetTransaction()'],['../class_dwarf_d_b_1_1_data_structures_1_1_record.html#a4997c638afaaa5b8f281a492b639dfca',1,'DwarfDB.DataStructures.Record.SetTransaction()']]]
+  ['main',['Main',['../d2/d9a/class_dwarf_d_b_1_1_program.html#ad191792c625399b2912062074ad4476b',1,'DwarfDB::Program']]],
+  ['makehashcode',['MakeHashCode',['../db/d3d/class_dwarf_d_b_1_1_data_structures_1_1_index.html#a45d23d515bb29cfad38af1d7fd8230df',1,'DwarfDB::DataStructures::Index']]],
+  ['md5compare',['MD5Compare',['../d4/d64/class_dwarf_d_b_1_1_crypto_1_1_compute_hash.html#abc72d7a249fa1f5a19474bb9be0fcd4a',1,'DwarfDB.Crypto.ComputeHash.MD5Compare(String cmp, String orig)'],['../d4/d64/class_dwarf_d_b_1_1_crypto_1_1_compute_hash.html#a03d4f7daab279b8267f6a8a57856de65',1,'DwarfDB.Crypto.ComputeHash.MD5Compare(IStructure cmp_struct, IStructure orig_struct)']]],
+  ['md5hash',['MD5Hash',['../d4/d64/class_dwarf_d_b_1_1_crypto_1_1_compute_hash.html#acf1378b9235d3a2adffd6b18eecf8b15',1,'DwarfDB.Crypto.ComputeHash.MD5Hash(IStructure dta_struct)'],['../d4/d64/class_dwarf_d_b_1_1_crypto_1_1_compute_hash.html#ac0596019ca8fa13314ea39340719e23c',1,'DwarfDB.Crypto.ComputeHash.MD5Hash(string input)']]],
+  ['movenext',['MoveNext',['../d1/d31/class_dwarf_d_b_1_1_data_structures_1_1_record.html#ad86f08f6a15fc5bef549031789a01ff8',1,'DwarfDB::DataStructures::Record']]]
 ];

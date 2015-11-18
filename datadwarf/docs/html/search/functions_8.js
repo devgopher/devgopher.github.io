@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['preload',['PreLoad',['../class_dwarf_d_b_1_1_data_structures_1_1_data_container.html#adb2c609dd0c1c9230ac94454a6db723f',1,'DwarfDB::DataStructures::DataContainer']]]
+  ['journal',['Journal',['../d1/d86/class_dwarf_d_b_1_1_transaction_journals_1_1_journal.html#a4c730a3dcad46c8f153a5e2da93eacd2',1,'DwarfDB::TransactionJournals::Journal']]]
 ];

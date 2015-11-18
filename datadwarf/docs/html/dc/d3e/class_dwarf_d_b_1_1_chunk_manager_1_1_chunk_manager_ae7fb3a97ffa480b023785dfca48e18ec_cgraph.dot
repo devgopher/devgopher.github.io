@@ -1,0 +1,11 @@
+digraph "DwarfDB.ChunkManager.ChunkManager.GetDataContainer"
+{
+  edge [fontname="Helvetica",fontsize="14",labelfontname="Helvetica",labelfontsize="14"];
+  node [fontname="Helvetica",fontsize="14",shape=record];
+  rankdir="LR";
+  Node1 [label="DwarfDB.ChunkManager.Chunk\lManager.GetDataContainer",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="14",style="solid",fontname="Helvetica"];
+  Node2 [label="DwarfDB.ChunkManager.Chunk\lFormat.GetDCInFile",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/d17/class_dwarf_d_b_1_1_chunk_manager_1_1_chunk_format.html#a04ca4db18dc262937547df1e600fa6a5",tooltip="Getting a DataContainer from the chunk "];
+  Node1 -> Node3 [color="midnightblue",fontsize="14",style="solid",fontname="Helvetica"];
+  Node3 [label="DwarfDB.DataStructures.Data\lContainer.BuildIndex",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/dbb/class_dwarf_d_b_1_1_data_structures_1_1_data_container.html#a8f32eb712d14d6dbf42a95098673dd19",tooltip="Building an index for element "];
+}

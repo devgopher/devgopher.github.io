@@ -1,5 +1,26 @@
 var searchData=
 [
-  ['this_5bstring_20field_5fname_5d',['this[string field_name]',['../class_dwarf_d_b_1_1_data_structures_1_1_record.html#a303a0895fdeb635fa47469b2ac46c4a3',1,'DwarfDB::DataStructures::Record']]],
-  ['transmit',['Transmit',['../class_dwarf_d_b_1_1_data_structures_1_1_data_base.html#a5eefaebdb94adf4d3b19f29e8f146725',1,'DwarfDB::DataStructures::DataBase']]]
+  ['read',['READ',['../d3/d82/class_dwarf_d_b_1_1_data_structures_1_1_d_s_access_manager.html#a1e71524ccf12045e19e5184f1eeb1bfba3466fab4975481651940ed328aa990e4',1,'DwarfDB::DataStructures::DSAccessManager']]],
+  ['read_5fonly',['READ_ONLY',['../d9/dbc/class_dwarf_d_b_1_1_access_functions_1_1_access.html#af103f0bfd99fa1ddc2db447586d41ec8a47c7e7cb36a953a8c47e02000036bb44',1,'DwarfDB::AccessFunctions::Access']]],
+  ['read_5fwrite',['READ_WRITE',['../d9/dbc/class_dwarf_d_b_1_1_access_functions_1_1_access.html#af103f0bfd99fa1ddc2db447586d41ec8aa7b843fb734e3b3fea8e5f902d3f4144',1,'DwarfDB::AccessFunctions::Access']]],
+  ['read_5fwrite_5fdrop',['READ_WRITE_DROP',['../d9/dbc/class_dwarf_d_b_1_1_access_functions_1_1_access.html#af103f0bfd99fa1ddc2db447586d41ec8a99ada2f07f8efd4157664b833b86a360',1,'DwarfDB::AccessFunctions::Access']]],
+  ['readindexesdw',['ReadIndexesDw',['../dc/d3e/class_dwarf_d_b_1_1_chunk_manager_1_1_chunk_manager.html#a108300fe05eb5348cf3c99d2f000046e',1,'DwarfDB::ChunkManager::ChunkManager']]],
+  ['rebuildindexes',['RebuildIndexes',['../dc/d3e/class_dwarf_d_b_1_1_chunk_manager_1_1_chunk_manager.html#a08a4ef041df622bb678914eda36fa57c',1,'DwarfDB::ChunkManager::ChunkManager']]],
+  ['record',['Record',['../d1/d31/class_dwarf_d_b_1_1_data_structures_1_1_record.html',1,'DwarfDB::DataStructures']]],
+  ['record',['Record',['../d1/d31/class_dwarf_d_b_1_1_data_structures_1_1_record.html#af420ab0f78acfe777062f1197d7edcee',1,'DwarfDB.DataStructures.Record.Record()'],['../d1/d31/class_dwarf_d_b_1_1_data_structures_1_1_record.html#ac6bae5700b3a08e9903a5c592d810de0',1,'DwarfDB.DataStructures.Record.Record(DataContainer _owner_dc)'],['../d1/d31/class_dwarf_d_b_1_1_data_structures_1_1_record.html#a184d66ff6a8abfd88fc08aec61635295',1,'DwarfDB.DataStructures.Record.Record(SerializationInfo info, StreamingContext ctxt)']]],
+  ['record_2ecs',['Record.cs',['../de/dd4/_record_8cs.html',1,'']]],
+  ['records',['Records',['../d0/dbb/class_dwarf_d_b_1_1_data_structures_1_1_data_container.html#a04e95f117bfb96a32811e7bfeb6c7c32',1,'DwarfDB::DataStructures::DataContainer']]],
+  ['records_5flist',['records_list',['../d3/d59/class_dwarf_d_b_1_1_stack_1_1_dwarf_stack.html#aa39963c33a5c5b572e32bb1af13c9df6',1,'DwarfDB::Stack::DwarfStack']]],
+  ['recordtest',['RecordTest',['../da/d8c/class_dwarf_d_b_1_1_unit_tests_1_1_record_test.html',1,'DwarfDB::UnitTests']]],
+  ['recordtest_2ecs',['RecordTest.cs',['../d3/d13/_record_test_8cs.html',1,'']]],
+  ['removeallrecords',['RemoveAllRecords',['../d0/dbb/class_dwarf_d_b_1_1_data_structures_1_1_data_container.html#a27383b21e6e020828bfb366c93d4e7ee',1,'DwarfDB::DataStructures::DataContainer']]],
+  ['removecolumn',['RemoveColumn',['../d0/dbb/class_dwarf_d_b_1_1_data_structures_1_1_data_container.html#abd060a19972b50fc5b964068d0c21a2b',1,'DwarfDB::DataStructures::DataContainer']]],
+  ['removeindex',['RemoveIndex',['../dc/d3e/class_dwarf_d_b_1_1_chunk_manager_1_1_chunk_manager.html#a66cad77309d9d5a6d10a364f2e705b47',1,'DwarfDB.ChunkManager.ChunkManager.RemoveIndex(Index idx)'],['../dc/d3e/class_dwarf_d_b_1_1_chunk_manager_1_1_chunk_manager.html#a73b94219d8eb3eae9eb06029d15abcaf',1,'DwarfDB.ChunkManager.ChunkManager.RemoveIndex(string hashcode)']]],
+  ['removeitem',['RemoveItem',['../d0/d17/class_dwarf_d_b_1_1_chunk_manager_1_1_chunk_format.html#a5100a557ac96ed250b9c72290e271db8',1,'DwarfDB::ChunkManager::ChunkFormat']]],
+  ['removerecord',['RemoveRecord',['../dc/d3e/class_dwarf_d_b_1_1_chunk_manager_1_1_chunk_manager.html#ae75710040c6048aebd07ec5161945386',1,'DwarfDB.ChunkManager.ChunkManager.RemoveRecord()'],['../d0/dbb/class_dwarf_d_b_1_1_data_structures_1_1_data_container.html#ac02c950bdf0aa729168043757b10530e',1,'DwarfDB.DataStructures.DataContainer.RemoveRecord()']]],
+  ['removeunusedfiles',['RemoveUnusedFiles',['../d0/d17/class_dwarf_d_b_1_1_chunk_manager_1_1_chunk_format.html#a3f492ca60fba3ad9880dceff226831f6',1,'DwarfDB::ChunkManager::ChunkFormat']]],
+  ['reset',['Reset',['../d1/d31/class_dwarf_d_b_1_1_data_structures_1_1_record.html#aefa85cab909d8d9b60aeabbb23bbc5c7',1,'DwarfDB::DataStructures::Record']]],
+  ['retdcaccess',['RetDCAccess',['../da/dfc/class_dwarf_d_b_1_1_data_structures_1_1_data_base.html#a8ddd1e5225472f12dcf8b335a47f367d',1,'DwarfDB::DataStructures::DataBase']]],
+  ['rollback',['Rollback',['../d6/d84/class_dwarf_d_b_1_1_transactions_1_1_dwarf_transaction.html#ae3acb0398029e288a39acc7f13877fcf',1,'DwarfDB::Transactions::DwarfTransaction']]],
+  ['rollback_5fjournal',['rollback_journal',['../d6/d84/class_dwarf_d_b_1_1_transactions_1_1_dwarf_transaction.html#a619358ab756eca4ff000419621e59aac',1,'DwarfDB::Transactions::DwarfTransaction']]]
 ];

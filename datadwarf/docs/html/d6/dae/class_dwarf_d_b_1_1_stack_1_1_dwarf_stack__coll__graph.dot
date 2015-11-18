@@ -1,0 +1,21 @@
+digraph "DwarfDB.Stack.DwarfStack"
+{
+  edge [fontname="Helvetica",fontsize="14",labelfontname="Helvetica",labelfontsize="14"];
+  node [fontname="Helvetica",fontsize="14",shape=record];
+  rankdir="LR";
+  Node1 [label="DwarfDB.Stack.DwarfStack",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="14",style="solid",fontname="Helvetica"];
+  Node2 [label="ConcurrentStack\< IStructure \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node3 -> Node1 [dir="back",color="darkorchid3",fontsize="14",style="dashed",label=" db" ,fontname="Helvetica"];
+  Node3 [label="DwarfDB.DataStructures.DataBase",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/dfc/class_dwarf_d_b_1_1_data_structures_1_1_data_base.html",tooltip="A class for database object "];
+  Node4 -> Node3 [dir="back",color="midnightblue",fontsize="14",style="solid",fontname="Helvetica"];
+  Node4 [label="ISerializable",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node5 -> Node3 [dir="back",color="midnightblue",fontsize="14",style="solid",fontname="Helvetica"];
+  Node5 [label="IDisposable",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node6 -> Node3 [dir="back",color="midnightblue",fontsize="14",style="solid",fontname="Helvetica"];
+  Node6 [label="IStructureAccess",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/db1/interface_dwarf_d_b_1_1_data_structures_1_1_i_structure_access.html",tooltip="Description of IStructureAccess. "];
+  Node7 -> Node3 [dir="back",color="darkorchid3",fontsize="14",style="dashed",label=" local_am" ,fontname="Helvetica"];
+  Node7 [label="DwarfDB.DataStructures.DSAccess\lManager",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d3/d82/class_dwarf_d_b_1_1_data_structures_1_1_d_s_access_manager.html",tooltip="DataStructure access manager "];
+  Node8 -> Node3 [dir="back",color="darkorchid3",fontsize="14",style="dashed",label=" chunk_manager" ,fontname="Helvetica"];
+  Node8 [label="ChunkManager",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+}

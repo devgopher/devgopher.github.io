@@ -1,0 +1,13 @@
+digraph "DwarfDB.DataStructures.DataBase.AddAccess"
+{
+  edge [fontname="Helvetica",fontsize="14",labelfontname="Helvetica",labelfontsize="14"];
+  node [fontname="Helvetica",fontsize="14",shape=record];
+  rankdir="LR";
+  Node1 [label="DwarfDB.DataStructures.Data\lBase.AddAccess",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="14",style="solid",fontname="Helvetica"];
+  Node2 [label="DwarfDB.Program.DataBase\lChunkCreation",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d9a/class_dwarf_d_b_1_1_program.html#af6bc5554955f41aa161cd638dd1fcbc1"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="14",style="solid",fontname="Helvetica"];
+  Node3 [label="DwarfDB.Program.Employees",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d9a/class_dwarf_d_b_1_1_program.html#a59b46f2c792386b7eaaf5419cd7656a0"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="14",style="solid",fontname="Helvetica"];
+  Node4 [label="DwarfDB.Program.Main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d9a/class_dwarf_d_b_1_1_program.html#ad191792c625399b2912062074ad4476b"];
+}

@@ -1,0 +1,7 @@
+digraph "DwarfDB.Config.Config"
+{
+  edge [fontname="Helvetica",fontsize="14",labelfontname="Helvetica",labelfontsize="14"];
+  node [fontname="Helvetica",fontsize="14",shape=record];
+  Node1 [label="DwarfDB.Config.Config",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node1 [dir="back",color="darkorchid3",fontsize="14",style="dashed",label=" instance" ,fontname="Helvetica"];
+}

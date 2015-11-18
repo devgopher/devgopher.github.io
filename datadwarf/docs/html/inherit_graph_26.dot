@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="14",labelfontname="Helvetica",labelfontsize="14"];
+  node [fontname="Helvetica",fontsize="14",shape=record];
+  rankdir="LR";
+  Node1 [label="System.Linq.Dwarf.DwarfEnumerable",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d27/class_system_1_1_linq_1_1_dwarf_1_1_dwarf_enumerable.html",tooltip="Description of DwarfLinq. "];
+}

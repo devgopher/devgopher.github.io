@@ -1,0 +1,13 @@
+digraph "DwarfDB.DataStructures.Record.GetIndex"
+{
+  edge [fontname="Helvetica",fontsize="14",labelfontname="Helvetica",labelfontsize="14"];
+  node [fontname="Helvetica",fontsize="14",shape=record];
+  rankdir="LR";
+  Node1 [label="DwarfDB.DataStructures.Record.\lGetIndex",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="14",style="solid",fontname="Helvetica"];
+  Node2 [label="DwarfDB.ChunkManager.Chunk\lManager.FindChunkFilesForRecord",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d3e/class_dwarf_d_b_1_1_chunk_manager_1_1_chunk_manager.html#a53f3552003e75838a62348b9a9a33198",tooltip="Finds a chunk with index space, that can contain an Index \"idx\" "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="14",style="solid",fontname="Helvetica"];
+  Node3 [label="DwarfDB.ChunkManager.Chunk\lManager.IndexComparer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d3e/class_dwarf_d_b_1_1_chunk_manager_1_1_chunk_manager.html#ae8bd1b4ff40ef82cd807c013c18ec5fd"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="14",style="solid",fontname="Helvetica"];
+  Node4 [label="DwarfDB.ChunkManager.Chunk\lManager.RemoveRecord",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d3e/class_dwarf_d_b_1_1_chunk_manager_1_1_chunk_manager.html#ae75710040c6048aebd07ec5161945386",tooltip="Removes a record from chunk "];
+}

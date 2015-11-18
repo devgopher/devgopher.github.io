@@ -1,7 +1,7 @@
 digraph "Graphical Class Hierarchy"
 {
-  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
-  node [fontname="Helvetica",fontsize="10",shape=record];
+  edge [fontname="Helvetica",fontsize="14",labelfontname="Helvetica",labelfontsize="14"];
+  node [fontname="Helvetica",fontsize="14",shape=record];
   rankdir="LR";
-  Node1 [label="DwarfDB.UnitTests.GenKeyTest",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_dwarf_d_b_1_1_unit_tests_1_1_gen_key_test.html"];
+  Node1 [label="DwarfDB.Global.CheckAccess",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d3/db1/class_dwarf_d_b_1_1_global_1_1_check_access.html",tooltip="A static class for a simplified access check "];
 }

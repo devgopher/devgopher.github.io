@@ -1,0 +1,12 @@
+digraph "DwarfDB.DataStructures.IStructureAccess"
+{
+  edge [fontname="Helvetica",fontsize="14",labelfontname="Helvetica",labelfontsize="14"];
+  node [fontname="Helvetica",fontsize="14",shape=record];
+  Node1 [label="DwarfDB.DataStructures.IStructure\lAccess",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="14",style="solid",fontname="Helvetica"];
+  Node2 [label="DwarfDB.DataStructures.DataBase",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/dfc/class_dwarf_d_b_1_1_data_structures_1_1_data_base.html",tooltip="A class for database object "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="14",style="solid",fontname="Helvetica"];
+  Node3 [label="DwarfDB.DataStructures.Data\lContainer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/dbb/class_dwarf_d_b_1_1_data_structures_1_1_data_container.html",tooltip="DataContainer is the base element of DwarfDB data structure "];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="14",style="solid",fontname="Helvetica"];
+  Node4 [label="DwarfDB.DataStructures.Dummy\lContainer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/de3/class_dwarf_d_b_1_1_data_structures_1_1_dummy_container.html",tooltip="DummyContainer class - it&#39;s class for using instead of NULL "];
+}

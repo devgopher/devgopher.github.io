@@ -1,0 +1,11 @@
+digraph "DwarfDB.ChunkManager.ChunkManager.CreateChunk"
+{
+  edge [fontname="Helvetica",fontsize="14",labelfontname="Helvetica",labelfontsize="14"];
+  node [fontname="Helvetica",fontsize="14",shape=record];
+  rankdir="LR";
+  Node1 [label="DwarfDB.ChunkManager.Chunk\lManager.CreateChunk",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="14",style="solid",fontname="Helvetica"];
+  Node2 [label="DwarfDB.ChunkManager.Chunk\lFormat.CreateNewFile",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/d17/class_dwarf_d_b_1_1_chunk_manager_1_1_chunk_format.html#ab9a4d940cda9a5a4bcf33e6af987f337",tooltip="Creating a new chunk file in multithread mode "];
+  Node1 -> Node3 [color="midnightblue",fontsize="14",style="solid",fontname="Helvetica"];
+  Node3 [label="DwarfDB.ChunkManager.Chunk\lFormat.AddItem",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/d17/class_dwarf_d_b_1_1_chunk_manager_1_1_chunk_format.html#aef23c572223d75525cb8d8cbac8d17d1",tooltip="Adding a new item to a chunk "];
+}

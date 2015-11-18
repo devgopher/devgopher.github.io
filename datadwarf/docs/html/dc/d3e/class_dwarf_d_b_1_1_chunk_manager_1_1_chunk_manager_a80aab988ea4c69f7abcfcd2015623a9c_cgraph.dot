@@ -1,0 +1,13 @@
+digraph "DwarfDB.ChunkManager.ChunkManager.LoadRecordIndexes"
+{
+  edge [fontname="Helvetica",fontsize="14",labelfontname="Helvetica",labelfontsize="14"];
+  node [fontname="Helvetica",fontsize="14",shape=record];
+  rankdir="LR";
+  Node1 [label="DwarfDB.ChunkManager.Chunk\lManager.LoadRecordIndexes",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="14",style="solid",fontname="Helvetica"];
+  Node2 [label="DwarfDB.DataStructures.Index.\lCreateFromHashCode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d3d/class_dwarf_d_b_1_1_data_structures_1_1_index.html#affa4776e5dd06a160e8a874b0f64d769",tooltip="Creating an index from hashcode "];
+  Node1 -> Node3 [color="midnightblue",fontsize="14",style="solid",fontname="Helvetica"];
+  Node3 [label="DwarfDB.DataStructures.Dummy\lRecord.Create",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d00/class_dwarf_d_b_1_1_data_structures_1_1_dummy_record.html#a01a4c3f66e58fc16d34ec4d0acb3ccdb"];
+  Node3 -> Node4 [color="midnightblue",fontsize="14",style="solid",fontname="Helvetica"];
+  Node4 [label="DwarfDB.DataStructures.Dummy\lContainer.Create",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/de3/class_dwarf_d_b_1_1_data_structures_1_1_dummy_container.html#a8e10823365ba560de649d11f5b851cc7"];
+}

@@ -1,0 +1,14 @@
+digraph "DwarfDB.DataStructures.DataBase.AddAccess"
+{
+  edge [fontname="Helvetica",fontsize="14",labelfontname="Helvetica",labelfontsize="14"];
+  node [fontname="Helvetica",fontsize="14",shape=record];
+  rankdir="LR";
+  Node1 [label="DwarfDB.DataStructures.Data\lBase.AddAccess",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="14",style="solid",fontname="Helvetica"];
+  Node2 [label="DwarfDB.DataStructures.DSAccess\lManager.AddAccess",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d3/d82/class_dwarf_d_b_1_1_data_structures_1_1_d_s_access_manager.html#a0708fdb4b27cd177a440fb9c2a1811ed",tooltip="Adding a new access record for our DataStructure "];
+  Node2 -> Node3 [color="midnightblue",fontsize="14",style="solid",fontname="Helvetica"];
+  Node3 [label="DwarfDB.AccessFunctions.\lAccess.Instance",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/dbc/class_dwarf_d_b_1_1_access_functions_1_1_access.html#a5d908d2f2c1fc8df5f8d738ebc8e18d0",tooltip="Getting an instance for given user, level and object "];
+  Node1 -> Node4 [color="midnightblue",fontsize="14",style="solid",fontname="Helvetica"];
+  Node4 [label="DwarfDB.DataStructures.Data\lContainer.AddAccess",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/dbb/class_dwarf_d_b_1_1_data_structures_1_1_data_container.html#a6a6ab45d3aafedd286e55eb1f0725d00",tooltip="Adding a new access record for our DC "];
+  Node4 -> Node2 [color="midnightblue",fontsize="14",style="solid",fontname="Helvetica"];
+}

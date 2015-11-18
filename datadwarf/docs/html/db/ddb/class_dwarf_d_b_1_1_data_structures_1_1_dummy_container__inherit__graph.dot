@@ -1,0 +1,14 @@
+digraph "DwarfDB.DataStructures.DummyContainer"
+{
+  edge [fontname="Helvetica",fontsize="14",labelfontname="Helvetica",labelfontsize="14"];
+  node [fontname="Helvetica",fontsize="14",shape=record];
+  Node1 [label="DwarfDB.DataStructures.Dummy\lContainer",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="14",style="solid",fontname="Helvetica"];
+  Node2 [label="DataContainer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/dbb/class_dwarf_d_b_1_1_data_structures_1_1_data_container.html",tooltip="DataContainer is the base element of DwarfDB data structure "];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="14",style="solid",fontname="Helvetica"];
+  Node3 [label="IStructure",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d8a/interface_dwarf_d_b_1_1_data_structures_1_1_i_structure.html",tooltip="An interface for DwarfDB data structures, such as: DataContainer and Record "];
+  Node4 -> Node2 [dir="back",color="midnightblue",fontsize="14",style="solid",fontname="Helvetica"];
+  Node4 [label="IEnumerable\< Record \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node5 -> Node2 [dir="back",color="midnightblue",fontsize="14",style="solid",fontname="Helvetica"];
+  Node5 [label="IStructureAccess",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/db1/interface_dwarf_d_b_1_1_data_structures_1_1_i_structure_access.html",tooltip="Description of IStructureAccess. "];
+}

@@ -1,10 +1,10 @@
 var searchData=
 [
-  ['id',['Id',['../class_dwarf_d_b_1_1_data_structures_1_1_data_container.html#a3749f4fe324b56d46caf071488c615d7',1,'DwarfDB.DataStructures.DataContainer.Id()'],['../interface_dwarf_d_b_1_1_data_structures_1_1_i_structure.html#a20776b8ffebc8d77080ef4b9e9817e85',1,'DwarfDB.DataStructures.IStructure.Id()'],['../class_dwarf_d_b_1_1_data_structures_1_1_record.html#a6b9df97308b20ff8504cd88c56aded41',1,'DwarfDB.DataStructures.Record.Id()']]],
-  ['index',['Index',['../class_dwarf_d_b_1_1_data_structures_1_1_index.html',1,'DwarfDB::DataStructures']]],
-  ['indexexception',['IndexException',['../class_dwarf_d_b_1_1_data_structures_1_1_index_exception.html',1,'DwarfDB::DataStructures']]],
-  ['indexpair',['IndexPair',['../struct_dwarf_d_b_1_1_chunk_manager_1_1_index_pair.html',1,'DwarfDB::ChunkManager']]],
-  ['instance',['Instance',['../class_dwarf_d_b_1_1_access_1_1_access.html#a0d73d4aa26180df66d7618931b003123',1,'DwarfDB::Access::Access']]],
-  ['istructure',['IStructure',['../interface_dwarf_d_b_1_1_data_structures_1_1_i_structure.html',1,'DwarfDB::DataStructures']]],
-  ['istructureaccess',['IStructureAccess',['../interface_dwarf_d_b_1_1_data_structures_1_1_i_structure_access.html',1,'DwarfDB::DataStructures']]]
+  ['hash_2ecs',['Hash.cs',['../d6/d26/_hash_8cs.html',1,'']]],
+  ['hash_5fcode',['hash_code',['../db/d3d/class_dwarf_d_b_1_1_data_structures_1_1_index.html#a3f0c7b50890827f5a6ba2562d6ee4f6b',1,'DwarfDB::DataStructures::Index']]],
+  ['hash_5fmax',['hash_max',['../db/df3/struct_dwarf_d_b_1_1_chunk_manager_1_1_index_pair.html#a0c8153c980b5a092260aa85d23e1b912',1,'DwarfDB::ChunkManager::IndexPair']]],
+  ['hash_5fmin',['hash_min',['../db/df3/struct_dwarf_d_b_1_1_chunk_manager_1_1_index_pair.html#a703b8eeb5f0a8d55006a8df195130df7',1,'DwarfDB::ChunkManager::IndexPair']]],
+  ['hashcode',['HashCode',['../db/d3d/class_dwarf_d_b_1_1_data_structures_1_1_index.html#a610b62ec24e0fad773071dc6242eccfd',1,'DwarfDB::DataStructures::Index']]],
+  ['hashed_5fpwd',['hashed_pwd',['../d0/d2b/class_dwarf_d_b_1_1_user_1_1_user_credentials.html#a709a6c58fefe81c94e4e57a045605747',1,'DwarfDB::User::UserCredentials']]],
+  ['homepath',['HomePath',['../d9/d3d/class_dwarf_d_b_1_1_config_1_1_config.html#a390a89963606ed0009489bfe8b46160d',1,'DwarfDB::Config::Config']]]
 ];
