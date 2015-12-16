@@ -3,5 +3,7 @@ digraph "Graphical Class Hierarchy"
   edge [fontname="Helvetica",fontsize="14",labelfontname="Helvetica",labelfontsize="14"];
   node [fontname="Helvetica",fontsize="14",shape=record];
   rankdir="LR";
-  Node1 [label="DwarfDB.Program",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d9a/class_dwarf_d_b_1_1_program.html",tooltip="Description of Employees. "];
+  Node1 [label="DwarfDB.Links.ILink",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d8e/interface_dwarf_d_b_1_1_links_1_1_i_link.html",tooltip="An interface for DB link "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="14",style="solid",fontname="Helvetica"];
+  Node2 [label="DwarfDB.Links.RecordLink",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/d11/class_dwarf_d_b_1_1_links_1_1_record_link.html",tooltip="A class for links to records "];
 }

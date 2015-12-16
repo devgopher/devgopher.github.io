@@ -7,6 +7,6 @@ var searchData=
   ['this_5bstring_20field_5fname_5d',['this[string field_name]',['../d1/d31/class_dwarf_d_b_1_1_data_structures_1_1_record.html#a303a0895fdeb635fa47469b2ac46c4a3',1,'DwarfDB::DataStructures::Record']]],
   ['transactionjournals_2ecs',['TransactionJournals.cs',['../d6/d2e/_transaction_journals_8cs.html',1,'']]],
   ['transmit',['Transmit',['../da/dfc/class_dwarf_d_b_1_1_data_structures_1_1_data_base.html#a5eefaebdb94adf4d3b19f29e8f146725',1,'DwarfDB::DataStructures::DataBase']]],
-  ['trypop',['TryPop',['../d3/d59/class_dwarf_d_b_1_1_stack_1_1_dwarf_stack.html#a4b56dab4ce355bf6b5d85861d75a3ca8',1,'DwarfDB::Stack::DwarfStack']]],
+  ['tryremove',['TryRemove',['../d5/d03/class_dwarf_d_b_1_1_stack_1_1_data_storage.html#a9ba0138698756facd790fae1d842a2c0',1,'DwarfDB::Stack::DataStorage']]],
   ['type',['type',['../d7/def/class_dwarf_d_b_1_1_data_structures_1_1_column.html#a22d2e25f767539661b7463660a82e1af',1,'DwarfDB.DataStructures.Column.type()'],['../d7/def/class_dwarf_d_b_1_1_data_structures_1_1_column.html#a5221d8051286c8cddc890ab614d8580a',1,'DwarfDB.DataStructures.Column.Type()'],['../d7/d12/class_dwarf_d_b_1_1_data_structures_1_1_field.html#a147e0dff27a89485bf91437d931fe5b5',1,'DwarfDB.DataStructures.Field.Type()']]]
 ];

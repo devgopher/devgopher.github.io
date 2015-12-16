@@ -27,6 +27,7 @@ digraph "DwarfDB.Program.Employees"
   Node11 [label="DwarfDB.DataStructures.Data\lBase.AddNewDataContainer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/dfc/class_dwarf_d_b_1_1_data_structures_1_1_data_base.html#a182b0a5eb74c9dcfe834797b40ea54b0",tooltip="Adding a new data container to a database "];
   Node1 -> Node12 [color="midnightblue",fontsize="14",style="solid",fontname="Helvetica"];
   Node12 [label="DwarfDB.DataStructures.Data\lBase.GetDataContainer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/dfc/class_dwarf_d_b_1_1_data_structures_1_1_data_base.html#a215058bbdbbca645117e63578a9443e8",tooltip="Getting DataContainer by name "];
+  Node1 -> Node9 [color="midnightblue",fontsize="14",style="solid",fontname="Helvetica"];
   Node1 -> Node13 [color="midnightblue",fontsize="14",style="solid",fontname="Helvetica"];
   Node13 [label="DwarfDB.DataStructures.Data\lContainer.AddColumn",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/dbb/class_dwarf_d_b_1_1_data_structures_1_1_data_container.html#a4e2329f513c374246077a0bdd13c6471"];
   Node1 -> Node14 [color="midnightblue",fontsize="14",style="solid",fontname="Helvetica"];

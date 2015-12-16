@@ -1,9 +1,0 @@
-digraph "DwarfDB.Program.Employees"
-{
-  edge [fontname="Helvetica",fontsize="14",labelfontname="Helvetica",labelfontsize="14"];
-  node [fontname="Helvetica",fontsize="14",shape=record];
-  rankdir="LR";
-  Node1 [label="DwarfDB.Program.Employees",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
-  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="14",style="solid",fontname="Helvetica"];
-  Node2 [label="DwarfDB.Program.Main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d9a/class_dwarf_d_b_1_1_program.html#ad191792c625399b2912062074ad4476b"];
-}

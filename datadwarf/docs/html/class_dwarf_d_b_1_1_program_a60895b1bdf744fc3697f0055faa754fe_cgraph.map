@@ -1,7 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$class_dwarf_d_b_1_1_data_structures_1_1_data_container.html#aeac4bb0b67fdcba42ea4933a03f295c3" title="Assinging owner database object." alt="" coords="739,61,1087,87"/>
-<area shape="rect" id="node5" href="$class_dwarf_d_b_1_1_chunk_manager_1_1_chunk_manager.html#af588b4a35c0cce78a9c7ac3261d7bb78" title="DwarfDB.ChunkManager.ChunkManager.ChunkManager" alt="" coords="345,35,690,62"/>
-<area shape="rect" id="node7" href="$class_dwarf_d_b_1_1_data_structures_1_1_data_base.html#a2125965bbb7654634bced7627cc5ad88" title="DwarfDB.DataStructures.DataBase.Create" alt="" coords="384,86,651,113"/>
-<area shape="rect" id="node9" href="$class_dwarf_d_b_1_1_data_structures_1_1_data_base.html#aa554e79937460eb937b90d81093019b5" title="Getting DataContainer by name." alt="" coords="352,137,683,163"/>
-<area shape="rect" id="node12" href="$class_dwarf_d_b_1_1_data_structures_1_1_data_base.html#af709d60f64dc5065a95dc678ebc03f30" title="DwarfDB.DataStructures.DataBase.LoadFrom" alt="" coords="374,187,661,214"/>
-</map>

@@ -15,7 +15,7 @@ digraph "Graphical Class Hierarchy"
   Node4 -> Node6 [dir="back",color="midnightblue",fontsize="14",style="solid",fontname="Helvetica"];
   Node6 [label="DwarfDB.DataStructures.Index\lException",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/df0/class_dwarf_d_b_1_1_data_structures_1_1_index_exception.html"];
   Node1 -> Node7 [dir="back",color="midnightblue",fontsize="14",style="solid",fontname="Helvetica"];
-  Node7 [label="DwarfDB.Stack.DataStackException",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/dd9/class_dwarf_d_b_1_1_stack_1_1_data_stack_exception.html",tooltip="Exception for data stacks "];
+  Node7 [label="DwarfDB.Stack.DataStorage\lException",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d3/d7c/class_dwarf_d_b_1_1_stack_1_1_data_storage_exception.html",tooltip="Exception for data stacks "];
   Node1 -> Node8 [dir="back",color="midnightblue",fontsize="14",style="solid",fontname="Helvetica"];
   Node8 [label="DwarfDB.User.UserException",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d3/dd4/class_dwarf_d_b_1_1_user_1_1_user_exception.html",tooltip="Description of UserException. "];
   Node1 -> Node9 [dir="back",color="midnightblue",fontsize="14",style="solid",fontname="Helvetica"];

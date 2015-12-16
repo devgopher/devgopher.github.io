@@ -3,5 +3,5 @@ digraph "Graphical Class Hierarchy"
   edge [fontname="Helvetica",fontsize="14",labelfontname="Helvetica",labelfontsize="14"];
   node [fontname="Helvetica",fontsize="14",shape=record];
   rankdir="LR";
-  Node1 [label="DwarfDB.User.User",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/da0/class_dwarf_d_b_1_1_user_1_1_user.html",tooltip="A class for users representation "];
+  Node1 [label="DwarfDB.UnitTests.RecordTest",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/d8c/class_dwarf_d_b_1_1_unit_tests_1_1_record_test.html"];
 }
