@@ -8,9 +8,11 @@ var searchData=
   ['loadchunk',['LoadChunk',['../dc/d3e/class_dwarf_d_b_1_1_chunk_manager_1_1_chunk_manager.html#a8be3a24a6c82e512d0eb547affa86701',1,'DwarfDB::ChunkManager::ChunkManager']]],
   ['loaddcindexes',['LoadDCIndexes',['../dc/d3e/class_dwarf_d_b_1_1_chunk_manager_1_1_chunk_manager.html#aa6b67f87244adbc8d5ef5297950ac49c',1,'DwarfDB::ChunkManager::ChunkManager']]],
   ['loadfrom',['LoadFrom',['../da/dfc/class_dwarf_d_b_1_1_data_structures_1_1_data_base.html#af709d60f64dc5065a95dc678ebc03f30',1,'DwarfDB::DataStructures::DataBase']]],
-  ['loadfromchunkdir',['LoadFromChunkDir',['../d0/dbb/class_dwarf_d_b_1_1_data_structures_1_1_data_container.html#a0a82f79c53628134d16f2fa21db221bf',1,'DwarfDB.DataStructures.DataContainer.LoadFromChunkDir()'],['../d2/d8a/interface_dwarf_d_b_1_1_data_structures_1_1_i_structure.html#a2e187a88a03b9e81e6e602be9329a395',1,'DwarfDB.DataStructures.IStructure.LoadFromChunkDir()'],['../d1/d31/class_dwarf_d_b_1_1_data_structures_1_1_record.html#a81ac5ba44d5682bfba61592af0195cd0',1,'DwarfDB.DataStructures.Record.LoadFromChunkDir()']]],
+  ['loadfromchunkdir',['LoadFromChunkDir',['../d0/dbb/class_dwarf_d_b_1_1_data_structures_1_1_data_container.html#a0a82f79c53628134d16f2fa21db221bf',1,'DwarfDB::DataStructures::DataContainer']]],
+  ['loadfromtest',['LoadFromTest',['../dc/db3/class_dwarf_d_b_1_1_unit_tests_1_1_data_base_test.html#acd150f5a1a2989534c6f45ebbd45671f',1,'DwarfDB::UnitTests::DataBaseTest']]],
   ['loadrecordindexes',['LoadRecordIndexes',['../dc/d3e/class_dwarf_d_b_1_1_chunk_manager_1_1_chunk_manager.html#a80aab988ea4c69f7abcfcd2015623a9c',1,'DwarfDB::ChunkManager::ChunkManager']]],
   ['loadrecords',['LoadRecords',['../d0/dbb/class_dwarf_d_b_1_1_data_structures_1_1_data_container.html#a13c952b542b0cb945db7564a2cd78827',1,'DwarfDB::DataStructures::DataContainer']]],
   ['local_5fam',['local_am',['../da/dfc/class_dwarf_d_b_1_1_data_structures_1_1_data_base.html#a4181007cf73ba307a894f9beb6838f40',1,'DwarfDB.DataStructures.DataBase.local_am()'],['../d0/dbb/class_dwarf_d_b_1_1_data_structures_1_1_data_container.html#a7eecc7a7334d77b806fbf8fe26c3e8bd',1,'DwarfDB.DataStructures.DataContainer.local_am()']]],
+  ['logger',['logger',['../d8/db6/class_dwarf_d_b_1_1_errors_1_1_messages.html#a976499d3480c578d5665bbdfd0e6cc87',1,'DwarfDB::Errors::Messages']]],
   ['login',['Login',['../d0/d2b/class_dwarf_d_b_1_1_user_1_1_user_credentials.html#a425f41d9c436edd834855475d5a7a554',1,'DwarfDB::User::UserCredentials']]]
 ];

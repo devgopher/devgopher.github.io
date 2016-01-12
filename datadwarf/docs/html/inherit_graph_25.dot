@@ -3,5 +3,5 @@ digraph "Graphical Class Hierarchy"
   edge [fontname="Helvetica",fontsize="14",labelfontname="Helvetica",labelfontsize="14"];
   node [fontname="Helvetica",fontsize="14",shape=record];
   rankdir="LR";
-  Node1 [label="DwarfDB.User.UserCredentials",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/d2b/class_dwarf_d_b_1_1_user_1_1_user_credentials.html",tooltip="Class for user logins and password keeping "];
+  Node1 [label="DwarfDB.User.User",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/da0/class_dwarf_d_b_1_1_user_1_1_user.html",tooltip="A class for users representation "];
 }

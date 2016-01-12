@@ -9,9 +9,9 @@ digraph "DwarfDB.Program.Employees"
   Node1 -> Node3 [color="midnightblue",fontsize="14",style="solid",fontname="Helvetica"];
   Node3 [label="DwarfDB.DataStructures.Data\lBase.Exists",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/dfc/class_dwarf_d_b_1_1_data_structures_1_1_data_base.html#a984abdba15e81a2f8e5cd1345986202a"];
   Node1 -> Node4 [color="midnightblue",fontsize="14",style="solid",fontname="Helvetica"];
-  Node4 [label="DwarfDB.DataStructures.Data\lBase.LoadFrom",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/dfc/class_dwarf_d_b_1_1_data_structures_1_1_data_base.html#af709d60f64dc5065a95dc678ebc03f30"];
+  Node4 [label="DwarfDB.DataStructures.Data\lBase.LoadFrom",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/dfc/class_dwarf_d_b_1_1_data_structures_1_1_data_base.html#af709d60f64dc5065a95dc678ebc03f30",tooltip="Loads database from a filesystem "];
   Node1 -> Node5 [color="midnightblue",fontsize="14",style="solid",fontname="Helvetica"];
-  Node5 [label="DwarfDB.DataStructures.Data\lBase.Create",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/dfc/class_dwarf_d_b_1_1_data_structures_1_1_data_base.html#a2125965bbb7654634bced7627cc5ad88"];
+  Node5 [label="DwarfDB.DataStructures.Data\lBase.Create",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/dfc/class_dwarf_d_b_1_1_data_structures_1_1_data_base.html#a2125965bbb7654634bced7627cc5ad88",tooltip="Creates a new DB "];
   Node1 -> Node6 [color="midnightblue",fontsize="14",style="solid",fontname="Helvetica"];
   Node6 [label="DwarfDB.DataStructures.Data\lBase.AddAccess",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/dfc/class_dwarf_d_b_1_1_data_structures_1_1_data_base.html#a70e49a729cd901852e9c5a86717939c2",tooltip="Adding a new access record for our DB "];
   Node6 -> Node7 [color="midnightblue",fontsize="14",style="solid",fontname="Helvetica"];
@@ -29,7 +29,7 @@ digraph "DwarfDB.Program.Employees"
   Node12 [label="DwarfDB.DataStructures.Data\lBase.GetDataContainer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/dfc/class_dwarf_d_b_1_1_data_structures_1_1_data_base.html#a215058bbdbbca645117e63578a9443e8",tooltip="Getting DataContainer by name "];
   Node1 -> Node9 [color="midnightblue",fontsize="14",style="solid",fontname="Helvetica"];
   Node1 -> Node13 [color="midnightblue",fontsize="14",style="solid",fontname="Helvetica"];
-  Node13 [label="DwarfDB.DataStructures.Data\lContainer.AddColumn",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/dbb/class_dwarf_d_b_1_1_data_structures_1_1_data_container.html#a4e2329f513c374246077a0bdd13c6471"];
+  Node13 [label="DwarfDB.DataStructures.Data\lContainer.AddColumn",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/dbb/class_dwarf_d_b_1_1_data_structures_1_1_data_container.html#a4e2329f513c374246077a0bdd13c6471",tooltip="Adds a new column "];
   Node1 -> Node14 [color="midnightblue",fontsize="14",style="solid",fontname="Helvetica"];
   Node14 [label="DwarfDB.DataStructures.Data\lContainer.Save",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/dbb/class_dwarf_d_b_1_1_data_structures_1_1_data_container.html#a3ca82caee7d6f38c74dbb4e2a637aecb",tooltip="Save to file chunk "];
 }

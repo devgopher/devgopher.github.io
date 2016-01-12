@@ -1,0 +1,8 @@
+digraph "DwarfDB.Links.DataContainerLinkParser"
+{
+  edge [fontname="Helvetica",fontsize="14",labelfontname="Helvetica",labelfontsize="14"];
+  node [fontname="Helvetica",fontsize="14",shape=record];
+  Node1 [label="DwarfDB.Links.DataContainer\lLinkParser",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="14",style="solid",fontname="Helvetica"];
+  Node2 [label="ILinkParser",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d5a/interface_dwarf_d_b_1_1_links_1_1_i_link_parser.html",tooltip="An interface for link parser "];
+}

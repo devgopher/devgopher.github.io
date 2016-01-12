@@ -107,50 +107,14 @@ Inheritance diagram for DwarfDB.Links.ILink:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a2bf76de08140db810a857727e1370dd3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d8e/interface_dwarf_d_b_1_1_links_1_1_i_link.html">ILink</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d8e/interface_dwarf_d_b_1_1_links_1_1_i_link.html#a2bf76de08140db810a857727e1370dd3">Create</a> (string db_name, string dc_name, string rec_hash)</td></tr>
-<tr class="separator:a2bf76de08140db810a857727e1370dd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a594987692738167670ff19404509e8bb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d8a/interface_dwarf_d_b_1_1_data_structures_1_1_i_structure.html">IStructure</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d8e/interface_dwarf_d_b_1_1_links_1_1_i_link.html#a594987692738167670ff19404509e8bb">Get</a> ()</td></tr>
-<tr class="separator:a594987692738167670ff19404509e8bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a96f94dc0724df3eac80e39894cdf40bc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d8e/interface_dwarf_d_b_1_1_links_1_1_i_link.html#a96f94dc0724df3eac80e39894cdf40bc">Init</a> (string _address, string _db_name, string _dc_name, string _rec_hash)</td></tr>
+<tr class="separator:a96f94dc0724df3eac80e39894cdf40bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1738b6997bfebc7309bd9667984a097e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d8e/interface_dwarf_d_b_1_1_links_1_1_i_link.html#a1738b6997bfebc7309bd9667984a097e">Drop</a> ()</td></tr>
 <tr class="separator:a1738b6997bfebc7309bd9667984a097e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>An interface for DB link </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a2bf76de08140db810a857727e1370dd3"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d2/d8e/interface_dwarf_d_b_1_1_links_1_1_i_link.html">ILink</a> DwarfDB.Links.ILink.Create </td>
-          <td>(</td>
-          <td class="paramtype">string&#160;</td>
-          <td class="paramname"><em>db_name</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">string&#160;</td>
-          <td class="paramname"><em>dc_name</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">string&#160;</td>
-          <td class="paramname"><em>rec_hash</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Implemented in <a class="el" href="../../da/d11/class_dwarf_d_b_1_1_links_1_1_record_link.html#afde2b54457b26bc6a74b3ce0ff3b53f2">DwarfDB.Links.RecordLink</a>.</p>
-
-</div>
-</div>
 <a class="anchor" id="a1738b6997bfebc7309bd9667984a097e"></a>
 <div class="memitem">
 <div class="memproto">
@@ -164,24 +128,56 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="../../da/d11/class_dwarf_d_b_1_1_links_1_1_record_link.html#a3a9c4b8d2e95fa4ccf287419f781c2bc">DwarfDB.Links.RecordLink</a>.</p>
+<p>Implemented in <a class="el" href="../../da/d11/class_dwarf_d_b_1_1_links_1_1_record_link.html#a3a9c4b8d2e95fa4ccf287419f781c2bc">DwarfDB.Links.RecordLink</a>, and <a class="el" href="../../d4/dc3/class_dwarf_d_b_1_1_links_1_1_data_container_link.html#ac722197edce83188c6148180fcaedd83">DwarfDB.Links.DataContainerLink</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a594987692738167670ff19404509e8bb"></a>
+<a class="anchor" id="a96f94dc0724df3eac80e39894cdf40bc"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d2/d8a/interface_dwarf_d_b_1_1_data_structures_1_1_i_structure.html">IStructure</a> DwarfDB.Links.ILink.Get </td>
+          <td class="memname">void DwarfDB.Links.ILink.Init </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>_address</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>_db_name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>_dc_name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>_rec_hash</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="../../da/d11/class_dwarf_d_b_1_1_links_1_1_record_link.html#a430f77e41f5ab968bd6882b2f7259b6c">DwarfDB.Links.RecordLink</a>.</p>
+<p>Implemented in <a class="el" href="../../da/d11/class_dwarf_d_b_1_1_links_1_1_record_link.html#a9b2a68745bfc61968b4ad987a70e0c26">DwarfDB.Links.RecordLink</a>, and <a class="el" href="../../d4/dc3/class_dwarf_d_b_1_1_links_1_1_data_container_link.html#a51f8c2098586c2da97a8137e3b5eac92">DwarfDB.Links.DataContainerLink</a>.</p>
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d2/d8e/interface_dwarf_d_b_1_1_links_1_1_i_link_a96f94dc0724df3eac80e39894cdf40bc_icgraph.jpg" border="0" usemap="#d2/d8e/interface_dwarf_d_b_1_1_links_1_1_i_link_a96f94dc0724df3eac80e39894cdf40bc_icgraph" alt=""/></div>
+<map name="d2/d8e/interface_dwarf_d_b_1_1_links_1_1_i_link_a96f94dc0724df3eac80e39894cdf40bc_icgraph" id="d2/d8e/interface_dwarf_d_b_1_1_links_1_1_i_link_a96f94dc0724df3eac80e39894cdf40bc_icgraph">
+</map>
+</div>
+</p>
 
 </div>
 </div>
@@ -191,7 +187,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Dec 16 2015 23:00:03 for DwarfDB by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Jan 12 2016 23:00:30 for DwarfDB by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

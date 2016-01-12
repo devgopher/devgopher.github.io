@@ -3,5 +3,5 @@ digraph "Graphical Class Hierarchy"
   edge [fontname="Helvetica",fontsize="14",labelfontname="Helvetica",labelfontsize="14"];
   node [fontname="Helvetica",fontsize="14",shape=record];
   rankdir="LR";
-  Node1 [label="DwarfDB.Errors.ErrorProcessing",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d7c/class_dwarf_d_b_1_1_errors_1_1_error_processing.html",tooltip="A class for errors output "];
+  Node1 [label="DwarfDB.Errors.Messages",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/db6/class_dwarf_d_b_1_1_errors_1_1_messages.html",tooltip="A class for errors output "];
 }

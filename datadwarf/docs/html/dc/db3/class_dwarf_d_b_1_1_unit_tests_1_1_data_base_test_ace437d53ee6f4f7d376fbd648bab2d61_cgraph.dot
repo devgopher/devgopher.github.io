@@ -1,0 +1,9 @@
+digraph "DwarfDB.UnitTests.DataBaseTest.CreateContainer"
+{
+  edge [fontname="Helvetica",fontsize="14",labelfontname="Helvetica",labelfontsize="14"];
+  node [fontname="Helvetica",fontsize="14",shape=record];
+  rankdir="LR";
+  Node1 [label="DwarfDB.UnitTests.DataBase\lTest.CreateContainer",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="14",style="solid",fontname="Helvetica"];
+  Node2 [label="DwarfDB.DataStructures.Data\lBase.LoadFrom",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/dfc/class_dwarf_d_b_1_1_data_structures_1_1_data_base.html#af709d60f64dc5065a95dc678ebc03f30",tooltip="Loads database from a filesystem "];
+}

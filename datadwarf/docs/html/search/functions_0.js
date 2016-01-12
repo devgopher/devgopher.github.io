@@ -9,7 +9,7 @@ var searchData=
   ['addcommand',['AddCommand',['../d6/d84/class_dwarf_d_b_1_1_transactions_1_1_dwarf_transaction.html#aa367e43159fe986df49fa72bae4548d0',1,'DwarfDB::Transactions::DwarfTransaction']]],
   ['additem',['AddItem',['../d0/d17/class_dwarf_d_b_1_1_chunk_manager_1_1_chunk_format.html#aef23c572223d75525cb8d8cbac8d17d1',1,'DwarfDB.ChunkManager.ChunkFormat.AddItem(string filepath, DataBase db)'],['../d0/d17/class_dwarf_d_b_1_1_chunk_manager_1_1_chunk_format.html#a9663f0a48d213334ce055d5e13a620a9',1,'DwarfDB.ChunkManager.ChunkFormat.AddItem(string filepath, IStructure ds)']]],
   ['addnewdatacontainer',['AddNewDataContainer',['../da/dfc/class_dwarf_d_b_1_1_data_structures_1_1_data_base.html#a182b0a5eb74c9dcfe834797b40ea54b0',1,'DwarfDB::DataStructures::DataBase']]],
-  ['addrecordtostack',['AddRecordToStack',['../d0/dbb/class_dwarf_d_b_1_1_data_structures_1_1_data_container.html#aacc2f282ede6e28c95497a8f214bbfa4',1,'DwarfDB::DataStructures::DataContainer']]],
+  ['addrecordtodatastorage',['AddRecordToDataStorage',['../d0/dbb/class_dwarf_d_b_1_1_data_structures_1_1_data_container.html#a93cc416772d2cdfadc813d847bc59bc9',1,'DwarfDB::DataStructures::DataContainer']]],
   ['assignownerdc',['AssignOwnerDC',['../d1/d31/class_dwarf_d_b_1_1_data_structures_1_1_record.html#afccd7c4257b4a7953265490700ca5d84',1,'DwarfDB::DataStructures::Record']]],
   ['atomic',['Atomic',['../d6/d84/class_dwarf_d_b_1_1_transactions_1_1_dwarf_transaction.html#a660b18b542e2053f8d8b70555ee3d5d1',1,'DwarfDB::Transactions::DwarfTransaction']]]
 ];

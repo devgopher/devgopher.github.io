@@ -12,4 +12,6 @@ digraph "DwarfDB.DataStructures.DataBase.AddAccess"
   Node4 [label="DwarfDB.Program.Main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d9a/class_dwarf_d_b_1_1_program.html#ad191792c625399b2912062074ad4476b"];
   Node1 -> Node5 [dir="back",color="midnightblue",fontsize="14",style="solid",fontname="Helvetica"];
   Node5 [label="DwarfDB.Program.Employees",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d9a/class_dwarf_d_b_1_1_program.html#a59b46f2c792386b7eaaf5419cd7656a0"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="14",style="solid",fontname="Helvetica"];
+  Node6 [label="DwarfDB.UnitTests.DataBase\lTest.Drop",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/db3/class_dwarf_d_b_1_1_unit_tests_1_1_data_base_test.html#a610e7d4f17986f06492b36fcc75eb886"];
 }

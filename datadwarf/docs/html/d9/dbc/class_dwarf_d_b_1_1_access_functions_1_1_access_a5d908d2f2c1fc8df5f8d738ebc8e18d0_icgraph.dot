@@ -16,8 +16,10 @@ digraph "DwarfDB.AccessFunctions.Access.Instance"
   Node6 [label="DwarfDB.Program.Main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d9a/class_dwarf_d_b_1_1_program.html#ad191792c625399b2912062074ad4476b"];
   Node3 -> Node7 [dir="back",color="midnightblue",fontsize="14",style="solid",fontname="Helvetica"];
   Node7 [label="DwarfDB.Program.Employees",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d9a/class_dwarf_d_b_1_1_program.html#a59b46f2c792386b7eaaf5419cd7656a0"];
-  Node2 -> Node8 [dir="back",color="midnightblue",fontsize="14",style="solid",fontname="Helvetica"];
-  Node8 [label="DwarfDB.DataStructures.Data\lContainer.AddAccess",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/dbb/class_dwarf_d_b_1_1_data_structures_1_1_data_container.html#a6a6ab45d3aafedd286e55eb1f0725d00",tooltip="Adding a new access record for our DC "];
-  Node8 -> Node3 [dir="back",color="midnightblue",fontsize="14",style="solid",fontname="Helvetica"];
-  Node8 -> Node7 [dir="back",color="midnightblue",fontsize="14",style="solid",fontname="Helvetica"];
+  Node3 -> Node8 [dir="back",color="midnightblue",fontsize="14",style="solid",fontname="Helvetica"];
+  Node8 [label="DwarfDB.UnitTests.DataBase\lTest.Drop",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/db3/class_dwarf_d_b_1_1_unit_tests_1_1_data_base_test.html#a610e7d4f17986f06492b36fcc75eb886"];
+  Node2 -> Node9 [dir="back",color="midnightblue",fontsize="14",style="solid",fontname="Helvetica"];
+  Node9 [label="DwarfDB.DataStructures.Data\lContainer.AddAccess",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/dbb/class_dwarf_d_b_1_1_data_structures_1_1_data_container.html#a6a6ab45d3aafedd286e55eb1f0725d00",tooltip="Adding a new access record for our DC "];
+  Node9 -> Node3 [dir="back",color="midnightblue",fontsize="14",style="solid",fontname="Helvetica"];
+  Node9 -> Node7 [dir="back",color="midnightblue",fontsize="14",style="solid",fontname="Helvetica"];
 }

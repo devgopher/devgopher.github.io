@@ -122,7 +122,7 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memdesc:ad8b5439d8da1542530a83c6f28b497a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Getting an item from a chunk file in multithread mode  <a href="#ad8b5439d8da1542530a83c6f28b497a8">More...</a><br /></td></tr>
 <tr class="separator:ad8b5439d8da1542530a83c6f28b497a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a968d7fdbd7ca100a8fddfac506a69f86"><td class="memItemLeft" align="right" valign="top">static List&lt; <a class="el" href="../../d1/d31/class_dwarf_d_b_1_1_data_structures_1_1_record.html">Record</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d17/class_dwarf_d_b_1_1_chunk_manager_1_1_chunk_format.html#a968d7fdbd7ca100a8fddfac506a69f86">GetRecordsInFile</a> (string filepath, string dc_hash)</td></tr>
-<tr class="memdesc:a968d7fdbd7ca100a8fddfac506a69f86"><td class="mdescLeft">&#160;</td><td class="mdescRight">Getting all records from the chunk  <a href="#a968d7fdbd7ca100a8fddfac506a69f86">More...</a><br /></td></tr>
+<tr class="memdesc:a968d7fdbd7ca100a8fddfac506a69f86"><td class="mdescLeft">&#160;</td><td class="mdescRight">Getting all records from a chunk  <a href="#a968d7fdbd7ca100a8fddfac506a69f86">More...</a><br /></td></tr>
 <tr class="separator:a968d7fdbd7ca100a8fddfac506a69f86"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a04ca4db18dc262937547df1e600fa6a5"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d0/dbb/class_dwarf_d_b_1_1_data_structures_1_1_data_container.html">DataContainer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d17/class_dwarf_d_b_1_1_chunk_manager_1_1_chunk_format.html#a04ca4db18dc262937547df1e600fa6a5">GetDCInFile</a> (string filepath, string dc_name)</td></tr>
 <tr class="memdesc:a04ca4db18dc262937547df1e600fa6a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Getting a DataContainer from the chunk  <a href="#a04ca4db18dc262937547df1e600fa6a5">More...</a><br /></td></tr>
@@ -151,6 +151,13 @@ Static Private Member Functions</h2></td></tr>
 <tr class="memitem:ac5e74e666bdbbc2eba365a6e2f9d7d02"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d2/d8a/interface_dwarf_d_b_1_1_data_structures_1_1_i_structure.html">IStructure</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d17/class_dwarf_d_b_1_1_chunk_manager_1_1_chunk_format.html#ac5e74e666bdbbc2eba365a6e2f9d7d02">GetItemInfile</a> (JsonTextReader json_reader, <a class="el" href="../../db/d3d/class_dwarf_d_b_1_1_data_structures_1_1_index.html">Index</a> idx)</td></tr>
 <tr class="memdesc:ac5e74e666bdbbc2eba365a6e2f9d7d02"><td class="mdescLeft">&#160;</td><td class="mdescRight">Getting an item from a chunk file in a multithread mode  <a href="#ac5e74e666bdbbc2eba365a6e2f9d7d02">More...</a><br /></td></tr>
 <tr class="separator:ac5e74e666bdbbc2eba365a6e2f9d7d02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2bcd25db0c6735c2d1d39171c96c6ded"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d17/class_dwarf_d_b_1_1_chunk_manager_1_1_chunk_format.html#a2bcd25db0c6735c2d1d39171c96c6ded">GetNextRandom</a> ()</td></tr>
+<tr class="memdesc:a2bcd25db0c6735c2d1d39171c96c6ded"><td class="mdescLeft">&#160;</td><td class="mdescRight">A random generation method for usage in multithread environment  <a href="#a2bcd25db0c6735c2d1d39171c96c6ded">More...</a><br /></td></tr>
+<tr class="separator:a2bcd25db0c6735c2d1d39171c96c6ded"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a428adcacc6d6bf3e333d43438ccd4bfe"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d17/class_dwarf_d_b_1_1_chunk_manager_1_1_chunk_format.html#a428adcacc6d6bf3e333d43438ccd4bfe">CreateTemporaryFile</a> (string orig_filepath)</td></tr>
+<tr class="separator:a428adcacc6d6bf3e333d43438ccd4bfe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a08febea9be327fa269c8dc1a6b445a1e"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d17/class_dwarf_d_b_1_1_chunk_manager_1_1_chunk_format.html#a08febea9be327fa269c8dc1a6b445a1e">DeleteTemporaryFile</a> (string tmp_filepath)</td></tr>
+<tr class="separator:a08febea9be327fa269c8dc1a6b445a1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae7a555226dfc92525b9ae6578fd15bf9"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d2/d8a/interface_dwarf_d_b_1_1_data_structures_1_1_i_structure.html">IStructure</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d17/class_dwarf_d_b_1_1_chunk_manager_1_1_chunk_format.html#ae7a555226dfc92525b9ae6578fd15bf9">GetItemInfile</a> (JsonTextReader json_reader, string hash)</td></tr>
 <tr class="memdesc:ae7a555226dfc92525b9ae6578fd15bf9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Getting an item from a chunk file in multithread mode  <a href="#ae7a555226dfc92525b9ae6578fd15bf9">More...</a><br /></td></tr>
 <tr class="separator:ae7a555226dfc92525b9ae6578fd15bf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -161,6 +168,10 @@ Static Private Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
 Static Private Attributes</h2></td></tr>
+<tr class="memitem:aa2f7d50d7e788d5d729ab55337228e05"><td class="memItemLeft" align="right" valign="top">static Random&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d17/class_dwarf_d_b_1_1_chunk_manager_1_1_chunk_format.html#aa2f7d50d7e788d5d729ab55337228e05">randg</a> = new Random(DateTime.Now.Millisecond)</td></tr>
+<tr class="separator:aa2f7d50d7e788d5d729ab55337228e05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad258fb46df638f1b2481315147369142"><td class="memItemLeft" align="right" valign="top">static object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d17/class_dwarf_d_b_1_1_chunk_manager_1_1_chunk_format.html#ad258fb46df638f1b2481315147369142">randg_sync_object</a> = new object()</td></tr>
+<tr class="separator:ad258fb46df638f1b2481315147369142"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a103c699186d9daa508a7949a6d29c4a6"><td class="memItemLeft" align="right" valign="top">static JsonSerializer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d17/class_dwarf_d_b_1_1_chunk_manager_1_1_chunk_format.html#a103c699186d9daa508a7949a6d29c4a6">json_serializer</a></td></tr>
 <tr class="separator:a103c699186d9daa508a7949a6d29c4a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaaeb83f6d53852433259b9018a0539fc"><td class="memItemLeft" align="right" valign="top">static readonly <a class="el" href="../../d9/d3d/class_dwarf_d_b_1_1_config_1_1_config.html">Config.Config</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d17/class_dwarf_d_b_1_1_chunk_manager_1_1_chunk_format.html#aaaeb83f6d53852433259b9018a0539fc">config</a></td></tr>
@@ -335,6 +346,54 @@ Here is the caller graph for this function:</div>
 </map>
 </div>
 </p>
+
+</div>
+</div>
+<a class="anchor" id="a428adcacc6d6bf3e333d43438ccd4bfe"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static string DwarfDB.ChunkManager.ChunkFormat.CreateTemporaryFile </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>orig_filepath</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a08febea9be327fa269c8dc1a6b445a1e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void DwarfDB.ChunkManager.ChunkFormat.DeleteTemporaryFile </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>tmp_filepath</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -730,6 +789,32 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a class="anchor" id="a2bcd25db0c6735c2d1d39171c96c6ded"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static int DwarfDB.ChunkManager.ChunkFormat.GetNextRandom </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>A random generation method for usage in multithread environment </p>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="a968d7fdbd7ca100a8fddfac506a69f86"></a>
 <div class="memitem">
 <div class="memproto">
@@ -762,7 +847,7 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Getting all records from the chunk </p>
+<p>Getting all records from a chunk </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">filepath</td><td>path to file</td></tr>
@@ -952,6 +1037,46 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
+<a class="anchor" id="aa2f7d50d7e788d5d729ab55337228e05"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Random DwarfDB.ChunkManager.ChunkFormat.randg = new Random(DateTime.Now.Millisecond)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ad258fb46df638f1b2481315147369142"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">object DwarfDB.ChunkManager.ChunkFormat.randg_sync_object = new object()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Property Documentation</h2>
 <a class="anchor" id="a37088c99adfd55e31ffb2135faa2e844"></a>
 <div class="memitem">
@@ -979,7 +1104,7 @@ Here is the call graph for this function:</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Dec 16 2015 23:00:02 for DwarfDB by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Jan 12 2016 23:00:28 for DwarfDB by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

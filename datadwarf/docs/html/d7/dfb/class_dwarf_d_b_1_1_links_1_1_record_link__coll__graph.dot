@@ -15,4 +15,8 @@ digraph "DwarfDB.Links.RecordLink"
   Node6 [label="DwarfDB.DataStructures.Index",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d3d/class_dwarf_d_b_1_1_data_structures_1_1_index.html",tooltip="Index of data structure elements "];
   Node7 -> Node6 [dir="back",color="darkorchid3",fontsize="14",style="dashed",label=" index_object" ,fontname="Helvetica"];
   Node7 [label="DwarfDB.DataStructures.IStructure",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d8a/interface_dwarf_d_b_1_1_data_structures_1_1_i_structure.html",tooltip="An interface for DwarfDB data structures, such as: DataContainer and Record "];
+  Node8 -> Node1 [dir="back",color="darkorchid3",fontsize="14",style="dashed",label=" parser" ,fontname="Helvetica"];
+  Node8 [label="DwarfDB.Links.RecordLink\lParser",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/da5/class_dwarf_d_b_1_1_links_1_1_record_link_parser.html",tooltip="A Record link parser Link: ip_address:db_name:dc_name:rec_hash "];
+  Node9 -> Node8 [dir="back",color="midnightblue",fontsize="14",style="solid",fontname="Helvetica"];
+  Node9 [label="ILinkParser",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d5a/interface_dwarf_d_b_1_1_links_1_1_i_link_parser.html",tooltip="An interface for link parser "];
 }

@@ -1,0 +1,10 @@
+digraph "DwarfDB.Links.ILinkParser"
+{
+  edge [fontname="Helvetica",fontsize="14",labelfontname="Helvetica",labelfontsize="14"];
+  node [fontname="Helvetica",fontsize="14",shape=record];
+  Node1 [label="DwarfDB.Links.ILinkParser",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="14",style="solid",fontname="Helvetica"];
+  Node2 [label="DwarfDB.Links.DataContainer\lLinkParser",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d93/class_dwarf_d_b_1_1_links_1_1_data_container_link_parser.html",tooltip="A DC link parser Link: ip_address:db_name:dc_name "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="14",style="solid",fontname="Helvetica"];
+  Node3 [label="DwarfDB.Links.RecordLink\lParser",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/da5/class_dwarf_d_b_1_1_links_1_1_record_link_parser.html",tooltip="A Record link parser Link: ip_address:db_name:dc_name:rec_hash "];
+}

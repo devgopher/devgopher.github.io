@@ -11,5 +11,7 @@ digraph "DwarfDB.ChunkManager.ChunkManager.ChunkManager"
   Node1 -> Node4 [dir="back",color="midnightblue",fontsize="14",style="solid",fontname="Helvetica"];
   Node4 [label="DwarfDB.UnitTests.DataBase\lTest.Create",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/db3/class_dwarf_d_b_1_1_unit_tests_1_1_data_base_test.html#a770bbf91e34112392e2385ea183ca7ee"];
   Node1 -> Node5 [dir="back",color="midnightblue",fontsize="14",style="solid",fontname="Helvetica"];
-  Node5 [label="DwarfDB.UnitTests.DataBase\lTest.Drop",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/db3/class_dwarf_d_b_1_1_unit_tests_1_1_data_base_test.html#a3dccc953d20e97fa83507fa9958c20c7"];
+  Node5 [label="DwarfDB.UnitTests.DataBase\lTest.Drop",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/db3/class_dwarf_d_b_1_1_unit_tests_1_1_data_base_test.html#a610e7d4f17986f06492b36fcc75eb886"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="14",style="solid",fontname="Helvetica"];
+  Node6 [label="DwarfDB.UnitTests.DataBase\lTest.LoadFromTest",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/db3/class_dwarf_d_b_1_1_unit_tests_1_1_data_base_test.html#acd150f5a1a2989534c6f45ebbd45671f"];
 }

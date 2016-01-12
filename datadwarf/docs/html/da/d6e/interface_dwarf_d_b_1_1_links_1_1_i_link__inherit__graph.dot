@@ -4,5 +4,7 @@ digraph "DwarfDB.Links.ILink"
   node [fontname="Helvetica",fontsize="14",shape=record];
   Node1 [label="DwarfDB.Links.ILink",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
   Node1 -> Node2 [dir="back",color="midnightblue",fontsize="14",style="solid",fontname="Helvetica"];
-  Node2 [label="DwarfDB.Links.RecordLink",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/d11/class_dwarf_d_b_1_1_links_1_1_record_link.html",tooltip="A class for links to records "];
+  Node2 [label="DwarfDB.Links.DataContainerLink",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/dc3/class_dwarf_d_b_1_1_links_1_1_data_container_link.html",tooltip="A class for links to datacontainers "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="14",style="solid",fontname="Helvetica"];
+  Node3 [label="DwarfDB.Links.RecordLink",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/d11/class_dwarf_d_b_1_1_links_1_1_record_link.html",tooltip="A class for links to records "];
 }

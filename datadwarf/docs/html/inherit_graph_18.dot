@@ -3,5 +3,5 @@ digraph "Graphical Class Hierarchy"
   edge [fontname="Helvetica",fontsize="14",labelfontname="Helvetica",labelfontsize="14"];
   node [fontname="Helvetica",fontsize="14",shape=record];
   rankdir="LR";
-  Node1 [label="DwarfDB.Stack.DataStorage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d03/class_dwarf_d_b_1_1_stack_1_1_data_storage.html",tooltip="A stack for improving an access to dwarf records "];
+  Node1 [label="DwarfDB.Program",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d9a/class_dwarf_d_b_1_1_program.html",tooltip="Description of Employees. "];
 }
