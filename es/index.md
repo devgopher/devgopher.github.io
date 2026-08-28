@@ -1,4 +1,0 @@
----
-lang: es
-permalink: /es/
----

@@ -1,4 +1,0 @@
----
-lang: zh
-permalink: /zh/
----

@@ -4,10 +4,10 @@ Jekyll landing for [Iskra.MAUI](https://github.com/IskraMessenger/Iskra.MAUI/tre
 
 | Language | Path |
 |----------|------|
-| English | `/` |
-| Russian | `/ru/` |
-| Spanish | `/es/` |
-| Simplified Chinese | `/zh/` |
+| English | `/iskra/` |
+| Russian | `/iskra/ru/` |
+| Spanish | `/iskra/es/` |
+| Simplified Chinese | `/iskra/zh/` |
 
 The Simplified Chinese page shows a bilingual warning about possible translation inaccuracies.
 

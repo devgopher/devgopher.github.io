@@ -8,10 +8,10 @@
   <meta name="description" content="{{ t.meta_description }}">
   <meta name="robots" content="noindex">
   <link rel="canonical" href="{{ page.url | absolute_url }}">
-  <link rel="alternate" hreflang="en" href="{{ '/' | absolute_url }}">
-  <link rel="alternate" hreflang="ru" href="{{ '/ru/' | absolute_url }}">
-  <link rel="alternate" hreflang="es" href="{{ '/es/' | absolute_url }}">
-  <link rel="alternate" hreflang="zh-Hans" href="{{ '/zh/' | absolute_url }}">
+  <link rel="alternate" hreflang="en" href="{{ '/iskra/' | absolute_url }}">
+  <link rel="alternate" hreflang="ru" href="{{ '/iskra/ru/' | absolute_url }}">
+  <link rel="alternate" hreflang="es" href="{{ '/iskra/es/' | absolute_url }}">
+  <link rel="alternate" hreflang="zh-Hans" href="{{ '/iskra/zh/' | absolute_url }}">
   <link rel="icon" href="{{ '/assets/img/logo-mark.png' | relative_url }}" type="image/png">
   <link rel="apple-touch-icon" href="{{ '/assets/img/logo-mark.png' | relative_url }}">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -31,10 +31,10 @@
         <img class="logo" src="{{ '/assets/img/logo.png' | relative_url }}" alt="Iskra" width="886" height="359">
       </a>
       <nav class="langs" aria-label="Language">
-        <a href="{{ '/' | relative_url }}" {% if page.lang == 'en' %}aria-current="page"{% endif %}>EN</a>
-        <a href="{{ '/ru/' | relative_url }}" {% if page.lang == 'ru' %}aria-current="page"{% endif %}>RU</a>
-        <a href="{{ '/es/' | relative_url }}" {% if page.lang == 'es' %}aria-current="page"{% endif %}>ES</a>
-        <a href="{{ '/zh/' | relative_url }}" {% if page.lang == 'zh' %}aria-current="page"{% endif %}>中文</a>
+        <a href="{{ '/iskra/' | relative_url }}" {% if page.lang == 'en' %}aria-current="page"{% endif %}>EN</a>
+        <a href="{{ '/iskra/ru/' | relative_url }}" {% if page.lang == 'ru' %}aria-current="page"{% endif %}>RU</a>
+        <a href="{{ '/iskra/es/' | relative_url }}" {% if page.lang == 'es' %}aria-current="page"{% endif %}>ES</a>
+        <a href="{{ '/iskra/zh/' | relative_url }}" {% if page.lang == 'zh' %}aria-current="page"{% endif %}>中文</a>
       </nav>
       <a class="nav-source" href="{{ site.github_repo }}/tree/{{ site.github_branch }}">{{ t.nav_source }}</a>
     </div>
