@@ -1,4 +1,20 @@
-theme: jekyll-theme-minimal
-title: Devgopher homepage
-description: Devgopher homepage
-permalink: /iskra
+title: Iskra
+description: A messenger that combines client–server and mesh. Draft 0.1.
+url: https://devgopher.github.io
+baseurl: ""
+markdown: kramdown
+highlighter: rouge
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - _preview
+  - _preview_build.py
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: landing
+github_repo: https://github.com/IskraMessenger/Iskra.MAUI
+github_branch: dev/0.1

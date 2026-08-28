@@ -1,0 +1,155 @@
+{% assign t = site.data.i18n[page.lang] %}
+<!DOCTYPE html>
+<html lang="{{ t.html_lang }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ t.meta_title }}</title>
+  <meta name="description" content="{{ t.meta_description }}">
+  <meta name="robots" content="noindex">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <link rel="alternate" hreflang="en" href="{{ '/' | absolute_url }}">
+  <link rel="alternate" hreflang="ru" href="{{ '/ru/' | absolute_url }}">
+  <link rel="alternate" hreflang="es" href="{{ '/es/' | absolute_url }}">
+  <link rel="alternate" hreflang="zh-Hans" href="{{ '/zh/' | absolute_url }}">
+  <link rel="icon" href="{{ '/assets/img/logo-mark.png' | relative_url }}" type="image/png">
+  <link rel="apple-touch-icon" href="{{ '/assets/img/logo-mark.png' | relative_url }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,560&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Noto+Sans+SC:wght@400;500;600&family=Noto+Serif:wght@500;600&family=Noto+Serif+SC:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/assets/css/landing.css' | relative_url }}">
+</head>
+<body>
+  <a class="skip" href="#main">Skip</a>
+  <div class="draft-bar">
+    <span>{{ t.draft_label }} · {{ t.version_label }}</span>
+    <span>{{ t.footer_draft }}</span>
+  </div>
+  <header class="site-header">
+    <div class="wrap site-header-inner">
+      <a class="brand" href="{{ page.url | relative_url }}">
+        <img class="logo" src="{{ '/assets/img/logo.png' | relative_url }}" alt="Iskra" width="886" height="359">
+      </a>
+      <nav class="langs" aria-label="Language">
+        <a href="{{ '/' | relative_url }}" {% if page.lang == 'en' %}aria-current="page"{% endif %}>EN</a>
+        <a href="{{ '/ru/' | relative_url }}" {% if page.lang == 'ru' %}aria-current="page"{% endif %}>RU</a>
+        <a href="{{ '/es/' | relative_url }}" {% if page.lang == 'es' %}aria-current="page"{% endif %}>ES</a>
+        <a href="{{ '/zh/' | relative_url }}" {% if page.lang == 'zh' %}aria-current="page"{% endif %}>中文</a>
+      </nav>
+      <a class="nav-source" href="{{ site.github_repo }}/tree/{{ site.github_branch }}">{{ t.nav_source }}</a>
+    </div>
+  </header>
+  {% if page.lang == 'zh' %}
+  <div class="wrap">
+    <aside class="notice" role="note">
+      <p lang="en">{{ t.translation_en }}</p>
+      <p lang="zh-Hans">{{ t.translation_zh }}</p>
+    </aside>
+  </div>
+  {% endif %}
+  <main id="main">
+    <section class="wrap hero">
+      <div>
+        <p class="kicker">{{ t.hero_kicker }}</p>
+        <h1>{{ t.hero_title }}</h1>
+        <p class="lead">{{ t.hero_lead }}</p>
+        <div class="cta-row">
+          <a class="btn" href="{{ site.github_repo }}/tree/{{ site.github_branch }}">{{ t.cta_source }}</a>
+          <span class="ghost">{{ t.cta_branch }}</span>
+        </div>
+      </div>
+      <div class="stage">
+        <svg class="mesh" viewBox="0 0 360 360" aria-hidden="true">
+          <line x1="52" y1="80" x2="180" y2="48" stroke="#ff6a00" stroke-opacity="0.45"/>
+          <line x1="180" y1="48" x2="300" y2="120" stroke="#ff6a00" stroke-opacity="0.35" stroke-dasharray="4 5"/>
+          <line x1="52" y1="80" x2="96" y2="240" stroke="#ff6a00" stroke-opacity="0.25" stroke-dasharray="4 5"/>
+          <line x1="180" y1="48" x2="230" y2="250" stroke="#ff6a00" stroke-opacity="0.2" stroke-dasharray="3 6"/>
+          <circle class="node" cx="52" cy="80" r="7"/>
+          <circle class="node" cx="180" cy="48" r="7"/>
+          <circle class="node" cx="300" cy="120" r="7"/>
+          <circle class="node" cx="96" cy="240" r="7"/>
+          <circle class="node" cx="230" cy="250" r="7"/>
+          <text class="node-label" x="64" y="84">{{ t.mesh_lan }}</text>
+          <text class="node-label" x="190" y="44">{{ t.mesh_you }}</text>
+          <text class="node-label" x="310" y="116">{{ t.mesh_peer }}</text>
+          <text class="node-label" x="108" y="244">{{ t.mesh_relay }}</text>
+          <text class="node-label" x="242" y="254">{{ t.mesh_server }}</text>
+        </svg>
+        <div class="phone">
+          <div class="phone-top">
+            <div>
+              <div class="phone-name">{{ t.phone_peer }}</div>
+              <div class="phone-status">{{ t.phone_status }}</div>
+            </div>
+          </div>
+          <div class="bubble in">{{ t.phone_in }}</div>
+          <div class="bubble out">{{ t.phone_out }}<span class="meta">{{ t.phone_meta }}</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="wrap section">
+      <p class="kicker">{{ t.features_kicker }}</p>
+      <h2>{{ t.features_title }}</h2>
+      <div class="cards">
+        {% for item in t.features %}
+          <article class="card">
+            <h3>{{ item.title }}</h3>
+            <p>{{ item.body }}</p>
+          </article>
+        {% endfor %}
+      </div>
+    </section>
+
+    <section class="wrap section">
+      <p class="kicker">{{ t.how_kicker }}</p>
+      <h2>{{ t.how_title }}</h2>
+      <div class="steps">
+        {% for item in t.steps %}
+          <article class="step">
+            <div class="n">{{ item.n }}</div>
+            <h3>{{ item.title }}</h3>
+            <p>{{ item.body }}</p>
+          </article>
+        {% endfor %}
+      </div>
+    </section>
+
+    <section class="wrap section">
+      <p class="kicker">{{ t.platforms_kicker }}</p>
+      <h2>{{ t.platforms_title }}</h2>
+      <div class="plats">
+        {% for item in t.platforms %}
+          <article class="plat">
+            <div class="glyph">{{ item.name | slice: 0, 1 }}</div>
+            <div>
+              <h3>{{ item.name }}</h3>
+              <p>{{ item.detail }}</p>
+            </div>
+          </article>
+        {% endfor %}
+      </div>
+    </section>
+
+    <section class="wrap section">
+      <div class="source-block">
+        <div class="prose">
+          <p class="kicker">{{ t.source_kicker }}</p>
+          <h2>{{ t.source_title }}</h2>
+          <p>{{ t.source_body }}</p>
+        </div>
+        <a class="btn" href="{{ site.github_repo }}/tree/{{ site.github_branch }}">{{ t.cta_source }}</a>
+      </div>
+      <aside class="disclaimer">
+        <h3>{{ t.disclaimer_title }}</h3>
+        <p>{{ t.disclaimer_body }}</p>
+      </aside>
+    </section>
+  </main>
+  <footer class="wrap site-footer">
+    <span>{{ t.footer_product }}</span>
+    <span>{{ t.footer_protocol }}</span>
+    <span>{{ t.footer_draft }}</span>
+  </footer>
+</body>
+</html>

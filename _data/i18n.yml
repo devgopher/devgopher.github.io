@@ -1,0 +1,293 @@
+en:
+  html_lang: en
+  locale: en
+  meta_title: Iskra — mesh-first messenger (draft 0.1)
+  meta_description: "Iskra combines client–server and mesh. Run several servers on Windows or Linux. Cross-platform client: Windows, Linux, Android, and iOS."
+  draft_label: Draft
+  version_label: "0.1"
+  nav_source: Source
+  hero_kicker: Mesh-first messenger
+  hero_title: Reliability, resilience, security.
+  hero_lead: "Iskra is a messenger that combines client–server and mesh approaches: you can switch between them or use them together. You can run several servers, deployed on Windows or Linux. The messenger itself is cross-platform: Windows, Linux, Android, and iOS."
+  cta_source: View the code
+  cta_branch: "Branch dev/0.1"
+  phone_peer: Lena
+  phone_status: 2 hops · UDP
+  phone_in: Can you hear me over the mesh?
+  phone_out: Spark received.
+  phone_meta: via relay
+  mesh_you: you
+  mesh_lan: LAN
+  mesh_peer: peer
+  mesh_relay: relay
+  mesh_server: server
+  features_kicker: What it does
+  features_title: Mesh (and/or) server
+  features:
+    - title: Peer-to-peer first
+      body: Discovers peers on the local network over UDP and sends directly when an address is known.
+    - title: Short mesh
+      body: If there is no direct route, Iskra searches a small graph — one to three hops — and may relay through nodes it already trusts.
+    - title: BLE, when it helps
+      body: Bluetooth Low Energy can carry the same encrypted sessions over radio.
+    - title: Opaque on the server
+      body: The optional HTTPS server stores ciphertext only. It forwards blobs, receipts, and presence. It does not read chats.
+    - title: Local-first account
+      body: Registration and chats live on the device. Add people with a QR code. No data such as a phone number, email, or similar is required for identification.
+    - title: Cross-platform
+      body: The messenger runs on Windows, Linux, Android, and iOS. Servers can be deployed on Windows or Linux.
+  how_kicker: How a message travels
+  how_title: Four ways a spark can move.
+  steps:
+    - n: "01"
+      title: Direct
+      body: Last known UDP address, same LAN, or a scanned QR peer.
+    - n: "02"
+      title: Relay
+      body: A short chain of nodes (max 1–3 hops) strips and forwards the packet.
+    - n: "03"
+      title: BLE
+      body: Bluetooth Low Energy transport for the same session when radio range beats the network.
+    - n: "04"
+      title: Store-and-forward
+      body: If nobody is reachable, the server keeps the sealed payload until the other side polls.
+  platforms_kicker: Platforms
+  platforms_title: Available on these platforms
+  platforms:
+    - name: Windows
+      detail: Client. You can also host a server here.
+    - name: Linux
+      detail: Client. You can also host a server here.
+    - name: Android
+      detail: Client.
+    - name: iOS
+      detail: Client.
+  source_kicker: Source
+  source_title: Iskra is the product. ShortP2P is the protocol.
+  source_body: The MAUI app lives in Iskra.MAUI. Mesh, crypto, discovery, and the optional messenger server live in the ShortP2P tree. This site is a landing draft for branch 0.1 — not a shipping announcement.
+  disclaimer_title: Honest limits
+  disclaimer_body: This is research and demonstration code. Mesh depth, key sizes, and packet limits are experimental. Do not treat 0.1 as a production threat model, and do not send secrets you cannot afford to lose.
+  footer_product: Iskra
+  footer_protocol: Protocol ShortP2P
+  footer_draft: Landing draft · not a release
+
+ru:
+  html_lang: ru
+  locale: ru
+  meta_title: Iskra — мессенджер с ячеистой сетью (черновик 0.1)
+  meta_description: "Iskra — мессенджер, сочетающий работу через сервер и ячеистую сеть. Несколько серверов на Windows или Linux. Приложение: Windows, Linux, Android, iOS."
+  draft_label: Черновик
+  version_label: "0.1"
+  nav_source: Исходный код
+  hero_kicker: Мессенджер с ячеистой сетью
+  hero_title: Надежность, устойчивость, безопасность.
+  hero_lead: "Iskra — мессенджер, сочетающий работу через сервер и ячеистую сеть: можно переключаться между ними и сочетать их. Серверов может быть несколько; их можно развернуть на устройствах под управлением Windows или Linux. Приложение доступно на Windows, Linux, Android и iOS."
+  cta_source: Смотреть код
+  cta_branch: "Ветка dev/0.1"
+  phone_peer: Лена
+  phone_status: 2 узла · UDP
+  phone_in: Слышишь меня через сеть?
+  phone_out: Искра дошла.
+  phone_meta: через узел
+  mesh_you: вы
+  mesh_lan: ЛВС
+  mesh_peer: узел
+  mesh_relay: ретрансляция
+  mesh_server: сервер
+  features_kicker: Что умеет
+  features_title: Mesh (and/or) server
+  features:
+    - title: Сначала напрямую
+      body: Находит участников в локальной сети по UDP и отправляет напрямую, если известен адрес.
+    - title: Короткая ячеистая сеть
+      body: Нет прямого маршрута — ищет по небольшому графу (1–3 узла) и может передавать через уже знакомые узлы.
+    - title: BLE, когда он к месту
+      body: Bluetooth Low Energy может нести тот же зашифрованный сеанс по радио.
+    - title: Сервер как передающее звено
+      body: Необязательный сервер хранит только шифротекст. Передаёт пакеты, квитанции и сведения о присутствии. Переписку не читает.
+    - title: Учётная запись на устройстве
+      body: Регистрация и чаты хранятся на устройстве. Людей добавляете по QR-коду. Для идентификации не требуются никакие данные вроде номера телефона, электронной почты и прочего.
+    - title: Несколько платформ
+      body: Приложение работает на Windows, Linux, Android и iOS. Серверы можно развернуть на Windows или Linux.
+  how_kicker: Как идёт сообщение
+  how_title: Четыре способа донести искру.
+  steps:
+    - n: "01"
+      title: Напрямую
+      body: Последний UDP-адрес, та же локальная сеть или участник с QR-кода.
+    - n: "02"
+      title: Ретрансляция
+      body: Короткая цепочка узлов (не больше 1–3) снимает заголовок и передаёт пакет дальше.
+    - n: "03"
+      title: BLE
+      body: Передача по Bluetooth Low Energy для того же сеанса, когда радио ближе, чем сеть.
+    - n: "04"
+      title: Хранение и пересылка
+      body: Если никто не отвечает, сервер держит запечатанное содержимое, пока вторая сторона его не заберёт.
+  platforms_kicker: Платформы
+  platforms_title: Доступен для платформ
+  platforms:
+    - name: Windows
+      detail: Клиент. Здесь также можно развернуть сервер.
+    - name: Linux
+      detail: Клиент. Здесь также можно развернуть сервер.
+    - name: Android
+      detail: Клиент.
+    - name: iOS
+      detail: Клиент.
+  source_kicker: Исходники
+  source_title: Iskra — продукт. ShortP2P — протокол.
+  source_body: Клиент MAUI — в Iskra.MAUI. Ячеистая сеть, шифрование, обнаружение узлов и необязательный сервер — в дереве ShortP2P. Этот сайт — черновик лендинга для ветки 0.1, а не анонс выпуска.
+  disclaimer_title: Честные ограничения
+  disclaimer_body: Это исследовательский и демонстрационный код. Глубина ячеистой сети, размеры ключей и пределы пакетов экспериментальные. Не воспринимайте 0.1 как боевую модель угроз и не отправляйте сведения, которые нельзя потерять.
+  footer_product: Iskra
+  footer_protocol: Протокол ShortP2P
+  footer_draft: Черновик страницы · не выпуск
+
+es:
+  html_lang: es
+  locale: es
+  meta_title: Iskra — mensajero mesh (borrador 0.1)
+  meta_description: "Iskra combina cliente-servidor y mesh. Varios servidores en Windows o Linux. Cliente multiplataforma: Windows, Linux, Android e iOS."
+  draft_label: Borrador
+  version_label: "0.1"
+  nav_source: Código
+  hero_kicker: Mensajero con mesh primero
+  hero_title: Fiabilidad, resiliencia, seguridad.
+  hero_lead: "Iskra es un mensajero que combina el enfoque cliente-servidor y el mesh: puedes pasar de uno a otro o combinarlos. Puede haber varios servidores, desplegados en Windows o Linux. El propio mensajero es multiplataforma: Windows, Linux, Android e iOS."
+  cta_source: Ver el código
+  cta_branch: "Rama dev/0.1"
+  phone_peer: Lena
+  phone_status: 2 saltos · UDP
+  phone_in: ¿Me oyes a través de la malla?
+  phone_out: Chispa recibida.
+  phone_meta: vía relevo
+  mesh_you: tú
+  mesh_lan: LAN
+  mesh_peer: par
+  mesh_relay: relevo
+  mesh_server: servidor
+  features_kicker: Qué hace
+  features_title: Mesh (and/or) server
+  features:
+    - title: Primero punto a punto
+      body: Descubre pares en la red local por UDP y envía en directo cuando conoce una dirección.
+    - title: Malla corta
+      body: Si no hay ruta directa, Iskra busca en un grafo pequeño — de uno a tres saltos — y puede retransmitir por nodos que ya conoce.
+    - title: BLE, cuando ayuda
+      body: Bluetooth Low Energy puede llevar las mismas sesiones cifradas por radio.
+    - title: Opaco en el servidor
+      body: El servidor HTTPS opcional guarda solo texto cifrado. Reenvía blobs, acuses y presencia. No lee los chats.
+    - title: Cuenta en el dispositivo
+      body: El registro y los chats viven en el aparato. Se añade gente con un código QR. No se necesitan datos como número de teléfono, correo electrónico u otros para identificarse.
+    - title: Multiplataforma
+      body: El mensajero corre en Windows, Linux, Android e iOS. Los servidores se despliegan en Windows o Linux.
+  how_kicker: Cómo viaja un mensaje
+  how_title: Cuatro modos de mover una chispa.
+  steps:
+    - n: "01"
+      title: Directo
+      body: Última dirección UDP conocida, la misma LAN o un par leído por QR.
+    - n: "02"
+      title: Relevo
+      body: Una cadena corta de nodos (máximo 1–3 saltos) recorta y reenvía el paquete.
+    - n: "03"
+      title: BLE
+      body: Transporte Bluetooth Low Energy para la misma sesión cuando la radio gana a la red.
+    - n: "04"
+      title: Store-and-forward
+      body: Si nadie está al alcance, el servidor guarda el payload sellado hasta que el otro lado lo recoja.
+  platforms_kicker: Plataformas
+  platforms_title: Disponible en estas plataformas
+  platforms:
+    - name: Windows
+      detail: Cliente; también puedes desplegar un servidor.
+    - name: Linux
+      detail: Cliente; también puedes desplegar un servidor.
+    - name: Android
+      detail: Cliente.
+    - name: iOS
+      detail: Cliente.
+  source_kicker: Código
+  source_title: Iskra es el producto. ShortP2P es el protocolo.
+  source_body: La app MAUI está en Iskra.MAUI. La malla, la criptografía, el discovery y el servidor opcional viven en el árbol ShortP2P. Este sitio es un borrador de landing para la rama 0.1, no un anuncio de lanzamiento.
+  disclaimer_title: Límites honestos
+  disclaimer_body: Es código de investigación y demostración. La profundidad de la malla, el tamaño de las claves y los límites de paquete son experimentales. No trates 0.1 como un modelo de amenazas de producción y no envíes secretos que no puedas permitirte perder.
+  footer_product: Iskra
+  footer_protocol: Protocolo ShortP2P
+  footer_draft: Borrador de landing · no es un lanzamiento
+
+zh:
+  html_lang: zh-Hans
+  locale: zh-Hans
+  meta_title: Iskra — 网状优先的即时通讯（草案 0.1）
+  meta_description: "Iskra 结合客户端-服务器与网状网络。可在 Windows 或 Linux 上部署多台服务器。客户端支持 Windows、Linux、Android 和 iOS。"
+  draft_label: 草案
+  version_label: "0.1"
+  nav_source: 源代码
+  translation_en: This Simplified Chinese page is a draft translation. It may contain inaccuracies. Prefer the English or Russian pages if anything is unclear.
+  translation_zh: 本简体中文页面为草稿译文，可能存在不准确之处。如有疑问，请以英文或俄文页面为准。
+  hero_kicker: 网状优先的即时通讯
+  hero_title: 可靠、韧性、安全。
+  hero_lead: "Iskra 是一款结合客户端-服务器与网状（mesh）两种方式的即时通讯应用：可以在两者之间切换，也可以同时使用。服务器可以有多台，可部署在 Windows 或 Linux 设备上。应用本身跨平台：Windows、Linux、Android 和 iOS。"
+  cta_source: 查看代码
+  cta_branch: "分支 dev/0.1"
+  phone_peer: 莉娜
+  phone_status: 2 跳 · UDP
+  phone_in: 网状网络那边听得到吗？
+  phone_out: 火花已收到。
+  phone_meta: 经中继
+  mesh_you: 你
+  mesh_lan: 局域网
+  mesh_peer: 对端
+  mesh_relay: 中继
+  mesh_server: 服务器
+  features_kicker: 它能做什么
+  features_title: Mesh (and/or) server
+  features:
+    - title: 点对点优先
+      body: 通过 UDP 在局域网发现对端，若已知地址则直接发送。
+    - title: 短距离网状网络
+      body: 没有直达路由时，Iskra 在小图上搜索——1 到 3 跳——并可通过已信任的节点中继。
+    - title: 需要时使用 BLE
+      body: 低功耗蓝牙（BLE）可承载同一加密会话。
+    - title: 对服务器不透明
+      body: 可选的 HTTPS 服务器只存储密文。它转发数据块、回执和在线状态，不阅读聊天内容。
+    - title: 账号留在本机
+      body: 注册和聊天保存在设备上。用二维码添加联系人。身份识别不需要电话号码、电子邮件等任何此类数据。
+    - title: 跨平台
+      body: 应用可在 Windows、Linux、Android 和 iOS 上运行。服务器可部署在 Windows 或 Linux。
+  how_kicker: 消息如何走
+  how_title: 火花移动的四种方式。
+  steps:
+    - n: "01"
+      title: 直达
+      body: 上次已知的 UDP 地址、同一局域网，或扫码得到的对端。
+    - n: "02"
+      title: 中继
+      body: 短节点链（最多 1–3 跳）剥离并转发数据包。
+    - n: "03"
+      title: BLE
+      body: 低功耗蓝牙（BLE）传输，在无线电比网络更近时使用同一会话。
+    - n: "04"
+      title: 存储转发
+      body: 如果无人可达，服务器保存密封载荷，直到对方取走。
+  platforms_kicker: 平台
+  platforms_title: 可用于以下平台
+  platforms:
+    - name: Windows
+      detail: 客户端；也可在此部署服务器。
+    - name: Linux
+      detail: 客户端；也可在此部署服务器。
+    - name: Android
+      detail: 客户端。
+    - name: iOS
+      detail: 客户端。
+  source_kicker: 源码
+  source_title: Iskra 是产品。ShortP2P 是协议。
+  source_body: MAUI 应用位于 Iskra.MAUI。网状网络、加密、发现以及可选的消息服务器位于 ShortP2P 目录。本站是 0.1 分支的着陆页草稿，不是发版公告。
+  disclaimer_title: 诚实的限制
+  disclaimer_body: 这是研究与演示代码。网状深度、密钥长度和数据包限制都是实验性的。不要把 0.1 当作生产环境的威胁模型，也不要发送你无法承受泄露的秘密。
+  footer_product: Iskra
+  footer_protocol: 协议 ShortP2P
+  footer_draft: 着陆页草稿 · 非正式发布
