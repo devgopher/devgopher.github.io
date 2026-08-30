@@ -122,7 +122,9 @@
       <div class="plats">
         {% for item in t.platforms %}
           <article class="plat">
-            <div class="glyph">{{ item.name | slice: 0, 1 }}</div>
+            <div class="os-mark">
+              <img src="{{ item.name | downcase | prepend: '/assets/img/os/' | append: '.svg' | relative_url }}" alt="" width="28" height="28">
+            </div>
             <div>
               <h3>{{ item.name }}</h3>
               <p>{{ item.detail }}</p>
