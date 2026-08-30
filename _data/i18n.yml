@@ -53,9 +53,10 @@ en:
       body: If nobody is reachable, the server keeps the sealed payload until the other side polls.
   platforms_kicker: Platforms
   platforms_title: Available on these platforms
+  platforms_note: We aim to support a wide range of devices, including ones that are considered outdated today (Windows 7).
   platforms:
     - name: Windows
-      detail: Client. You can also host a server here.
+      detail: Client, including Windows 7. You can also host a server here.
     - name: Linux
       detail: Client. You can also host a server here.
     - name: Android
@@ -126,9 +127,10 @@ ru:
       body: Если никто не отвечает, сервер держит запечатанное содержимое, пока вторая сторона его не заберёт.
   platforms_kicker: Платформы
   platforms_title: Доступен для платформ
+  platforms_note: Мы стараемся поддерживать широкий спектр устройств, в том числе те, что сегодня считают устаревшими (Windows 7).
   platforms:
     - name: Windows
-      detail: Клиент. Здесь также можно развернуть сервер.
+      detail: Клиент, в том числе Windows 7. Здесь также можно развернуть сервер.
     - name: Linux
       detail: Клиент. Здесь также можно развернуть сервер.
     - name: Android
@@ -199,9 +201,10 @@ es:
       body: Si nadie está al alcance, el servidor guarda el payload sellado hasta que el otro lado lo recoja.
   platforms_kicker: Plataformas
   platforms_title: Disponible en estas plataformas
+  platforms_note: Procuramos dar soporte a una amplia gama de dispositivos, incluidos los que hoy se consideran obsoletos (Windows 7).
   platforms:
     - name: Windows
-      detail: Cliente; también puedes desplegar un servidor.
+      detail: Cliente, incluido Windows 7. También puedes desplegar un servidor.
     - name: Linux
       detail: Cliente; también puedes desplegar un servidor.
     - name: Android
@@ -274,9 +277,10 @@ zh:
       body: 如果无人可达，服务器保存密封载荷，直到对方取走。
   platforms_kicker: 平台
   platforms_title: 可用于以下平台
+  platforms_note: 我们尽量支持广泛的设备，包括如今被视为过时的设备（Windows 7）。
   platforms:
     - name: Windows
-      detail: 客户端；也可在此部署服务器。
+      detail: 客户端，含 Windows 7。也可在此部署服务器。
     - name: Linux
       detail: 客户端；也可在此部署服务器。
     - name: Android

@@ -412,6 +412,13 @@ h2 {
   margin: 10px 0 8px;
 }
 
+.plats-note {
+  margin: -12px 0 24px;
+  max-width: 42rem;
+  color: var(--muted);
+  font-size: 0.98rem;
+}
+
 .plats {
   display: grid;
   grid-template-columns: 1fr 1fr;
