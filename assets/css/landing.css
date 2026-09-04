@@ -132,9 +132,9 @@ img {
 }
 
 .brand img.logo {
-  height: 44px;
-  width: auto;
-  max-width: min(220px, 52vw);
+  height: 48px;
+  width: 48px;
+  object-fit: contain;
 }
 
 .langs {
@@ -523,7 +523,8 @@ h2 {
   }
 
   .brand img.logo {
-    height: 38px;
+    height: 40px;
+    width: 40px;
   }
 
   h1 {
