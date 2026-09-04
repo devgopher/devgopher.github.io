@@ -10,6 +10,8 @@
   <link rel="canonical" href="{{ page.url | absolute_url }}">
   <link rel="alternate" hreflang="en" href="{{ '/iskra/' | absolute_url }}">
   <link rel="alternate" hreflang="ru" href="{{ '/iskra/ru/' | absolute_url }}">
+  <link rel="alternate" hreflang="de" href="{{ '/iskra/de/' | absolute_url }}">
+  <link rel="alternate" hreflang="fr" href="{{ '/iskra/fr/' | absolute_url }}">
   <link rel="alternate" hreflang="es" href="{{ '/iskra/es/' | absolute_url }}">
   <link rel="alternate" hreflang="zh-Hans" href="{{ '/iskra/zh/' | absolute_url }}">
   <link rel="icon" href="{{ '/assets/img/logo-mark.png' | relative_url }}" type="image/png">
@@ -33,6 +35,8 @@
       <nav class="langs" aria-label="Language">
         <a href="{{ '/iskra/' | relative_url }}" {% if page.lang == 'en' %}aria-current="page"{% endif %}>EN</a>
         <a href="{{ '/iskra/ru/' | relative_url }}" {% if page.lang == 'ru' %}aria-current="page"{% endif %}>RU</a>
+        <a href="{{ '/iskra/de/' | relative_url }}" {% if page.lang == 'de' %}aria-current="page"{% endif %}>DE</a>
+        <a href="{{ '/iskra/fr/' | relative_url }}" {% if page.lang == 'fr' %}aria-current="page"{% endif %}>FR</a>
         <a href="{{ '/iskra/es/' | relative_url }}" {% if page.lang == 'es' %}aria-current="page"{% endif %}>ES</a>
         <a href="{{ '/iskra/zh/' | relative_url }}" {% if page.lang == 'zh' %}aria-current="page"{% endif %}>中文</a>
       </nav>

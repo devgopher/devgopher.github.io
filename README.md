@@ -6,6 +6,8 @@ Jekyll landing for [Iskra.MAUI](https://github.com/IskraMessenger/Iskra.MAUI/tre
 |----------|------|
 | English | `/iskra/` |
 | Russian | `/iskra/ru/` |
+| German | `/iskra/de/` |
+| French | `/iskra/fr/` |
 | Spanish | `/iskra/es/` |
 | Simplified Chinese | `/iskra/zh/` |
 

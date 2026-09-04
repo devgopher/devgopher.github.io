@@ -295,3 +295,151 @@ zh:
   footer_product: Iskra
   footer_protocol: 协议 ShortP2P
   footer_draft: 着陆页草稿 · 非正式发布
+
+de:
+  html_lang: de
+  locale: de
+  meta_title: Iskra — Mesh-Messenger (Entwurf 0.1)
+  meta_description: "Iskra kombiniert Client-Server und Mesh. Mehrere Server unter Windows oder Linux. Cross-Platform-Client: Windows, Linux, Android und iOS."
+  draft_label: Entwurf
+  version_label: "0.1"
+  nav_source: Quellcode
+  hero_kicker: Mesh-first Messenger
+  hero_title: Zuverlässigkeit, Widerstandsfähigkeit, Sicherheit.
+  hero_lead: "Iskra ist ein Messenger, der Client-Server- und Mesh-Ansätze verbindet: Sie können zwischen ihnen wechseln oder beide zusammen nutzen. Es können mehrere Server laufen, bereitgestellt unter Windows oder Linux. Der Messenger selbst ist plattformübergreifend: Windows, Linux, Android und iOS."
+  cta_source: Code ansehen
+  cta_branch: "Branch dev/0.1"
+  phone_peer: Lena
+  phone_status: 2 Hops · UDP
+  phone_in: Hörst du mich über das Mesh?
+  phone_out: Funke empfangen.
+  phone_meta: über Relay
+  mesh_you: du
+  mesh_lan: LAN
+  mesh_peer: Peer
+  mesh_relay: Relay
+  mesh_server: Server
+  features_kicker: Was es kann
+  features_title: Mesh (and/or) server
+  features:
+    - title: Zuerst Peer-to-Peer
+      body: Findet Peers im lokalen Netz per UDP und sendet direkt, wenn eine Adresse bekannt ist.
+    - title: Kurzes Mesh
+      body: Ohne direkte Route sucht Iskra in einem kleinen Graphen — ein bis drei Hops — und kann über bereits vertrauenswürdige Knoten weiterleiten.
+    - title: BLE, wenn es hilft
+      body: Bluetooth Low Energy kann dieselben verschlüsselten Sitzungen über Funk tragen.
+    - title: Undurchsichtig auf dem Server
+      body: Der optionale HTTPS-Server speichert nur Ciphertext. Er leitet Blobs, Empfangsbestätigungen und Präsenz weiter. Chats liest er nicht.
+    - title: Konto zuerst lokal
+      body: Registrierung und Chats liegen auf dem Gerät. Kontakte kommen per QR-Code. Für die Identifikation sind weder Telefonnummer noch E-Mail oder Ähnliches nötig.
+    - title: Plattformübergreifend
+      body: Der Messenger läuft unter Windows, Linux, Android und iOS. Server können unter Windows oder Linux bereitgestellt werden.
+  how_kicker: Wie eine Nachricht wandert
+  how_title: Vier Wege, wie ein Funke sich bewegen kann.
+  steps:
+    - n: "01"
+      title: Direkt
+      body: Zuletzt bekannte UDP-Adresse, dasselbe LAN oder ein per QR gescannter Peer.
+    - n: "02"
+      title: Relay
+      body: Eine kurze Kette von Knoten (max. 1–3 Hops) entfernt Hüllen und leitet das Paket weiter.
+    - n: "03"
+      title: BLE
+      body: Bluetooth-Low-Energy-Transport für dieselbe Sitzung, wenn Funkreichweite das Netz schlägt.
+    - n: "04"
+      title: Store-and-forward
+      body: Ist niemand erreichbar, behält der Server die versiegelte Nutzlast, bis die andere Seite abruft.
+  platforms_kicker: Plattformen
+  platforms_title: Verfügbar auf diesen Plattformen
+  platforms_note: Wir wollen ein breites Spektrum an Geräten unterstützen, auch solche, die heute als veraltet gelten (Windows 7).
+  platforms:
+    - name: Windows
+      detail: Client, einschließlich Windows 7. Hier kann auch ein Server gehostet werden.
+    - name: Linux
+      detail: Client. Hier kann auch ein Server gehostet werden.
+    - name: Android
+      detail: Client.
+    - name: iOS
+      detail: Client.
+  source_kicker: Quellcode
+  source_title: Iskra ist das Produkt. ShortP2P ist das Protokoll.
+  source_body: Die MAUI-App liegt in Iskra.MAUI. Mesh, Krypto, Discovery und der optionale Messenger-Server liegen im ShortP2P-Baum. Diese Seite ist ein Landing-Entwurf für den Branch 0.1 — keine Versandankündigung.
+  disclaimer_title: Ehrliche Grenzen
+  disclaimer_body: Das ist Forschungs- und Demonstrationscode. Mesh-Tiefe, Schlüsselgrößen und Paketlimits sind experimentell. Behandeln Sie 0.1 nicht als Produktions-Bedrohungsmodell und senden Sie keine Geheimnisse, deren Verlust Sie sich nicht leisten können.
+  footer_product: Iskra
+  footer_protocol: Protokoll ShortP2P
+  footer_draft: Landing-Entwurf · keine Veröffentlichung
+
+fr:
+  html_lang: fr
+  locale: fr
+  meta_title: Iskra — messagerie mesh (brouillon 0.1)
+  meta_description: "Iskra combine client-serveur et mesh. Plusieurs serveurs sous Windows ou Linux. Client multiplateforme : Windows, Linux, Android et iOS."
+  draft_label: Brouillon
+  version_label: "0.1"
+  nav_source: Code source
+  hero_kicker: Messagerie mesh d’abord
+  hero_title: Fiabilité, résilience, sécurité.
+  hero_lead: "Iskra est une messagerie qui combine les approches client-serveur et mesh : vous pouvez passer de l’une à l’autre ou les utiliser ensemble. Vous pouvez faire tourner plusieurs serveurs, déployés sous Windows ou Linux. Le client est multiplateforme : Windows, Linux, Android et iOS."
+  cta_source: Voir le code
+  cta_branch: "Branche dev/0.1"
+  phone_peer: Léna
+  phone_status: 2 sauts · UDP
+  phone_in: Tu m’entends via le mesh ?
+  phone_out: Étincelle reçue.
+  phone_meta: via relais
+  mesh_you: vous
+  mesh_lan: LAN
+  mesh_peer: pair
+  mesh_relay: relais
+  mesh_server: serveur
+  features_kicker: Ce qu’elle fait
+  features_title: Mesh (and/or) server
+  features:
+    - title: Pair à pair d’abord
+      body: Découvre les pairs sur le réseau local en UDP et envoie directement lorsqu’une adresse est connue.
+    - title: Mesh court
+      body: S’il n’y a pas de route directe, Iskra cherche dans un petit graphe — un à trois sauts — et peut relayer via des nœuds déjà de confiance.
+    - title: BLE, quand c’est utile
+      body: Le Bluetooth Low Energy peut porter les mêmes sessions chiffrées par radio.
+    - title: Opaque sur le serveur
+      body: Le serveur HTTPS optionnel ne stocke que du texte chiffré. Il transmet blobs, accusés et présence. Il ne lit pas les chats.
+    - title: Compte d’abord local
+      body: L’inscription et les chats restent sur l’appareil. On ajoute des contacts avec un QR code. Aucune donnée telle qu’un numéro de téléphone, un e-mail ou similaire n’est requise pour l’identification.
+    - title: Multiplateforme
+      body: La messagerie tourne sous Windows, Linux, Android et iOS. Les serveurs peuvent être déployés sous Windows ou Linux.
+  how_kicker: Comment voyage un message
+  how_title: Quatre façons de faire circuler une étincelle.
+  steps:
+    - n: "01"
+      title: Direct
+      body: Dernière adresse UDP connue, même LAN, ou pair scanné par QR.
+    - n: "02"
+      title: Relais
+      body: Une courte chaîne de nœuds (max. 1–3 sauts) retire les enveloppes et transmet le paquet.
+    - n: "03"
+      title: BLE
+      body: Transport Bluetooth Low Energy pour la même session lorsque la radio bat le réseau.
+    - n: "04"
+      title: Store-and-forward
+      body: Si personne n’est joignable, le serveur garde la charge scellée jusqu’à ce que l’autre côté la récupère.
+  platforms_kicker: Plateformes
+  platforms_title: Disponible sur ces plateformes
+  platforms_note: Nous visons à prendre en charge un large éventail d’appareils, y compris ceux considérés comme obsolètes aujourd’hui (Windows 7).
+  platforms:
+    - name: Windows
+      detail: Client, y compris Windows 7. Vous pouvez aussi héberger un serveur ici.
+    - name: Linux
+      detail: Client. Vous pouvez aussi héberger un serveur ici.
+    - name: Android
+      detail: Client.
+    - name: iOS
+      detail: Client.
+  source_kicker: Code source
+  source_title: Iskra est le produit. ShortP2P est le protocole.
+  source_body: L’app MAUI vit dans Iskra.MAUI. Le mesh, la crypto, la découverte et le serveur de messagerie optionnel vivent dans l’arbre ShortP2P. Ce site est un brouillon de landing pour la branche 0.1 — pas une annonce de sortie.
+  disclaimer_title: Limites honnêtes
+  disclaimer_body: C’est du code de recherche et de démonstration. La profondeur du mesh, la taille des clés et les limites de paquet sont expérimentales. Ne traitez pas 0.1 comme un modèle de menaces de production, et n’envoyez pas de secrets que vous ne pouvez pas vous permettre de perdre.
+  footer_product: Iskra
+  footer_protocol: Protocole ShortP2P
+  footer_draft: Brouillon de landing · pas une publication
