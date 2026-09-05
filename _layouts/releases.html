@@ -1,0 +1,51 @@
+{% assign t = site.data.i18n[page.lang] %}
+<!DOCTYPE html>
+<html lang="{{ t.html_lang }}">
+<head>
+  {% include site-head.html %}
+</head>
+<body>
+  {% include site-header.html %}
+  <main id="main">
+    <section class="wrap section releases-hero">
+      <p class="kicker">{{ t.releases_kicker }}</p>
+      <h1>{{ t.releases_title }}</h1>
+      <p class="lead">{{ t.releases_lead }}</p>
+    </section>
+
+    <section class="wrap section releases-list" aria-label="{{ t.releases_title }}">
+      {% if site.data.releases.size == 0 %}
+        <p class="releases-empty">{{ t.releases_empty }}</p>
+        <a class="btn" href="{{ site.github_repo }}/tree/{{ site.github_branch }}">{{ t.cta_source }}</a>
+      {% else %}
+        {% for release in site.data.releases %}
+          {% assign note = release.notes[page.lang] | default: release.notes.en %}
+          {% assign release_title = release.title[page.lang] | default: release.title.en %}
+          {% if release.channel == 'stable' %}
+            {% assign channel_label = t.channel_stable %}
+          {% else %}
+            {% assign channel_label = t.channel_draft %}
+          {% endif %}
+          <article class="release" id="v{{ release.version | slugify }}">
+            <header class="release-head">
+              <div class="release-meta">
+                <span class="release-version">{{ release.version }}</span>
+                <span class="release-channel">{{ channel_label }}</span>
+                <time class="release-date" datetime="{{ release.date }}">{{ release.date }}</time>
+              </div>
+              <h2>{{ release_title }}</h2>
+            </header>
+            <div class="release-notes">
+              {{ note | markdownify }}
+            </div>
+            {% if release.github_url %}
+              <a class="release-link" href="{{ release.github_url }}">{{ t.releases_view }}</a>
+            {% endif %}
+          </article>
+        {% endfor %}
+      {% endif %}
+    </section>
+  </main>
+  {% include site-footer.html %}
+</body>
+</html>

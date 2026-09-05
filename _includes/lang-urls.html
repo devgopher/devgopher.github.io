@@ -1,0 +1,35 @@
+{% case page.lang %}
+  {% when 'ru' %}
+    {% assign home_url = '/iskra/ru/' %}
+    {% assign releases_url = '/iskra/ru/releases/' %}
+  {% when 'de' %}
+    {% assign home_url = '/iskra/de/' %}
+    {% assign releases_url = '/iskra/de/releases/' %}
+  {% when 'fr' %}
+    {% assign home_url = '/iskra/fr/' %}
+    {% assign releases_url = '/iskra/fr/releases/' %}
+  {% when 'es' %}
+    {% assign home_url = '/iskra/es/' %}
+    {% assign releases_url = '/iskra/es/releases/' %}
+  {% when 'zh' %}
+    {% assign home_url = '/iskra/zh/' %}
+    {% assign releases_url = '/iskra/zh/releases/' %}
+  {% else %}
+    {% assign home_url = '/iskra/' %}
+    {% assign releases_url = '/iskra/releases/' %}
+{% endcase %}
+{% if page.section == 'releases' %}
+  {% assign en_alt = '/iskra/releases/' %}
+  {% assign ru_alt = '/iskra/ru/releases/' %}
+  {% assign de_alt = '/iskra/de/releases/' %}
+  {% assign fr_alt = '/iskra/fr/releases/' %}
+  {% assign es_alt = '/iskra/es/releases/' %}
+  {% assign zh_alt = '/iskra/zh/releases/' %}
+{% else %}
+  {% assign en_alt = '/iskra/' %}
+  {% assign ru_alt = '/iskra/ru/' %}
+  {% assign de_alt = '/iskra/de/' %}
+  {% assign fr_alt = '/iskra/fr/' %}
+  {% assign es_alt = '/iskra/es/' %}
+  {% assign zh_alt = '/iskra/zh/' %}
+{% endif %}

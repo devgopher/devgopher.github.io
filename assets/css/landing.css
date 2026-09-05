@@ -137,6 +137,31 @@ img {
   object-fit: contain;
 }
 
+.primary-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-left: 12px;
+}
+
+.primary-nav a {
+  text-decoration: none;
+  font-size: 13px;
+  letter-spacing: 0.04em;
+  padding: 8px 12px;
+  color: #5c5e8f;
+  border-bottom: 2px solid transparent;
+}
+
+.primary-nav a[aria-current="page"] {
+  color: var(--navy);
+  border-bottom-color: var(--coral);
+}
+
+.primary-nav a:hover {
+  color: var(--navy);
+}
+
 .langs {
   display: flex;
   flex-wrap: wrap;
@@ -486,6 +511,95 @@ h2 {
   font-size: 13px;
 }
 
+.releases-hero {
+  padding-top: 48px;
+  padding-bottom: 12px;
+}
+
+.releases-hero h1 {
+  font-size: clamp(2.2rem, 5vw, 3.6rem);
+}
+
+.releases-list {
+  padding-top: 12px;
+  display: grid;
+  gap: 28px;
+}
+
+.releases-empty {
+  color: var(--muted);
+  max-width: 40rem;
+}
+
+.release {
+  padding: 28px 0;
+  border-top: 1px solid var(--line);
+}
+
+.release:first-child {
+  border-top: none;
+  padding-top: 0;
+}
+
+.release-head h2 {
+  margin: 10px 0 0;
+  font-size: clamp(1.5rem, 3vw, 2rem);
+}
+
+.release-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px 14px;
+  font-family: var(--mono);
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.release-version {
+  color: var(--ember);
+}
+
+.release-channel {
+  padding: 3px 8px;
+  border: 1px solid rgba(255, 106, 0, 0.35);
+  color: #ffb089;
+}
+
+.release-date {
+  color: var(--muted);
+}
+
+.release-notes {
+  margin-top: 16px;
+  max-width: 44rem;
+  color: #d7cfc4;
+}
+
+.release-notes ul {
+  margin: 0;
+  padding-left: 1.2em;
+}
+
+.release-notes li + li {
+  margin-top: 8px;
+}
+
+.release-link {
+  display: inline-block;
+  margin-top: 18px;
+  font-size: 14px;
+  color: var(--ember);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(255, 106, 0, 0.35);
+}
+
+.release-link:hover {
+  color: #ffb089;
+  border-bottom-color: #ffb089;
+}
+
 @media (max-width: 900px) {
   .hero,
   .source-block {
@@ -514,6 +628,13 @@ h2 {
 
   .site-header-inner {
     flex-wrap: wrap;
+  }
+
+  .primary-nav {
+    order: 3;
+    width: 100%;
+    margin-left: 0;
+    padding-top: 4px;
   }
 }
 

@@ -1,0 +1,27 @@
+{% assign t = site.data.i18n[page.lang] %}
+{% include lang-urls.html %}
+{% if page.section == 'releases' %}
+  {% assign page_title = t.releases_meta_title %}
+  {% assign page_description = t.releases_meta_description %}
+{% else %}
+  {% assign page_title = t.meta_title %}
+  {% assign page_description = t.meta_description %}
+{% endif %}
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ page_title }}</title>
+<meta name="description" content="{{ page_description }}">
+<meta name="robots" content="noindex">
+<link rel="canonical" href="{{ page.url | absolute_url }}">
+<link rel="alternate" hreflang="en" href="{{ en_alt | absolute_url }}">
+<link rel="alternate" hreflang="ru" href="{{ ru_alt | absolute_url }}">
+<link rel="alternate" hreflang="de" href="{{ de_alt | absolute_url }}">
+<link rel="alternate" hreflang="fr" href="{{ fr_alt | absolute_url }}">
+<link rel="alternate" hreflang="es" href="{{ es_alt | absolute_url }}">
+<link rel="alternate" hreflang="zh-Hans" href="{{ zh_alt | absolute_url }}">
+<link rel="icon" href="{{ '/assets/img/logo-mark.png' | relative_url }}" type="image/png">
+<link rel="apple-touch-icon" href="{{ '/assets/img/logo-mark.png' | relative_url }}">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,560&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Noto+Sans+SC:wght@400;500;600&family=Noto+Serif:wght@500;600&family=Noto+Serif+SC:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ '/assets/css/landing.css' | relative_url }}">

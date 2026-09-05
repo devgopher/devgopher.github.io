@@ -5,7 +5,19 @@ en:
   meta_description: "Iskra combines client–server and mesh. Run several servers on Windows or Linux. Cross-platform client: Windows, Linux, Android, and iOS."
   draft_label: Draft
   version_label: "0.1"
+  nav_aria: Site
+  nav_overview: Overview
+  nav_releases: Releases
   nav_source: Source
+  releases_meta_title: Iskra — releases (draft 0.1)
+  releases_meta_description: "Release notes for Iskra draft builds. Branch 0.1 is research and demonstration code, not a shipping announcement."
+  releases_kicker: Changelog
+  releases_title: Releases
+  releases_lead: Development builds and draft notes for branch 0.1. Nothing here is a production release.
+  releases_empty: No published releases yet. Track the source branch for ongoing work.
+  releases_view: View on GitHub
+  channel_draft: Draft
+  channel_stable: Stable
   hero_kicker: Mesh-first messenger
   hero_title: Reliability, resilience, security.
   hero_lead: "Iskra is a messenger that combines client–server and mesh approaches: you can switch between them or use them together. You can run several servers, deployed on Windows or Linux. The messenger itself is cross-platform: Windows, Linux, Android, and iOS."
@@ -66,8 +78,8 @@ en:
   source_kicker: Source
   source_title: Iskra is the product. ShortP2P is the protocol.
   source_body: The MAUI app lives in Iskra.MAUI. Mesh, crypto, discovery, and the optional messenger server live in the ShortP2P tree. This site is a landing draft for branch 0.1 — not a shipping announcement.
-  disclaimer_title: Honest limits
-  disclaimer_body: This is research and demonstration code. Mesh depth, key sizes, and packet limits are experimental. Do not treat 0.1 as a production threat model, and do not send secrets you cannot afford to lose.
+  disclaimer_title: Early stage
+  disclaimer_body: The project is in an early stage of development.
   footer_product: Iskra
   footer_protocol: Protocol ShortP2P
   footer_draft: Landing draft · not a release
@@ -79,7 +91,19 @@ ru:
   meta_description: "Iskra — мессенджер, сочетающий работу через сервер и ячеистую сеть. Несколько серверов на Windows или Linux. Приложение: Windows, Linux, Android, iOS."
   draft_label: Черновик
   version_label: "0.1"
+  nav_aria: Сайт
+  nav_overview: Обзор
+  nav_releases: Релизы
   nav_source: Исходный код
+  releases_meta_title: Iskra — релизы (черновик 0.1)
+  releases_meta_description: "Заметки о выпусках черновых сборок Iskra. Ветка 0.1 — исследовательский и демонстрационный код, не анонс релиза."
+  releases_kicker: Журнал изменений
+  releases_title: Релизы
+  releases_lead: Черновые сборки и заметки для ветки 0.1. Здесь нет продакшен-релизов.
+  releases_empty: Опубликованных релизов пока нет. Следите за исходной веткой.
+  releases_view: Смотреть на GitHub
+  channel_draft: Черновик
+  channel_stable: Стабильный
   hero_kicker: Мессенджер с ячеистой сетью
   hero_title: Надежность, устойчивость, безопасность.
   hero_lead: "Iskra — мессенджер, сочетающий работу через сервер и ячеистую сеть: можно переключаться между ними и сочетать их. Серверов может быть несколько; их можно развернуть на устройствах под управлением Windows или Linux. Приложение доступно на Windows, Linux, Android и iOS."
@@ -140,8 +164,8 @@ ru:
   source_kicker: Исходники
   source_title: Iskra — продукт. ShortP2P — протокол.
   source_body: Клиент MAUI — в Iskra.MAUI. Ячеистая сеть, шифрование, обнаружение узлов и необязательный сервер — в дереве ShortP2P. Этот сайт — черновик лендинга для ветки 0.1, а не анонс выпуска.
-  disclaimer_title: Честные ограничения
-  disclaimer_body: Это исследовательский и демонстрационный код. Глубина ячеистой сети, размеры ключей и пределы пакетов экспериментальные. Не воспринимайте 0.1 как боевую модель угроз и не отправляйте сведения, которые нельзя потерять.
+  disclaimer_title: Ранняя стадия
+  disclaimer_body: Проект находится в ранней стадии своего развития.
   footer_product: Iskra
   footer_protocol: Протокол ShortP2P
   footer_draft: Черновик страницы · не выпуск
@@ -153,7 +177,19 @@ es:
   meta_description: "Iskra combina cliente-servidor y mesh. Varios servidores en Windows o Linux. Cliente multiplataforma: Windows, Linux, Android e iOS."
   draft_label: Borrador
   version_label: "0.1"
+  nav_aria: Sitio
+  nav_overview: Resumen
+  nav_releases: Lanzamientos
   nav_source: Código
+  releases_meta_title: Iskra — lanzamientos (borrador 0.1)
+  releases_meta_description: "Notas de versiones de los borradores de Iskra. La rama 0.1 es código de investigación y demostración, no un anuncio de lanzamiento."
+  releases_kicker: Registro de cambios
+  releases_title: Lanzamientos
+  releases_lead: Compilaciones de desarrollo y notas borrador para la rama 0.1. Nada de esto es un lanzamiento de producción.
+  releases_empty: Aún no hay lanzamientos publicados. Sigue la rama de código fuente.
+  releases_view: Ver en GitHub
+  channel_draft: Borrador
+  channel_stable: Estable
   hero_kicker: Mensajero con mesh primero
   hero_title: Fiabilidad, resiliencia, seguridad.
   hero_lead: "Iskra es un mensajero que combina el enfoque cliente-servidor y el mesh: puedes pasar de uno a otro o combinarlos. Puede haber varios servidores, desplegados en Windows o Linux. El propio mensajero es multiplataforma: Windows, Linux, Android e iOS."
@@ -214,8 +250,8 @@ es:
   source_kicker: Código
   source_title: Iskra es el producto. ShortP2P es el protocolo.
   source_body: La app MAUI está en Iskra.MAUI. La malla, la criptografía, el discovery y el servidor opcional viven en el árbol ShortP2P. Este sitio es un borrador de landing para la rama 0.1, no un anuncio de lanzamiento.
-  disclaimer_title: Límites honestos
-  disclaimer_body: Es código de investigación y demostración. La profundidad de la malla, el tamaño de las claves y los límites de paquete son experimentales. No trates 0.1 como un modelo de amenazas de producción y no envíes secretos que no puedas permitirte perder.
+  disclaimer_title: Etapa temprana
+  disclaimer_body: El proyecto se encuentra en una etapa temprana de su desarrollo.
   footer_product: Iskra
   footer_protocol: Protocolo ShortP2P
   footer_draft: Borrador de landing · no es un lanzamiento
@@ -227,7 +263,19 @@ zh:
   meta_description: "Iskra 结合客户端-服务器与网状网络。可在 Windows 或 Linux 上部署多台服务器。客户端支持 Windows、Linux、Android 和 iOS。"
   draft_label: 草案
   version_label: "0.1"
+  nav_aria: 站点
+  nav_overview: 概览
+  nav_releases: 发布
   nav_source: 源代码
+  releases_meta_title: Iskra — 发布说明（草案 0.1）
+  releases_meta_description: "Iskra 草案构建的发布说明。0.1 分支为研究与演示代码，不是正式发版公告。"
+  releases_kicker: 更新日志
+  releases_title: 发布
+  releases_lead: 面向 0.1 分支的开发构建与草案说明。此处没有生产环境发布。
+  releases_empty: 尚无已发布版本。请关注源码分支的进展。
+  releases_view: 在 GitHub 上查看
+  channel_draft: 草案
+  channel_stable: 稳定
   translation_en: This Simplified Chinese page is a draft translation. It may contain inaccuracies. Prefer the English or Russian pages if anything is unclear.
   translation_zh: 本简体中文页面为草稿译文，可能存在不准确之处。如有疑问，请以英文或俄文页面为准。
   hero_kicker: 网状优先的即时通讯
@@ -290,8 +338,8 @@ zh:
   source_kicker: 源码
   source_title: Iskra 是产品。ShortP2P 是协议。
   source_body: MAUI 应用位于 Iskra.MAUI。网状网络、加密、发现以及可选的消息服务器位于 ShortP2P 目录。本站是 0.1 分支的着陆页草稿，不是发版公告。
-  disclaimer_title: 诚实的限制
-  disclaimer_body: 这是研究与演示代码。网状深度、密钥长度和数据包限制都是实验性的。不要把 0.1 当作生产环境的威胁模型，也不要发送你无法承受泄露的秘密。
+  disclaimer_title: 早期阶段
+  disclaimer_body: 项目仍处于早期发展阶段。
   footer_product: Iskra
   footer_protocol: 协议 ShortP2P
   footer_draft: 着陆页草稿 · 非正式发布
@@ -303,7 +351,19 @@ de:
   meta_description: "Iskra kombiniert Client-Server und Mesh. Mehrere Server unter Windows oder Linux. Cross-Platform-Client: Windows, Linux, Android und iOS."
   draft_label: Entwurf
   version_label: "0.1"
+  nav_aria: Website
+  nav_overview: Überblick
+  nav_releases: Releases
   nav_source: Quellcode
+  releases_meta_title: Iskra — Releases (Entwurf 0.1)
+  releases_meta_description: "Release Notes zu Iskra-Entwurfsbuilds. Branch 0.1 ist Forschungs- und Demo-Code, keine Versandankündigung."
+  releases_kicker: Changelog
+  releases_title: Releases
+  releases_lead: Entwicklungsbuilds und Entwurfsnotizen für Branch 0.1. Hier gibt es keine Produktionsveröffentlichung.
+  releases_empty: Noch keine veröffentlichten Releases. Folgen Sie dem Quellcode-Branch.
+  releases_view: Auf GitHub ansehen
+  channel_draft: Entwurf
+  channel_stable: Stabil
   hero_kicker: Mesh-first Messenger
   hero_title: Zuverlässigkeit, Widerstandsfähigkeit, Sicherheit.
   hero_lead: "Iskra ist ein Messenger, der Client-Server- und Mesh-Ansätze verbindet: Sie können zwischen ihnen wechseln oder beide zusammen nutzen. Es können mehrere Server laufen, bereitgestellt unter Windows oder Linux. Der Messenger selbst ist plattformübergreifend: Windows, Linux, Android und iOS."
@@ -364,8 +424,8 @@ de:
   source_kicker: Quellcode
   source_title: Iskra ist das Produkt. ShortP2P ist das Protokoll.
   source_body: Die MAUI-App liegt in Iskra.MAUI. Mesh, Krypto, Discovery und der optionale Messenger-Server liegen im ShortP2P-Baum. Diese Seite ist ein Landing-Entwurf für den Branch 0.1 — keine Versandankündigung.
-  disclaimer_title: Ehrliche Grenzen
-  disclaimer_body: Das ist Forschungs- und Demonstrationscode. Mesh-Tiefe, Schlüsselgrößen und Paketlimits sind experimentell. Behandeln Sie 0.1 nicht als Produktions-Bedrohungsmodell und senden Sie keine Geheimnisse, deren Verlust Sie sich nicht leisten können.
+  disclaimer_title: Frühe Phase
+  disclaimer_body: Das Projekt befindet sich in einer frühen Entwicklungsphase.
   footer_product: Iskra
   footer_protocol: Protokoll ShortP2P
   footer_draft: Landing-Entwurf · keine Veröffentlichung
@@ -377,7 +437,19 @@ fr:
   meta_description: "Iskra combine client-serveur et mesh. Plusieurs serveurs sous Windows ou Linux. Client multiplateforme : Windows, Linux, Android et iOS."
   draft_label: Brouillon
   version_label: "0.1"
+  nav_aria: Site
+  nav_overview: Aperçu
+  nav_releases: Versions
   nav_source: Code source
+  releases_meta_title: Iskra — versions (brouillon 0.1)
+  releases_meta_description: "Notes de version des builds brouillon d’Iskra. La branche 0.1 est du code de recherche et de démonstration, pas une annonce de sortie."
+  releases_kicker: Journal des changements
+  releases_title: Versions
+  releases_lead: Builds de développement et notes brouillon pour la branche 0.1. Rien ici n’est une version de production.
+  releases_empty: Aucune version publiée pour l’instant. Suivez la branche source.
+  releases_view: Voir sur GitHub
+  channel_draft: Brouillon
+  channel_stable: Stable
   hero_kicker: Messagerie mesh d’abord
   hero_title: Fiabilité, résilience, sécurité.
   hero_lead: "Iskra est une messagerie qui combine les approches client-serveur et mesh : vous pouvez passer de l’une à l’autre ou les utiliser ensemble. Vous pouvez faire tourner plusieurs serveurs, déployés sous Windows ou Linux. Le client est multiplateforme : Windows, Linux, Android et iOS."
@@ -438,8 +510,8 @@ fr:
   source_kicker: Code source
   source_title: Iskra est le produit. ShortP2P est le protocole.
   source_body: L’app MAUI vit dans Iskra.MAUI. Le mesh, la crypto, la découverte et le serveur de messagerie optionnel vivent dans l’arbre ShortP2P. Ce site est un brouillon de landing pour la branche 0.1 — pas une annonce de sortie.
-  disclaimer_title: Limites honnêtes
-  disclaimer_body: C’est du code de recherche et de démonstration. La profondeur du mesh, la taille des clés et les limites de paquet sont expérimentales. Ne traitez pas 0.1 comme un modèle de menaces de production, et n’envoyez pas de secrets que vous ne pouvez pas vous permettre de perdre.
+  disclaimer_title: Stade précoce
+  disclaimer_body: Le projet est à un stade précoce de son développement.
   footer_product: Iskra
   footer_protocol: Protocole ShortP2P
   footer_draft: Brouillon de landing · pas une publication

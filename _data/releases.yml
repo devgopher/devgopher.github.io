@@ -1,0 +1,67 @@
+# Development builds / draft notes. Add new entries at the top.
+- version: "0.1"
+  date: "2026-09-05"
+  channel: draft
+  github_url: https://github.com/IskraMessenger/Iskra.MAUI/tree/dev/0.1
+  title:
+    en: First public draft
+    ru: Первый публичный черновик
+    de: Erster öffentlicher Entwurf
+    fr: Premier brouillon public
+    es: Primer borrador público
+    zh: 首个公开草案
+  notes:
+    en: |
+      - Mesh-first messenger with optional client–server path (use either or both).
+      - Local UDP peer discovery and direct delivery when an address is known.
+      - Short mesh relay (about 1–3 hops) through already trusted nodes.
+      - BLE transport for the same encrypted sessions when radio helps.
+      - Optional HTTPS server stores ciphertext only (blobs, receipts, presence).
+      - Local-first accounts: QR contacts, no phone or email required.
+      - Clients: Windows (incl. Windows 7), Linux, Android, iOS. Servers: Windows / Linux.
+      - Research and demo quality — not a production threat model.
+    ru: |
+      - Мессенджер с ячеистой сетью и необязательным путём через сервер (можно сочетать).
+      - Обнаружение узлов в ЛВС по UDP и прямая доставка, если адрес известен.
+      - Короткая ретрансляция по mesh (примерно 1–3 узла) через уже знакомые узлы.
+      - Передача по BLE для того же зашифрованного сеанса, когда радио уместно.
+      - Необязательный HTTPS-сервер хранит только шифротекст (пакеты, квитанции, присутствие).
+      - Учётная запись на устройстве: контакты по QR, без телефона и почты.
+      - Клиенты: Windows (в т.ч. Windows 7), Linux, Android, iOS. Серверы: Windows / Linux.
+      - Исследовательский и демонстрационный код — не боевая модель угроз.
+    de: |
+      - Mesh-first Messenger mit optionalem Client-Server-Pfad (einzeln oder kombiniert).
+      - Lokale UDP-Peer-Entdeckung und Direktversand bei bekannter Adresse.
+      - Kurzes Mesh-Relay (ca. 1–3 Hops) über bereits vertrauenswürdige Knoten.
+      - BLE-Transport für dieselben verschlüsselten Sitzungen, wenn Funk hilft.
+      - Optionaler HTTPS-Server speichert nur Ciphertext (Blobs, Empfangsbestätigungen, Präsenz).
+      - Lokale Konten: QR-Kontakte, keine Telefonnummer oder E-Mail nötig.
+      - Clients: Windows (inkl. Windows 7), Linux, Android, iOS. Server: Windows / Linux.
+      - Forschungs- und Demo-Qualität — kein Produktions-Bedrohungsmodell.
+    fr: |
+      - Messagerie mesh d’abord avec chemin client–serveur optionnel (l’un, l’autre, ou les deux).
+      - Découverte UDP locale et envoi direct lorsque l’adresse est connue.
+      - Relais mesh court (environ 1–3 sauts) via des nœuds déjà de confiance.
+      - Transport BLE pour les mêmes sessions chiffrées quand la radio aide.
+      - Serveur HTTPS optionnel : ciphertext uniquement (blobs, accusés, présence).
+      - Comptes locaux : contacts par QR, sans téléphone ni e-mail.
+      - Clients : Windows (dont Windows 7), Linux, Android, iOS. Serveurs : Windows / Linux.
+      - Qualité recherche et démo — pas un modèle de menaces de production.
+    es: |
+      - Mensajero mesh-first con ruta cliente–servidor opcional (una, otra, o ambas).
+      - Descubrimiento UDP local y envío directo si se conoce la dirección.
+      - Relevo mesh corto (aprox. 1–3 saltos) por nodos ya de confianza.
+      - Transporte BLE para las mismas sesiones cifradas cuando ayuda la radio.
+      - Servidor HTTPS opcional: solo cifrado (blobs, acuses, presencia).
+      - Cuentas locales: contactos por QR, sin teléfono ni correo.
+      - Clientes: Windows (incl. Windows 7), Linux, Android, iOS. Servidores: Windows / Linux.
+      - Calidad de investigación y demo — no es un modelo de amenazas de producción.
+    zh: |
+      - 网状优先的即时通讯，可选客户端–服务器路径（可单独或同时使用）。
+      - 本地 UDP 对端发现；已知地址时直达投递。
+      - 短距离网状中继（约 1–3 跳），经由已信任节点。
+      - 需要时用 BLE 承载同一加密会话。
+      - 可选 HTTPS 服务器只存密文（数据块、回执、在线状态）。
+      - 本机账号：二维码联系人，无需电话或邮箱。
+      - 客户端：Windows（含 Windows 7）、Linux、Android、iOS。服务器：Windows / Linux。
+      - 研究与演示质量 — 非生产环境威胁模型。
