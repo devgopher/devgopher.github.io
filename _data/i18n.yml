@@ -80,6 +80,15 @@ en:
   source_body: The MAUI app lives in Iskra.MAUI. Mesh, crypto, discovery, and the optional messenger server live in the ShortP2P tree. This site is a landing draft for branch 0.1 — not a shipping announcement.
   disclaimer_title: Early stage
   disclaimer_body: The project is in an early stage of development.
+  legal_title: Disclaimer (Limitation of Liability)
+  legal_p1: This project was created for personal, non-commercial, and educational purposes as a demonstration of the technical capabilities of decentralized/hybrid networks and encryption.
+  legal_p2: "The software (code) is distributed under an Open Source license \"as is\" (AS-IS), without warranties of any kind."
+  legal_dev_title: "The developer (an individual):"
+  legal_points:
+    - Is not a telecommunications operator, an organizer of information dissemination, or an infrastructure owner.
+    - Does not control, administer, or have access to servers that users may deploy on their own.
+    - Is not responsible for users' choices, their actions, or the compliance of their local servers with the requirements of local legislation.
+    - Use of the code and the built applications is the sole responsibility of the end user — at their own risk.
   footer_product: Iskra
   footer_protocol: Protocol ShortP2P
   footer_draft: Landing draft · not a release
@@ -166,6 +175,15 @@ ru:
   source_body: Клиент MAUI — в Iskra.MAUI. Ячеистая сеть, шифрование, обнаружение узлов и необязательный сервер — в дереве ShortP2P. Этот сайт — черновик лендинга для ветки 0.1, а не анонс выпуска.
   disclaimer_title: Ранняя стадия
   disclaimer_body: Проект находится в ранней стадии своего развития.
+  legal_title: Disclaimer (Ограничение ответственности)
+  legal_p1: Данный проект создан в личных, некоммерческих и образовательных целях как демонстрация технических возможностей децентрализованных/смешанных сетей и шифрования.
+  legal_p2: "Программное обеспечение (код) распространяется на условиях лицензии Open Source \"как есть\" (AS-IS) без каких-либо гарантий."
+  legal_dev_title: "Разработчик (физическое лицо):"
+  legal_points:
+    - Не является оператором связи, организатором распространения информации или владельцем инфраструктуры.
+    - Не контролирует, не администрирует и не имеет доступа к серверам, которые пользователи могут развернуть самостоятельно.
+    - Не несет ответственности за выбор пользователей, их действия, а также за соответствие их локальных серверов требованиям местного законодательства.
+    - Использование кода и собранных приложений является исключительной ответственностью конечного пользователя — на свой страх и риск.
   footer_product: Iskra
   footer_protocol: Протокол ShortP2P
   footer_draft: Черновик страницы · не выпуск
@@ -252,6 +270,15 @@ es:
   source_body: La app MAUI está en Iskra.MAUI. La malla, la criptografía, el discovery y el servidor opcional viven en el árbol ShortP2P. Este sitio es un borrador de landing para la rama 0.1, no un anuncio de lanzamiento.
   disclaimer_title: Etapa temprana
   disclaimer_body: El proyecto se encuentra en una etapa temprana de su desarrollo.
+  legal_title: Descargo de responsabilidad (Limitación de responsabilidad)
+  legal_p1: Este proyecto se ha creado con fines personales, no comerciales y educativos, como demostración de las capacidades técnicas de las redes descentralizadas/híbridas y el cifrado.
+  legal_p2: "El software (código) se distribuye bajo una licencia Open Source \"tal cual\" (AS-IS), sin garantías de ningún tipo."
+  legal_dev_title: "El desarrollador (persona física):"
+  legal_points:
+    - No es un operador de telecomunicaciones, ni un organizador de difusión de información, ni propietario de infraestructura.
+    - No controla, no administra ni tiene acceso a los servidores que los usuarios puedan desplegar por su cuenta.
+    - No se hace responsable de las elecciones de los usuarios, de sus acciones ni del cumplimiento de la legislación local por parte de sus servidores locales.
+    - El uso del código y de las aplicaciones compiladas es responsabilidad exclusiva del usuario final — bajo su propio riesgo.
   footer_product: Iskra
   footer_protocol: Protocolo ShortP2P
   footer_draft: Borrador de landing · no es un lanzamiento
@@ -340,6 +367,15 @@ zh:
   source_body: MAUI 应用位于 Iskra.MAUI。网状网络、加密、发现以及可选的消息服务器位于 ShortP2P 目录。本站是 0.1 分支的着陆页草稿，不是发版公告。
   disclaimer_title: 早期阶段
   disclaimer_body: 项目仍处于早期发展阶段。
+  legal_title: 免责声明（责任限制）
+  legal_p1: 本项目出于个人、非商业和教育目的而创建，旨在演示去中心化/混合网络与加密的技术能力。
+  legal_p2: 本软件（代码）依据开源许可证按“原样”（AS-IS）分发，不提供任何形式的担保。
+  legal_dev_title: 开发者（自然人）：
+  legal_points:
+    - 不是电信运营商、信息传播组织者或基础设施所有者。
+    - 不控制、不管理，也无法访问用户可能自行部署的服务器。
+    - 不对用户的选择、其行为以及其本地服务器是否符合当地法律法规的要求承担责任。
+    - 代码及已构建应用程序的使用完全由最终用户自行承担责任——风险自负。
   footer_product: Iskra
   footer_protocol: 协议 ShortP2P
   footer_draft: 着陆页草稿 · 非正式发布
@@ -426,6 +462,15 @@ de:
   source_body: Die MAUI-App liegt in Iskra.MAUI. Mesh, Krypto, Discovery und der optionale Messenger-Server liegen im ShortP2P-Baum. Diese Seite ist ein Landing-Entwurf für den Branch 0.1 — keine Versandankündigung.
   disclaimer_title: Frühe Phase
   disclaimer_body: Das Projekt befindet sich in einer frühen Entwicklungsphase.
+  legal_title: Disclaimer (Haftungsausschluss)
+  legal_p1: Dieses Projekt wurde zu persönlichen, nicht kommerziellen und Bildungszwecken erstellt — als Demonstration der technischen Möglichkeiten dezentraler/hybrider Netzwerke und Verschlüsselung.
+  legal_p2: Die Software (Code) wird unter einer Open-Source-Lizenz „wie besehen“ (AS-IS) ohne jegliche Garantien verbreitet.
+  legal_dev_title: "Der Entwickler (eine natürliche Person):"
+  legal_points:
+    - Ist kein Telekommunikationsbetreiber, kein Organisator der Informationsverbreitung und kein Eigentümer von Infrastruktur.
+    - Kontrolliert, verwaltet nicht und hat keinen Zugriff auf Server, die Nutzer selbstständig bereitstellen können.
+    - Übernimmt keine Verantwortung für die Entscheidungen der Nutzer, deren Handlungen oder die Einhaltung lokaler Gesetze durch deren lokale Server.
+    - Die Nutzung des Codes und der gebauten Anwendungen liegt in der alleinigen Verantwortung des Endnutzers — auf eigene Gefahr.
   footer_product: Iskra
   footer_protocol: Protokoll ShortP2P
   footer_draft: Landing-Entwurf · keine Veröffentlichung
@@ -512,6 +557,15 @@ fr:
   source_body: L’app MAUI vit dans Iskra.MAUI. Le mesh, la crypto, la découverte et le serveur de messagerie optionnel vivent dans l’arbre ShortP2P. Ce site est un brouillon de landing pour la branche 0.1 — pas une annonce de sortie.
   disclaimer_title: Stade précoce
   disclaimer_body: Le projet est à un stade précoce de son développement.
+  legal_title: Avertissement (Limitation de responsabilité)
+  legal_p1: Ce projet a été créé à des fins personnelles, non commerciales et éducatives, comme démonstration des capacités techniques des réseaux décentralisés/hybrides et du chiffrement.
+  legal_p2: Le logiciel (code) est distribué sous licence Open Source « tel quel » (AS-IS), sans aucune garantie.
+  legal_dev_title: "Le développeur (une personne physique) :"
+  legal_points:
+    - N’est pas un opérateur de télécommunications, ni un organisateur de diffusion d’informations, ni un propriétaire d’infrastructure.
+    - Ne contrôle pas, n’administre pas et n’a pas accès aux serveurs que les utilisateurs peuvent déployer eux-mêmes.
+    - N’est pas responsable des choix des utilisateurs, de leurs actions, ni de la conformité de leurs serveurs locaux avec la législation locale.
+    - L’utilisation du code et des applications compilées relève de la seule responsabilité de l’utilisateur final — à ses risques et périls.
   footer_product: Iskra
   footer_protocol: Protocole ShortP2P
   footer_draft: Brouillon de landing · pas une publication

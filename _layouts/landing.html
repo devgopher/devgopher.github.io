@@ -107,6 +107,20 @@
         <p>{{ t.disclaimer_body }}</p>
       </aside>
     </section>
+
+    <section class="wrap section">
+      <div class="legal">
+        <h2>{{ t.legal_title }}</h2>
+        <p>{{ t.legal_p1 }}</p>
+        <p>{{ t.legal_p2 }}</p>
+        <h3>{{ t.legal_dev_title }}</h3>
+        <ul>
+          {% for point in t.legal_points %}
+            <li>{{ point }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+    </section>
   </main>
   {% include site-footer.html %}
 </body>
