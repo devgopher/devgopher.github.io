@@ -74,8 +74,8 @@ en:
       title: BLE
       body: Bluetooth Low Energy transport for the same session when radio range beats the network.
     - n: "04"
-      title: Store-and-forward
-      body: If nobody is reachable, the server keeps the sealed payload until the other side polls.
+      title: Server
+      body: If nobody is reachable, the server keeps the sealed payload until the other side polls. Servers are deployed independently by the network’s clients.
   platforms_kicker: Platforms
   platforms_title: Available on these platforms
   platforms_note: We aim to support a wide range of devices, including ones that are considered outdated today (Windows 7).
@@ -182,8 +182,8 @@ ru:
       title: BLE
       body: Передача по Bluetooth Low Energy для того же сеанса, когда радио ближе, чем сеть.
     - n: "04"
-      title: Хранение и пересылка
-      body: Если никто не отвечает, сервер держит запечатанное содержимое, пока вторая сторона его не заберёт.
+      title: Сервер
+      body: Если никто не отвечает, сервер держит запечатанное содержимое, пока вторая сторона его не заберёт. Серверы разворачиваются самостоятельно клиентами сети.
   platforms_kicker: Платформы
   platforms_title: Доступен для платформ
   platforms_note: Мы стараемся поддерживать широкий спектр устройств, в том числе те, что сегодня считают устаревшими (Windows 7).
@@ -290,8 +290,8 @@ es:
       title: BLE
       body: Transporte Bluetooth Low Energy para la misma sesión cuando la radio gana a la red.
     - n: "04"
-      title: Store-and-forward
-      body: Si nadie está al alcance, el servidor guarda el payload sellado hasta que el otro lado lo recoja.
+      title: Servidor
+      body: Si nadie está al alcance, el servidor guarda el payload sellado hasta que el otro lado lo recoja. Los servidores los despliegan de forma independiente los clientes de la red.
   platforms_kicker: Plataformas
   platforms_title: Disponible en estas plataformas
   platforms_note: Procuramos dar soporte a una amplia gama de dispositivos, incluidos los que hoy se consideran obsoletos (Windows 7).
@@ -400,8 +400,8 @@ zh:
       title: BLE
       body: 低功耗蓝牙（BLE）传输，在无线电比网络更近时使用同一会话。
     - n: "04"
-      title: 存储转发
-      body: 如果无人可达，服务器保存密封载荷，直到对方取走。
+      title: 服务器
+      body: 如果无人可达，服务器保存密封载荷，直到对方取走。服务器由网络中的客户端自行部署。
   platforms_kicker: 平台
   platforms_title: 可用于以下平台
   platforms_note: 我们尽量支持广泛的设备，包括如今被视为过时的设备（Windows 7）。
@@ -508,8 +508,8 @@ de:
       title: BLE
       body: Bluetooth-Low-Energy-Transport für dieselbe Sitzung, wenn Funkreichweite das Netz schlägt.
     - n: "04"
-      title: Store-and-forward
-      body: Ist niemand erreichbar, behält der Server die versiegelte Nutzlast, bis die andere Seite abruft.
+      title: Server
+      body: Ist niemand erreichbar, behält der Server die versiegelte Nutzlast, bis die andere Seite abruft. Server werden von den Clients des Netzwerks eigenständig bereitgestellt.
   platforms_kicker: Plattformen
   platforms_title: Verfügbar auf diesen Plattformen
   platforms_note: Wir wollen ein breites Spektrum an Geräten unterstützen, auch solche, die heute als veraltet gelten (Windows 7).
@@ -616,8 +616,8 @@ fr:
       title: BLE
       body: Transport Bluetooth Low Energy pour la même session lorsque la radio bat le réseau.
     - n: "04"
-      title: Store-and-forward
-      body: Si personne n’est joignable, le serveur garde la charge scellée jusqu’à ce que l’autre côté la récupère.
+      title: Serveur
+      body: Si personne n’est joignable, le serveur garde la charge scellée jusqu’à ce que l’autre côté la récupère. Les serveurs sont déployés de façon indépendante par les clients du réseau.
   platforms_kicker: Plateformes
   platforms_title: Disponible sur ces plateformes
   platforms_note: Nous visons à prendre en charge un large éventail d’appareils, y compris ceux considérés comme obsolètes aujourd’hui (Windows 7).
