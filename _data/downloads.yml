@@ -1,0 +1,32 @@
+# Intermediate CI builds from Iskra.MAUI (workflow: CI / _ci_targets.yml).
+#
+# source:
+#   actions  — link to successful CI runs; ZIP download needs any GitHub login
+#              (even on public repos). Run pages are publicly viewable.
+#   releases — anonymous browser_download_url from the rolling `ci-builds`
+#              prerelease (softprops in Iskra.MAUI ci.yml). Links 404 until the
+#              first green CI push publishes that prerelease.
+source: releases
+ci_workflow_url: https://github.com/IskraMessenger/Iskra.MAUI/actions/workflows/ci.yml
+ci_success_url: https://github.com/IskraMessenger/Iskra.MAUI/actions/workflows/ci.yml?query=is%3Asuccess
+ci_runs_api: https://api.github.com/repos/IskraMessenger/Iskra.MAUI/actions/workflows/ci.yml/runs?status=success&per_page=1
+release_tag: ci-builds
+release_url: https://github.com/IskraMessenger/Iskra.MAUI/releases/tag/ci-builds
+release_download_base: https://github.com/IskraMessenger/Iskra.MAUI/releases/download/ci-builds
+builds:
+  - id: winforms-x86
+    label: WinForms x86
+    artifact: winforms-x86-Release
+    asset: winforms-x86-Release.zip
+  - id: winforms-x64
+    label: WinForms x64
+    artifact: winforms-x64-Release
+    asset: winforms-x64-Release.zip
+  - id: maui-windows-x64
+    label: MAUI Windows x64
+    artifact: maui-windows-x64-Release
+    asset: maui-windows-x64-Release.zip
+  - id: android-arm64
+    label: Android arm64
+    artifact: apk-android-arm64-Release
+    asset: apk-android-arm64-Release.zip

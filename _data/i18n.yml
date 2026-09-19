@@ -16,6 +16,19 @@ en:
   releases_lead: Development builds and draft notes for branch 0.1. Nothing here is a production release.
   releases_empty: No published releases yet. Track the source branch for ongoing work.
   releases_view: View on GitHub
+  downloads_kicker: Builds
+  downloads_title: Intermediate CI builds
+  downloads_lead: "Four targets from the public Iskra.MAUI CI workflow. Open the latest successful run, open Artifacts, then download the ZIP named below."
+  downloads_step_open: Open the latest successful CI run (public; no login needed to view).
+  downloads_step_artifacts: Scroll to Artifacts on that run page.
+  downloads_step_named: Download the ZIP whose name matches your platform.
+  downloads_open_latest: Open latest successful run
+  downloads_artifact: Artifact
+  downloads_file: File
+  downloads_note: "The repository is public, so run pages are visible without signing in. Downloading an Actions artifact ZIP still requires any GitHub account (GitHub limitation). Artifacts expire after about 90 days. Anonymous direct downloads will use the rolling ci-builds prerelease once CI publishes it."
+  downloads_note_releases: "Direct downloads from the rolling ci-builds GitHub prerelease. No sign-in required. Replaced on each successful CI push to main or dev/**."
+  downloads_workflow: All CI workflow runs
+  downloads_release_page: ci-builds prerelease on GitHub
   channel_draft: Draft
   channel_stable: Stable
   hero_kicker: Mesh-first messenger
@@ -111,6 +124,19 @@ ru:
   releases_lead: Черновые сборки и заметки для ветки 0.1. Здесь нет продакшен-релизов.
   releases_empty: Опубликованных релизов пока нет. Следите за исходной веткой.
   releases_view: Смотреть на GitHub
+  downloads_kicker: Сборки
+  downloads_title: Промежуточные сборки CI
+  downloads_lead: "Четыре цели из публичного workflow CI репозитория Iskra.MAUI. Откройте последний успешный прогон, раздел Artifacts, затем скачайте ZIP с именем ниже."
+  downloads_step_open: Откройте последний успешный прогон CI (страница публична, вход не нужен).
+  downloads_step_artifacts: Найдите на странице прогона раздел Artifacts.
+  downloads_step_named: Скачайте ZIP, имя которого совпадает с вашей платформой.
+  downloads_open_latest: Открыть последний успешный прогон
+  downloads_artifact: Артефакт
+  downloads_file: Файл
+  downloads_note: "Репозиторий публичный — страницы прогонов видны без входа. Скачивание ZIP артефакта Actions по-прежнему требует любой аккаунт GitHub (ограничение GitHub). Артефакты истекают примерно через 90 дней. Анонимные прямые ссылки появятся в rolling-пререлизе ci-builds, когда CI его опубликует."
+  downloads_note_releases: "Прямые загрузки из rolling GitHub-пререлиза ci-builds. Вход не нужен. Обновляется при каждом успешном push CI в main или dev/**."
+  downloads_workflow: Все прогоны CI
+  downloads_release_page: Пререлиз ci-builds на GitHub
   channel_draft: Черновик
   channel_stable: Стабильный
   hero_kicker: Мессенджер с ячеистой сетью
@@ -206,6 +232,19 @@ es:
   releases_lead: Compilaciones de desarrollo y notas borrador para la rama 0.1. Nada de esto es un lanzamiento de producción.
   releases_empty: Aún no hay lanzamientos publicados. Sigue la rama de código fuente.
   releases_view: Ver en GitHub
+  downloads_kicker: Builds
+  downloads_title: Builds intermedios de CI
+  downloads_lead: "Cuatro objetivos del workflow CI público de Iskra.MAUI. Abre la última ejecución correcta, abre Artifacts y descarga el ZIP con el nombre de abajo."
+  downloads_step_open: Abre la última ejecución CI correcta (pública; no hace falta iniciar sesión para verla).
+  downloads_step_artifacts: Ve a la sección Artifacts de esa ejecución.
+  downloads_step_named: Descarga el ZIP cuyo nombre coincida con tu plataforma.
+  downloads_open_latest: Abrir la última ejecución correcta
+  downloads_artifact: Artefacto
+  downloads_file: Archivo
+  downloads_note: "El repositorio es público: las páginas de ejecución se ven sin iniciar sesión. Descargar un ZIP de artefacto de Actions sigue exigiendo cualquier cuenta de GitHub (limitación de GitHub). Los artefactos caducan en unos 90 días. Las descargas anónimas directas usarán el prerelease rolling ci-builds cuando CI lo publique."
+  downloads_note_releases: "Descargas directas del prerelease rolling ci-builds en GitHub. No hace falta iniciar sesión. Se reemplaza en cada push CI correcto a main o dev/**."
+  downloads_workflow: Todas las ejecuciones de CI
+  downloads_release_page: Prerelease ci-builds en GitHub
   channel_draft: Borrador
   channel_stable: Estable
   hero_kicker: Mensajero con mesh primero
@@ -301,6 +340,19 @@ zh:
   releases_lead: 面向 0.1 分支的开发构建与草案说明。此处没有生产环境发布。
   releases_empty: 尚无已发布版本。请关注源码分支的进展。
   releases_view: 在 GitHub 上查看
+  downloads_kicker: 构建
+  downloads_title: CI 中间构建
+  downloads_lead: "来自公开的 Iskra.MAUI CI 工作流的四个目标。打开最近一次成功的运行，进入 Artifacts，然后下载下方名称对应的 ZIP。"
+  downloads_step_open: 打开最近一次成功的 CI 运行（公开页面，查看无需登录）。
+  downloads_step_artifacts: 在该运行页面找到 Artifacts 区域。
+  downloads_step_named: 下载与你的平台名称匹配的 ZIP。
+  downloads_open_latest: 打开最近一次成功运行
+  downloads_artifact: 产物
+  downloads_file: 文件
+  downloads_note: "仓库已公开，运行页面无需登录即可查看。下载 Actions 产物 ZIP 仍需要任意 GitHub 账号（GitHub 限制）。产物约 90 天后过期。CI 发布滚动预发布 ci-builds 后即可匿名直链下载。"
+  downloads_note_releases: "来自滚动 GitHub 预发布 ci-builds 的直链下载，无需登录。每次成功 push 到 main 或 dev/** 的 CI 都会更新。"
+  downloads_workflow: 全部 CI 运行
+  downloads_release_page: GitHub 上的 ci-builds 预发布
   channel_draft: 草案
   channel_stable: 稳定
   translation_en: This Simplified Chinese page is a draft translation. It may contain inaccuracies. Prefer the English or Russian pages if anything is unclear.
@@ -398,6 +450,19 @@ de:
   releases_lead: Entwicklungsbuilds und Entwurfsnotizen für Branch 0.1. Hier gibt es keine Produktionsveröffentlichung.
   releases_empty: Noch keine veröffentlichten Releases. Folgen Sie dem Quellcode-Branch.
   releases_view: Auf GitHub ansehen
+  downloads_kicker: Builds
+  downloads_title: CI-Zwischenbuilds
+  downloads_lead: "Vier Ziele aus dem öffentlichen Iskra.MAUI-CI-Workflow. Öffnen Sie den letzten erfolgreichen Lauf, dann Artifacts, und laden Sie die unten genannte ZIP herunter."
+  downloads_step_open: Öffnen Sie den letzten erfolgreichen CI-Lauf (öffentlich; zum Ansehen keine Anmeldung nötig).
+  downloads_step_artifacts: Scrollen Sie auf der Laufseite zu Artifacts.
+  downloads_step_named: Laden Sie die ZIP herunter, deren Name zu Ihrer Plattform passt.
+  downloads_open_latest: Letzten erfolgreichen Lauf öffnen
+  downloads_artifact: Artifact
+  downloads_file: Datei
+  downloads_note: "Das Repository ist öffentlich — Laufseiten sind ohne Anmeldung sichtbar. Das Herunterladen einer Actions-Artifact-ZIP erfordert weiterhin ein beliebiges GitHub-Konto (GitHub-Beschränkung). Artifacts laufen nach etwa 90 Tagen ab. Anonyme Direktdownloads kommen über das rolling-Prerelease ci-builds, sobald CI es veröffentlicht."
+  downloads_note_releases: "Direktdownloads vom rolling GitHub-Prerelease ci-builds. Keine Anmeldung nötig. Wird bei jedem erfolgreichen CI-Push nach main oder dev/** ersetzt."
+  downloads_workflow: Alle CI-Läufe
+  downloads_release_page: ci-builds-Prerelease auf GitHub
   channel_draft: Entwurf
   channel_stable: Stabil
   hero_kicker: Mesh-first Messenger
@@ -493,6 +558,19 @@ fr:
   releases_lead: Builds de développement et notes brouillon pour la branche 0.1. Rien ici n’est une version de production.
   releases_empty: Aucune version publiée pour l’instant. Suivez la branche source.
   releases_view: Voir sur GitHub
+  downloads_kicker: Builds
+  downloads_title: Builds CI intermédiaires
+  downloads_lead: "Quatre cibles du workflow CI public d’Iskra.MAUI. Ouvrez la dernière exécution réussie, la section Artifacts, puis téléchargez le ZIP nommé ci-dessous."
+  downloads_step_open: Ouvrez la dernière exécution CI réussie (publique ; pas besoin de compte pour la consulter).
+  downloads_step_artifacts: Allez à la section Artifacts de cette exécution.
+  downloads_step_named: Téléchargez le ZIP dont le nom correspond à votre plateforme.
+  downloads_open_latest: Ouvrir la dernière exécution réussie
+  downloads_artifact: Artefact
+  downloads_file: Fichier
+  downloads_note: "Le dépôt est public : les pages d’exécution sont visibles sans connexion. Télécharger un ZIP d’artefact Actions exige toujours un compte GitHub (limitation GitHub). Les artefacts expirent au bout d’environ 90 jours. Les téléchargements anonymes directs passeront par la prerelease rolling ci-builds une fois publiée par le CI."
+  downloads_note_releases: "Téléchargements directs depuis la prerelease rolling ci-builds sur GitHub. Aucune connexion requise. Remplacée à chaque push CI réussi vers main ou dev/**."
+  downloads_workflow: Toutes les exécutions CI
+  downloads_release_page: Prerelease ci-builds sur GitHub
   channel_draft: Brouillon
   channel_stable: Stable
   hero_kicker: Messagerie mesh d’abord

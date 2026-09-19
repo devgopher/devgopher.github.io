@@ -1,4 +1,9 @@
 {% assign t = site.data.i18n[page.lang] %}
+{% assign dl = site.data.downloads %}
+{% assign use_releases = false %}
+{% if dl.source == 'releases' %}
+  {% assign use_releases = true %}
+{% endif %}
 <!DOCTYPE html>
 <html lang="{{ t.html_lang }}">
 <head>
@@ -11,6 +16,41 @@
       <p class="kicker">{{ t.releases_kicker }}</p>
       <h1>{{ t.releases_title }}</h1>
       <p class="lead">{{ t.releases_lead }}</p>
+    </section>
+
+    <section class="wrap section downloads" aria-label="{{ t.downloads_title }}"{% unless use_releases %} data-ci-runs-api="{{ dl.ci_runs_api }}"{% endunless %}>
+      <p class="kicker">{{ t.downloads_kicker }}</p>
+      <h2>{{ t.downloads_title }}</h2>
+      <p class="downloads-lead">{{ t.downloads_lead }}</p>
+      {% unless use_releases %}
+      <ol class="downloads-steps">
+        <li>{{ t.downloads_step_open }}</li>
+        <li>{{ t.downloads_step_artifacts }}</li>
+        <li>{{ t.downloads_step_named }}</li>
+      </ol>
+      <p class="downloads-cta-wrap">
+        <a class="btn download-latest-run" href="{{ dl.ci_success_url }}">{{ t.downloads_open_latest }}</a>
+      </p>
+      {% endunless %}
+      <ul class="download-list">
+        {% for build in dl.builds %}
+          <li class="download-item">
+            {% if use_releases %}
+              <a class="download-link" href="{{ dl.release_download_base }}/{{ build.asset }}">{{ build.label }}</a>
+              <span class="download-artifact">{{ t.downloads_file }}: <code>{{ build.asset }}</code></span>
+            {% else %}
+              <a class="download-link download-run-link" href="{{ dl.ci_success_url }}">{{ build.label }}</a>
+              <span class="download-artifact">{{ t.downloads_artifact }}: <code>{{ build.artifact }}</code></span>
+            {% endif %}
+          </li>
+        {% endfor %}
+      </ul>
+      <p class="downloads-note">{% if use_releases %}{{ t.downloads_note_releases }}{% else %}{{ t.downloads_note }}{% endif %}</p>
+      {% if use_releases %}
+        <a class="release-link" href="{{ dl.release_url }}">{{ t.downloads_release_page }}</a>
+      {% else %}
+        <a class="release-link" href="{{ dl.ci_workflow_url }}">{{ t.downloads_workflow }}</a>
+      {% endif %}
     </section>
 
     <section class="wrap section releases-list" aria-label="{{ t.releases_title }}">
@@ -47,5 +87,8 @@
     </section>
   </main>
   {% include site-footer.html %}
+  {% unless use_releases %}
+  <script src="{{ '/assets/js/ci-downloads.js' | relative_url }}" defer></script>
+  {% endunless %}
 </body>
 </html>
