@@ -13,7 +13,7 @@ exclude:
   - _preview_build.py
 defaults:
   - scope:
-      path: "iskra"
+      path: "torglink"
     values:
       layout: landing
 github_repo: https://github.com/IskraMessenger/Iskra.MAUI

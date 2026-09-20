@@ -31,7 +31,7 @@ en:
   downloads_release_page: ci-builds prerelease on GitHub
   channel_draft: Draft
   channel_stable: Stable
-  hero_kicker: Mesh-first messenger
+  hero_kicker: Horizontal connections solve it!
   hero_title: Reliability, resilience, security.
   hero_lead: "TorgLink is a messenger that combines client–server and mesh approaches: you can switch between them or use them together. You can run several servers, deployed on Windows or Linux. The messenger itself is cross-platform: Windows, Linux, Android, and iOS."
   cta_source: View the code
@@ -139,7 +139,7 @@ ru:
   downloads_release_page: Пререлиз ci-builds на GitHub
   channel_draft: Черновик
   channel_stable: Стабильный
-  hero_kicker: Мессенджер с ячеистой сетью
+  hero_kicker: Горизонтальные связи — решают!
   hero_title: Надежность, устойчивость, безопасность.
   hero_lead: "TorgLink — мессенджер, сочетающий работу через сервер и ячеистую сеть: можно переключаться между ними и сочетать их. Серверов может быть несколько; их можно развернуть на устройствах под управлением Windows или Linux. Приложение доступно на Windows, Linux, Android и iOS."
   cta_source: Смотреть код
@@ -247,7 +247,7 @@ es:
   downloads_release_page: Prerelease ci-builds en GitHub
   channel_draft: Borrador
   channel_stable: Estable
-  hero_kicker: Mensajero con mesh primero
+  hero_kicker: ¡Las conexiones horizontales lo resuelven!
   hero_title: Fiabilidad, resiliencia, seguridad.
   hero_lead: "TorgLink es un mensajero que combina el enfoque cliente-servidor y el mesh: puedes pasar de uno a otro o combinarlos. Puede haber varios servidores, desplegados en Windows o Linux. El propio mensajero es multiplataforma: Windows, Linux, Android e iOS."
   cta_source: Ver el código
@@ -357,7 +357,7 @@ zh:
   channel_stable: 稳定
   translation_en: This Simplified Chinese page is a draft translation. It may contain inaccuracies. Prefer the English or Russian pages if anything is unclear.
   translation_zh: 本简体中文页面为草稿译文，可能存在不准确之处。如有疑问，请以英文或俄文页面为准。
-  hero_kicker: 网状优先的即时通讯
+  hero_kicker: 横向连接，解决问题！
   hero_title: 可靠、韧性、安全。
   hero_lead: "TorgLink 是一款结合客户端-服务器与网状（mesh）两种方式的即时通讯应用：可以在两者之间切换，也可以同时使用。服务器可以有多台，可部署在 Windows 或 Linux 设备上。应用本身跨平台：Windows、Linux、Android 和 iOS。"
   cta_source: 查看代码
@@ -465,7 +465,7 @@ de:
   downloads_release_page: ci-builds-Prerelease auf GitHub
   channel_draft: Entwurf
   channel_stable: Stabil
-  hero_kicker: Mesh-first Messenger
+  hero_kicker: Horizontale Verbindungen lösen es!
   hero_title: Zuverlässigkeit, Widerstandsfähigkeit, Sicherheit.
   hero_lead: "TorgLink ist ein Messenger, der Client-Server- und Mesh-Ansätze verbindet: Sie können zwischen ihnen wechseln oder beide zusammen nutzen. Es können mehrere Server laufen, bereitgestellt unter Windows oder Linux. Der Messenger selbst ist plattformübergreifend: Windows, Linux, Android und iOS."
   cta_source: Code ansehen
@@ -573,7 +573,7 @@ fr:
   downloads_release_page: Prerelease ci-builds sur GitHub
   channel_draft: Brouillon
   channel_stable: Stable
-  hero_kicker: Messagerie mesh d’abord
+  hero_kicker: Les connexions horizontales font la différence !
   hero_title: Fiabilité, résilience, sécurité.
   hero_lead: "TorgLink est une messagerie qui combine les approches client-serveur et mesh : vous pouvez passer de l’une à l’autre ou les utiliser ensemble. Vous pouvez faire tourner plusieurs serveurs, déployés sous Windows ou Linux. Le client est multiplateforme : Windows, Linux, Android et iOS."
   cta_source: Voir le code

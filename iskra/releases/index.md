@@ -1,6 +1,6 @@
 ---
-lang: en
-section: releases
-layout: releases
+layout: redirect
 permalink: /iskra/releases/
+redirect_to: /torglink/releases/
+title: TorgLink
 ---

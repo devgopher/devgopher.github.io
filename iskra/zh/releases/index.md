@@ -1,6 +1,6 @@
 ---
-lang: zh
-section: releases
-layout: releases
+layout: redirect
 permalink: /iskra/zh/releases/
+redirect_to: /torglink/zh/releases/
+title: TorgLink
 ---

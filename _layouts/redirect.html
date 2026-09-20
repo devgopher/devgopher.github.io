@@ -1,0 +1,17 @@
+---
+# Meta-refresh redirect for GitHub Pages (no plugin required).
+# Front matter: redirect_to (path), optional title.
+layout: null
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="refresh" content="0; url={{ page.redirect_to }}">
+  <link rel="canonical" href="{{ site.url }}{{ page.redirect_to }}">
+  <title>{% if page.title %}{{ page.title }}{% else %}TorgLink{% endif %}</title>
+</head>
+<body>
+  <a href="{{ page.redirect_to }}">{{ page.title | default: 'TorgLink' }}</a>
+</body>
+</html>
