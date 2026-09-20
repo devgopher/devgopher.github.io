@@ -8,9 +8,9 @@ permalink: /
   <meta charset="utf-8">
   <meta http-equiv="refresh" content="0; url=/iskra/">
   <link rel="canonical" href="https://devgopher.github.io/iskra/">
-  <title>Iskra</title>
+  <title>TorgLink</title>
 </head>
 <body>
-  <a href="/iskra/">Iskra</a>
+  <a href="/iskra/">TorgLink</a>
 </body>
 </html>
