@@ -31,7 +31,7 @@ en:
   downloads_release_page: ci-builds prerelease on GitHub
   channel_draft: Draft
   channel_stable: Stable
-  hero_kicker: Horizontal connections solve it!
+  hero_kicker: Horizontal connections matters!
   hero_title: Reliability, resilience, security.
   hero_lead: "TorgLink is a messenger that combines client–server and mesh approaches: you can switch between them or use them together. You can run several servers, deployed on Windows or Linux. The messenger itself is cross-platform: Windows, Linux, Android, and iOS."
   cta_source: View the code
