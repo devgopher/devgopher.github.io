@@ -17,15 +17,15 @@ builds:
   - id: winforms-x86
     label: WinForms x86
     artifact: winforms-x86-Release
-    asset: winforms-x86-Release.zip
+    asset: TorgLink-0.1-winforms-x86-setup.exe
   - id: winforms-x64
     label: WinForms x64
     artifact: winforms-x64-Release
-    asset: winforms-x64-Release.zip
+    asset: TorgLink-0.1-winforms-x64-setup.exe
   - id: maui-windows-x64
     label: MAUI Windows x64
     artifact: maui-windows-x64-Release
-    asset: maui-windows-x64-Release.zip
+    asset: TorgLink-0.1-win10-x64-setup.exe
   - id: android-arm64
     label: Android arm64
     artifact: apk-android-arm64-Release

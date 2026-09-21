@@ -1,4 +1,5 @@
 {% assign t = site.data.i18n[page.lang] %}
+{% assign dl = site.data.downloads %}
 <!DOCTYPE html>
 <html lang="{{ t.html_lang }}">
 <head>
@@ -14,8 +15,9 @@
         <p class="lead">{{ t.hero_lead }}</p>
         <div class="cta-row">
           <a class="btn" href="{{ site.github_repo }}/tree/{{ site.github_branch }}">{{ t.cta_source }}</a>
-          <span class="ghost">{{ t.cta_branch }}</span>
+          <a class="btn-ghost" href="{{ dl.release_url }}">{{ t.cta_ci }}</a>
         </div>
+        <p class="ghost cta-note">{{ t.cta_branch }} · {{ t.cta_ci_note }}</p>
       </div>
       <div class="stage">
         <svg class="mesh" viewBox="0 0 360 360" aria-hidden="true">
@@ -61,6 +63,20 @@
     </section>
 
     <section class="wrap section">
+      <p class="kicker">{{ t.server_kicker }}</p>
+      <h2>{{ t.server_title }}</h2>
+      <p class="section-lead">{{ t.server_lead }}</p>
+      <div class="cards">
+        {% for item in t.server_points %}
+          <article class="card">
+            <h3>{{ item.title }}</h3>
+            <p>{{ item.body }}</p>
+          </article>
+        {% endfor %}
+      </div>
+    </section>
+
+    <section class="wrap section">
       <p class="kicker">{{ t.how_kicker }}</p>
       <h2>{{ t.how_title }}</h2>
       <div class="steps">
@@ -87,6 +103,10 @@
             <div>
               <h3>{{ item.name }}</h3>
               <p>{{ item.detail }}</p>
+              {% assign plat_key = item.name | downcase %}
+              {% if plat_key == 'windows' or plat_key == 'android' %}
+                <a class="plat-ci" href="{{ dl.release_url }}">{{ t.cta_ci }}</a>
+              {% endif %}
             </div>
           </article>
         {% endfor %}
@@ -100,7 +120,10 @@
           <h2>{{ t.source_title }}</h2>
           <p>{{ t.source_body }}</p>
         </div>
-        <a class="btn" href="{{ site.github_repo }}/tree/{{ site.github_branch }}">{{ t.cta_source }}</a>
+        <div class="cta-row">
+          <a class="btn" href="{{ site.github_repo }}/tree/{{ site.github_branch }}">{{ t.cta_source }}</a>
+          <a class="btn-ghost" href="{{ dl.release_url }}">{{ t.cta_ci }}</a>
+        </div>
       </div>
       <aside class="disclaimer">
         <h3>{{ t.disclaimer_title }}</h3>

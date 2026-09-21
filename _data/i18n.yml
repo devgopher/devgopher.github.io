@@ -17,8 +17,9 @@ en:
   releases_empty: No published releases yet. Track the source branch for ongoing work.
   releases_view: View on GitHub
   downloads_kicker: Builds
-  downloads_title: Intermediate CI builds
+  downloads_title: Unstable CI builds
   downloads_lead: "Four targets from the public Iskra.MAUI CI workflow. Open the latest successful run, open Artifacts, then download the ZIP named below."
+  downloads_lead_releases: "Rolling CI builds from Iskra.MAUI — not production. Download the Windows installer or Android package for your platform."
   downloads_step_open: Open the latest successful CI run (public; no login needed to view).
   downloads_step_artifacts: Scroll to Artifacts on that run page.
   downloads_step_named: Download the ZIP whose name matches your platform.
@@ -36,6 +37,8 @@ en:
   hero_lead: "TorgLink is a messenger that combines client–server and mesh approaches: you can switch between them or use them together. You can run several servers, deployed on Windows or Linux. The messenger itself is cross-platform: Windows, Linux, Android, and iOS."
   cta_source: View the code
   cta_branch: "Branch dev/0.1"
+  cta_ci: Unstable CI builds
+  cta_ci_note: Not a production release
   phone_peer: Lena
   phone_status: 2 hops · UDP
   phone_in: Can you hear me over the mesh?
@@ -61,6 +64,16 @@ en:
       body: Registration and chats live on the device. Add people with a QR code. No data such as a phone number, email, or similar is required for identification.
     - title: Cross-platform
       body: The messenger runs on Windows, Linux, Android, and iOS. Servers can be deployed on Windows or Linux.
+  server_kicker: Architecture
+  server_title: Server
+  server_lead: "A store-and-forward server for finding clients and delivering encrypted messages reliably. Messages are stored exclusively in encrypted form and are permanently deleted after they are received."
+  server_points:
+    - title: Find clients
+      body: Helps peers discover each other when a direct mesh path is missing.
+    - title: Ciphertext only
+      body: Messages live on the server only as ciphertext. The server does not read chats.
+    - title: Deleted after receipt
+      body: Once the other side has received the message, it is permanently and irreversibly deleted.
   how_kicker: How a message travels
   how_title: Four ways a message can move.
   steps:
@@ -125,8 +138,9 @@ ru:
   releases_empty: Опубликованных релизов пока нет. Следите за исходной веткой.
   releases_view: Смотреть на GitHub
   downloads_kicker: Сборки
-  downloads_title: Промежуточные сборки CI
+  downloads_title: Нестабильные сборки CI
   downloads_lead: "Четыре цели из публичного workflow CI репозитория Iskra.MAUI. Откройте последний успешный прогон, раздел Artifacts, затем скачайте ZIP с именем ниже."
+  downloads_lead_releases: "Промежуточные сборки CI из Iskra.MAUI — не для продакшена. Скачайте установщик Windows или пакет Android под вашу платформу."
   downloads_step_open: Откройте последний успешный прогон CI (страница публична, вход не нужен).
   downloads_step_artifacts: Найдите на странице прогона раздел Artifacts.
   downloads_step_named: Скачайте ZIP, имя которого совпадает с вашей платформой.
@@ -144,6 +158,8 @@ ru:
   hero_lead: "TorgLink — мессенджер, сочетающий работу через сервер и ячеистую сеть: можно переключаться между ними и сочетать их. Серверов может быть несколько; их можно развернуть на устройствах под управлением Windows или Linux. Приложение доступно на Windows, Linux, Android и iOS."
   cta_source: Смотреть код
   cta_branch: "Ветка dev/0.1"
+  cta_ci: Нестабильные сборки CI
+  cta_ci_note: Не продакшен-релиз
   phone_peer: Лена
   phone_status: 2 узла · UDP
   phone_in: Слышишь меня через сеть?
@@ -169,6 +185,16 @@ ru:
       body: Регистрация и чаты хранятся на устройстве. Людей добавляете по QR-коду. Для идентификации не требуются никакие данные вроде номера телефона, электронной почты и прочего.
     - title: Несколько платформ
       body: Приложение работает на Windows, Linux, Android и iOS. Серверы можно развернуть на Windows или Linux.
+  server_kicker: Архитектура
+  server_title: Сервер
+  server_lead: "Store-and-forward сервер для поиска клиентов и надёжной передачи зашифрованных сообщений. Сообщения хранятся исключительно в зашифрованном виде и удаляются после получения безвозвратно."
+  server_points:
+    - title: Поиск клиентов
+      body: Помогает находить участников, когда прямого маршрута по ячеистой сети нет.
+    - title: Только шифротекст
+      body: На сервере сообщения живут только как шифротекст. Переписку он не читает.
+    - title: Удаление после получения
+      body: Как только вторая сторона получила сообщение, оно удаляется безвозвратно.
   how_kicker: Как идёт сообщение
   how_title: Четыре способа доставить сообщение.
   steps:
@@ -233,8 +259,9 @@ es:
   releases_empty: Aún no hay lanzamientos publicados. Sigue la rama de código fuente.
   releases_view: Ver en GitHub
   downloads_kicker: Builds
-  downloads_title: Builds intermedios de CI
+  downloads_title: Builds CI inestables
   downloads_lead: "Cuatro objetivos del workflow CI público de Iskra.MAUI. Abre la última ejecución correcta, abre Artifacts y descarga el ZIP con el nombre de abajo."
+  downloads_lead_releases: "Builds CI continuos de Iskra.MAUI — no son de producción. Descarga el instalador de Windows o el paquete Android de tu plataforma."
   downloads_step_open: Abre la última ejecución CI correcta (pública; no hace falta iniciar sesión para verla).
   downloads_step_artifacts: Ve a la sección Artifacts de esa ejecución.
   downloads_step_named: Descarga el ZIP cuyo nombre coincida con tu plataforma.
@@ -252,6 +279,8 @@ es:
   hero_lead: "TorgLink es un mensajero que combina el enfoque cliente-servidor y el mesh: puedes pasar de uno a otro o combinarlos. Puede haber varios servidores, desplegados en Windows o Linux. El propio mensajero es multiplataforma: Windows, Linux, Android e iOS."
   cta_source: Ver el código
   cta_branch: "Rama dev/0.1"
+  cta_ci: Builds CI inestables
+  cta_ci_note: No es un lanzamiento de producción
   phone_peer: Lena
   phone_status: 2 saltos · UDP
   phone_in: ¿Me oyes a través de la malla?
@@ -277,6 +306,16 @@ es:
       body: El registro y los chats viven en el aparato. Se añade gente con un código QR. No se necesitan datos como número de teléfono, correo electrónico u otros para identificarse.
     - title: Multiplataforma
       body: El mensajero corre en Windows, Linux, Android e iOS. Los servidores se despliegan en Windows o Linux.
+  server_kicker: Arquitectura
+  server_title: Servidor
+  server_lead: "Un servidor store-and-forward para encontrar clientes y entregar mensajes cifrados de forma fiable. Los mensajes se guardan exclusivamente cifrados y se borran de forma permanente e irreversible tras su recepción."
+  server_points:
+    - title: Encontrar clientes
+      body: Ayuda a los pares a descubrirse cuando no hay una ruta mesh directa.
+    - title: Solo texto cifrado
+      body: En el servidor los mensajes viven solo como texto cifrado. No lee los chats.
+    - title: Borrado tras la recepción
+      body: Cuando la otra parte ha recibido el mensaje, se elimina de forma permanente e irreversible.
   how_kicker: Cómo viaja un mensaje
   how_title: Cuatro modos de mover un mensaje.
   steps:
@@ -341,8 +380,9 @@ zh:
   releases_empty: 尚无已发布版本。请关注源码分支的进展。
   releases_view: 在 GitHub 上查看
   downloads_kicker: 构建
-  downloads_title: CI 中间构建
+  downloads_title: 不稳定 CI 构建
   downloads_lead: "来自公开的 Iskra.MAUI CI 工作流的四个目标。打开最近一次成功的运行，进入 Artifacts，然后下载下方名称对应的 ZIP。"
+  downloads_lead_releases: "来自 Iskra.MAUI 的滚动 CI 构建 — 非正式发布。请下载对应平台的 Windows 安装包或 Android 软件包。"
   downloads_step_open: 打开最近一次成功的 CI 运行（公开页面，查看无需登录）。
   downloads_step_artifacts: 在该运行页面找到 Artifacts 区域。
   downloads_step_named: 下载与你的平台名称匹配的 ZIP。
@@ -362,6 +402,8 @@ zh:
   hero_lead: "TorgLink 是一款结合客户端-服务器与网状（mesh）两种方式的即时通讯应用：可以在两者之间切换，也可以同时使用。服务器可以有多台，可部署在 Windows 或 Linux 设备上。应用本身跨平台：Windows、Linux、Android 和 iOS。"
   cta_source: 查看代码
   cta_branch: "分支 dev/0.1"
+  cta_ci: 不稳定 CI 构建
+  cta_ci_note: 非正式发布
   phone_peer: 莉娜
   phone_status: 2 跳 · UDP
   phone_in: 网状网络那边听得到吗？
@@ -387,6 +429,16 @@ zh:
       body: 注册和聊天保存在设备上。用二维码添加联系人。身份识别不需要电话号码、电子邮件等任何此类数据。
     - title: 跨平台
       body: 应用可在 Windows、Linux、Android 和 iOS 上运行。服务器可部署在 Windows 或 Linux。
+  server_kicker: 架构
+  server_title: 服务器
+  server_lead: "Store-and-forward 服务器，用于查找客户端并可靠投递加密消息。消息仅以密文形式存储，对方收到后即被永久、不可恢复地删除。"
+  server_points:
+    - title: 查找客户端
+      body: 没有直达网状路径时，帮助对端互相发现。
+    - title: 仅密文
+      body: 服务器上的消息只以密文存在。它不阅读聊天内容。
+    - title: 收到即删
+      body: 对方收到消息后，立即永久、不可恢复地删除。
   how_kicker: 消息如何走
   how_title: 消息传递的四种方式。
   steps:
@@ -451,8 +503,9 @@ de:
   releases_empty: Noch keine veröffentlichten Releases. Folgen Sie dem Quellcode-Branch.
   releases_view: Auf GitHub ansehen
   downloads_kicker: Builds
-  downloads_title: CI-Zwischenbuilds
+  downloads_title: Instabile CI-Builds
   downloads_lead: "Vier Ziele aus dem öffentlichen Iskra.MAUI-CI-Workflow. Öffnen Sie den letzten erfolgreichen Lauf, dann Artifacts, und laden Sie die unten genannte ZIP herunter."
+  downloads_lead_releases: "Rolling CI-Builds aus Iskra.MAUI — keine Produktion. Laden Sie den Windows-Installer oder das Android-Paket für Ihre Plattform herunter."
   downloads_step_open: Öffnen Sie den letzten erfolgreichen CI-Lauf (öffentlich; zum Ansehen keine Anmeldung nötig).
   downloads_step_artifacts: Scrollen Sie auf der Laufseite zu Artifacts.
   downloads_step_named: Laden Sie die ZIP herunter, deren Name zu Ihrer Plattform passt.
@@ -470,6 +523,8 @@ de:
   hero_lead: "TorgLink ist ein Messenger, der Client-Server- und Mesh-Ansätze verbindet: Sie können zwischen ihnen wechseln oder beide zusammen nutzen. Es können mehrere Server laufen, bereitgestellt unter Windows oder Linux. Der Messenger selbst ist plattformübergreifend: Windows, Linux, Android und iOS."
   cta_source: Code ansehen
   cta_branch: "Branch dev/0.1"
+  cta_ci: Instabile CI-Builds
+  cta_ci_note: Keine Produktionsversion
   phone_peer: Lena
   phone_status: 2 Hops · UDP
   phone_in: Hörst du mich über das Mesh?
@@ -495,6 +550,16 @@ de:
       body: Registrierung und Chats liegen auf dem Gerät. Kontakte kommen per QR-Code. Für die Identifikation sind weder Telefonnummer noch E-Mail oder Ähnliches nötig.
     - title: Plattformübergreifend
       body: Der Messenger läuft unter Windows, Linux, Android und iOS. Server können unter Windows oder Linux bereitgestellt werden.
+  server_kicker: Architektur
+  server_title: Server
+  server_lead: "Ein Store-and-Forward-Server zum Finden von Clients und zur zuverlässigen Zustellung verschlüsselter Nachrichten. Nachrichten werden ausschließlich verschlüsselt gespeichert und nach dem Empfang unwiderruflich gelöscht."
+  server_points:
+    - title: Clients finden
+      body: Hilft Peers sich zu finden, wenn kein direkter Mesh-Pfad da ist.
+    - title: Nur Ciphertext
+      body: Auf dem Server leben Nachrichten nur als Ciphertext. Chats liest er nicht.
+    - title: Nach Empfang gelöscht
+      body: Sobald die andere Seite die Nachricht hat, wird sie dauerhaft und unwiderruflich gelöscht.
   how_kicker: Wie eine Nachricht wandert
   how_title: Vier Wege, wie eine Nachricht sich bewegen kann.
   steps:
@@ -559,8 +624,9 @@ fr:
   releases_empty: Aucune version publiée pour l’instant. Suivez la branche source.
   releases_view: Voir sur GitHub
   downloads_kicker: Builds
-  downloads_title: Builds CI intermédiaires
+  downloads_title: Builds CI instables
   downloads_lead: "Quatre cibles du workflow CI public d’Iskra.MAUI. Ouvrez la dernière exécution réussie, la section Artifacts, puis téléchargez le ZIP nommé ci-dessous."
+  downloads_lead_releases: "Builds CI continus d’Iskra.MAUI — pas pour la production. Téléchargez l’installeur Windows ou le paquet Android de votre plateforme."
   downloads_step_open: Ouvrez la dernière exécution CI réussie (publique ; pas besoin de compte pour la consulter).
   downloads_step_artifacts: Allez à la section Artifacts de cette exécution.
   downloads_step_named: Téléchargez le ZIP dont le nom correspond à votre plateforme.
@@ -578,6 +644,8 @@ fr:
   hero_lead: "TorgLink est une messagerie qui combine les approches client-serveur et mesh : vous pouvez passer de l’une à l’autre ou les utiliser ensemble. Vous pouvez faire tourner plusieurs serveurs, déployés sous Windows ou Linux. Le client est multiplateforme : Windows, Linux, Android et iOS."
   cta_source: Voir le code
   cta_branch: "Branche dev/0.1"
+  cta_ci: Builds CI instables
+  cta_ci_note: Pas une version de production
   phone_peer: Léna
   phone_status: 2 sauts · UDP
   phone_in: Tu m’entends via le mesh ?
@@ -603,6 +671,16 @@ fr:
       body: L’inscription et les chats restent sur l’appareil. On ajoute des contacts avec un QR code. Aucune donnée telle qu’un numéro de téléphone, un e-mail ou similaire n’est requise pour l’identification.
     - title: Multiplateforme
       body: La messagerie tourne sous Windows, Linux, Android et iOS. Les serveurs peuvent être déployés sous Windows ou Linux.
+  server_kicker: Architecture
+  server_title: Serveur
+  server_lead: "Un serveur store-and-forward pour trouver les clients et transmettre des messages chiffrés de façon fiable. Les messages sont stockés exclusivement sous forme chiffrée et sont définitivement, irréversiblement, supprimés après réception."
+  server_points:
+    - title: Trouver les clients
+      body: Aide les pairs à se découvrir quand il n’y a pas de route mesh directe.
+    - title: Chiffre uniquement
+      body: Sur le serveur, les messages n’existent qu’en texte chiffré. Il ne lit pas les chats.
+    - title: Supprimé après réception
+      body: Une fois le message reçu par l’autre côté, il est définitivement et irréversiblement supprimé.
   how_kicker: Comment voyage un message
   how_title: Quatre façons de faire circuler un message.
   steps:

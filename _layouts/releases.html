@@ -21,7 +21,7 @@
     <section class="wrap section downloads" aria-label="{{ t.downloads_title }}"{% unless use_releases %} data-ci-runs-api="{{ dl.ci_runs_api }}"{% endunless %}>
       <p class="kicker">{{ t.downloads_kicker }}</p>
       <h2>{{ t.downloads_title }}</h2>
-      <p class="downloads-lead">{{ t.downloads_lead }}</p>
+      <p class="downloads-lead">{% if use_releases %}{{ t.downloads_lead_releases }}{% else %}{{ t.downloads_lead }}{% endif %}</p>
       {% unless use_releases %}
       <ol class="downloads-steps">
         <li>{{ t.downloads_step_open }}</li>

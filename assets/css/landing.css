@@ -294,10 +294,46 @@ h1 {
   background: #ff8124;
 }
 
+.btn-ghost {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  background: transparent;
+  color: #ffb089;
+  font-weight: 600;
+  padding: 11px 16px;
+  border: 1px solid rgba(255, 106, 0, 0.4);
+}
+
+.btn-ghost:hover {
+  border-color: #ffb089;
+  color: #ffd0b8;
+}
+
 .ghost {
   font-size: 13px;
   color: var(--muted);
   font-family: var(--mono);
+}
+
+.cta-note {
+  margin: 12px 0 0;
+}
+
+.plat-ci {
+  display: inline-block;
+  margin-top: 10px;
+  color: var(--ember);
+  text-decoration: none;
+  font-size: 0.88rem;
+  font-weight: 600;
+  border-bottom: 1px solid rgba(255, 106, 0, 0.35);
+}
+
+.plat-ci:hover {
+  color: #ffb089;
+  border-bottom-color: #ffb089;
 }
 
 .stage {
@@ -438,6 +474,7 @@ h2 {
   margin: 10px 0 8px;
 }
 
+.section-lead,
 .plats-note {
   margin: -12px 0 24px;
   max-width: 42rem;
@@ -481,6 +518,10 @@ h2 {
   grid-template-columns: 1.3fr 0.7fr;
   gap: 32px;
   align-items: end;
+}
+
+.source-block .cta-row {
+  justify-content: flex-end;
 }
 
 .prose {
