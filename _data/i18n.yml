@@ -7,8 +7,11 @@ en:
   version_label: "0.1"
   nav_aria: Site
   nav_overview: Overview
+  nav_server: Server
   nav_releases: Releases
   nav_source: Source
+  server_meta_title: TorgLink — server (draft 0.1)
+  server_meta_description: "A store-and-forward server for finding clients and delivering encrypted messages reliably. Messages are stored exclusively in encrypted form and are permanently deleted after they are received."
   releases_meta_title: TorgLink — releases (draft 0.1)
   releases_meta_description: "Release notes for TorgLink draft builds. Branch 0.1 is research and demonstration code, not a shipping announcement."
   releases_kicker: Changelog
@@ -128,8 +131,11 @@ ru:
   version_label: "0.1"
   nav_aria: Сайт
   nav_overview: Обзор
+  nav_server: Сервер
   nav_releases: Релизы
   nav_source: Исходный код
+  server_meta_title: TorgLink — сервер (черновик 0.1)
+  server_meta_description: "Store-and-forward сервер для поиска клиентов и надёжной передачи зашифрованных сообщений. Сообщения хранятся исключительно в зашифрованном виде и удаляются после получения безвозвратно."
   releases_meta_title: TorgLink — релизы (черновик 0.1)
   releases_meta_description: "Заметки о выпусках черновых сборок TorgLink. Ветка 0.1 — исследовательский и демонстрационный код, не анонс релиза."
   releases_kicker: Журнал изменений
@@ -249,8 +255,11 @@ es:
   version_label: "0.1"
   nav_aria: Sitio
   nav_overview: Resumen
+  nav_server: Servidor
   nav_releases: Lanzamientos
   nav_source: Código
+  server_meta_title: TorgLink — servidor (borrador 0.1)
+  server_meta_description: "Un servidor store-and-forward para encontrar clientes y entregar mensajes cifrados de forma fiable. Los mensajes se guardan exclusivamente cifrados y se borran de forma permanente e irreversible tras su recepción."
   releases_meta_title: TorgLink — lanzamientos (borrador 0.1)
   releases_meta_description: "Notas de versiones de los borradores de TorgLink. La rama 0.1 es código de investigación y demostración, no un anuncio de lanzamiento."
   releases_kicker: Registro de cambios
@@ -370,8 +379,11 @@ zh:
   version_label: "0.1"
   nav_aria: 站点
   nav_overview: 概览
+  nav_server: 服务器
   nav_releases: 发布
   nav_source: 源代码
+  server_meta_title: TorgLink — 服务器（草案 0.1）
+  server_meta_description: "Store-and-forward 服务器，用于查找客户端并可靠投递加密消息。消息仅以密文形式存储，对方收到后即被永久、不可恢复地删除。"
   releases_meta_title: TorgLink — 发布说明（草案 0.1）
   releases_meta_description: "TorgLink 草案构建的发布说明。0.1 分支为研究与演示代码，不是正式发版公告。"
   releases_kicker: 更新日志
@@ -493,8 +505,11 @@ de:
   version_label: "0.1"
   nav_aria: Website
   nav_overview: Überblick
+  nav_server: Server
   nav_releases: Releases
   nav_source: Quellcode
+  server_meta_title: TorgLink — Server (Entwurf 0.1)
+  server_meta_description: "Ein Store-and-Forward-Server zum Finden von Clients und zur zuverlässigen Zustellung verschlüsselter Nachrichten. Nachrichten werden ausschließlich verschlüsselt gespeichert und nach dem Empfang unwiderruflich gelöscht."
   releases_meta_title: TorgLink — Releases (Entwurf 0.1)
   releases_meta_description: "Release Notes zu TorgLink-Entwurfsbuilds. Branch 0.1 ist Forschungs- und Demo-Code, keine Versandankündigung."
   releases_kicker: Changelog
@@ -614,8 +629,11 @@ fr:
   version_label: "0.1"
   nav_aria: Site
   nav_overview: Aperçu
+  nav_server: Serveur
   nav_releases: Versions
   nav_source: Code source
+  server_meta_title: TorgLink — serveur (brouillon 0.1)
+  server_meta_description: "Un serveur store-and-forward pour trouver les clients et transmettre des messages chiffrés de façon fiable. Les messages sont stockés exclusivement sous forme chiffrée et sont définitivement, irréversiblement, supprimés après réception."
   releases_meta_title: TorgLink — versions (brouillon 0.1)
   releases_meta_description: "Notes de version des builds brouillon de TorgLink. La branche 0.1 est du code de recherche et de démonstration, pas une annonce de sortie."
   releases_kicker: Journal des changements

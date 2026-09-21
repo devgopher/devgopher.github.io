@@ -11,7 +11,8 @@
       <img class="logo" src="{{ '/assets/img/logo.png' | relative_url }}" alt="TorgLink" width="214" height="256">
     </a>
     <nav class="primary-nav" aria-label="{{ t.nav_aria }}">
-      <a href="{{ home_url | relative_url }}" {% if page.section != 'releases' %}aria-current="page"{% endif %}>{{ t.nav_overview }}</a>
+      <a href="{{ home_url | relative_url }}" {% unless page.section %}aria-current="page"{% endunless %}>{{ t.nav_overview }}</a>
+      <a href="{{ server_url | relative_url }}" {% if page.section == 'server' %}aria-current="page"{% endif %}>{{ t.nav_server }}</a>
       <a href="{{ releases_url | relative_url }}" {% if page.section == 'releases' %}aria-current="page"{% endif %}>{{ t.nav_releases }}</a>
     </nav>
     <nav class="langs" aria-label="Language">

@@ -1,21 +1,27 @@
 {% case page.lang %}
   {% when 'ru' %}
     {% assign home_url = '/torglink/ru/' %}
+    {% assign server_url = '/torglink/ru/server/' %}
     {% assign releases_url = '/torglink/ru/releases/' %}
   {% when 'de' %}
     {% assign home_url = '/torglink/de/' %}
+    {% assign server_url = '/torglink/de/server/' %}
     {% assign releases_url = '/torglink/de/releases/' %}
   {% when 'fr' %}
     {% assign home_url = '/torglink/fr/' %}
+    {% assign server_url = '/torglink/fr/server/' %}
     {% assign releases_url = '/torglink/fr/releases/' %}
   {% when 'es' %}
     {% assign home_url = '/torglink/es/' %}
+    {% assign server_url = '/torglink/es/server/' %}
     {% assign releases_url = '/torglink/es/releases/' %}
   {% when 'zh' %}
     {% assign home_url = '/torglink/zh/' %}
+    {% assign server_url = '/torglink/zh/server/' %}
     {% assign releases_url = '/torglink/zh/releases/' %}
   {% else %}
     {% assign home_url = '/torglink/' %}
+    {% assign server_url = '/torglink/server/' %}
     {% assign releases_url = '/torglink/releases/' %}
 {% endcase %}
 {% if page.section == 'releases' %}
@@ -25,6 +31,13 @@
   {% assign fr_alt = '/torglink/fr/releases/' %}
   {% assign es_alt = '/torglink/es/releases/' %}
   {% assign zh_alt = '/torglink/zh/releases/' %}
+{% elsif page.section == 'server' %}
+  {% assign en_alt = '/torglink/server/' %}
+  {% assign ru_alt = '/torglink/ru/server/' %}
+  {% assign de_alt = '/torglink/de/server/' %}
+  {% assign fr_alt = '/torglink/fr/server/' %}
+  {% assign es_alt = '/torglink/es/server/' %}
+  {% assign zh_alt = '/torglink/zh/server/' %}
 {% else %}
   {% assign en_alt = '/torglink/' %}
   {% assign ru_alt = '/torglink/ru/' %}
