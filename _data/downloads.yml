@@ -13,6 +13,8 @@ ci_runs_api: https://api.github.com/repos/IskraMessenger/Iskra.MAUI/actions/work
 release_tag: ci-builds
 release_url: https://github.com/IskraMessenger/Iskra.MAUI/releases/tag/ci-builds
 release_download_base: https://github.com/IskraMessenger/Iskra.MAUI/releases/download/ci-builds
+# Server binaries live in ShortP2P Actions (not the Iskra.MAUI ci-builds prerelease).
+server_actions_url: https://github.com/devgopher/ShortP2P/actions
 builds:
   - id: winforms-x86
     label: WinForms x86

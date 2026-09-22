@@ -77,6 +77,13 @@ en:
       body: Messages live on the server only as ciphertext. The server does not read chats.
     - title: Deleted after receipt
       body: Once the other side has received the message, it is permanently and irreversibly deleted.
+  server_cta_ci: Unstable CI builds
+  server_cta_ci_note: GitHub Actions · not a production release
+  server_downloads_kicker: Builds
+  server_downloads_title: Unstable CI builds
+  server_downloads_lead: "Intermediate server builds from the ShortP2P GitHub Actions workflow — not production. Open a successful run and download the artifact for your platform."
+  server_downloads_open: Open CI builds on GitHub
+  server_downloads_note: "Run pages are public. Downloading an Actions artifact ZIP still requires any GitHub account (GitHub limitation). Artifacts expire after about 90 days."
   how_kicker: How a message travels
   how_title: Four ways a message can move.
   steps:
@@ -201,6 +208,13 @@ ru:
       body: На сервере сообщения живут только как шифротекст. Переписку он не читает.
     - title: Удаление после получения
       body: Как только вторая сторона получила сообщение, оно удаляется безвозвратно.
+  server_cta_ci: Нестабильные сборки CI
+  server_cta_ci_note: GitHub Actions · не продакшен-релиз
+  server_downloads_kicker: Сборки
+  server_downloads_title: Нестабильные сборки CI
+  server_downloads_lead: "Промежуточные сборки сервера из GitHub Actions репозитория ShortP2P — не для продакшена. Откройте успешный прогон и скачайте артефакт под вашу платформу."
+  server_downloads_open: Открыть сборки CI на GitHub
+  server_downloads_note: "Страницы прогонов публичные. Скачивание ZIP артефакта Actions по-прежнему требует любой аккаунт GitHub (ограничение GitHub). Артефакты истекают примерно через 90 дней."
   how_kicker: Как идёт сообщение
   how_title: Четыре способа доставить сообщение.
   steps:
@@ -325,6 +339,13 @@ es:
       body: En el servidor los mensajes viven solo como texto cifrado. No lee los chats.
     - title: Borrado tras la recepción
       body: Cuando la otra parte ha recibido el mensaje, se elimina de forma permanente e irreversible.
+  server_cta_ci: Builds CI inestables
+  server_cta_ci_note: GitHub Actions · no es un lanzamiento de producción
+  server_downloads_kicker: Builds
+  server_downloads_title: Builds CI inestables
+  server_downloads_lead: "Builds intermedios del servidor desde el workflow de GitHub Actions de ShortP2P — no son de producción. Abre una ejecución correcta y descarga el artefacto de tu plataforma."
+  server_downloads_open: Abrir builds CI en GitHub
+  server_downloads_note: "Las páginas de ejecución son públicas. Descargar un ZIP de artefacto Actions sigue exigiendo cualquier cuenta de GitHub (limitación de GitHub). Los artefactos caducan en unos 90 días."
   how_kicker: Cómo viaja un mensaje
   how_title: Cuatro modos de mover un mensaje.
   steps:
@@ -451,6 +472,13 @@ zh:
       body: 服务器上的消息只以密文存在。它不阅读聊天内容。
     - title: 收到即删
       body: 对方收到消息后，立即永久、不可恢复地删除。
+  server_cta_ci: 不稳定 CI 构建
+  server_cta_ci_note: GitHub Actions · 非正式发布
+  server_downloads_kicker: 构建
+  server_downloads_title: 不稳定 CI 构建
+  server_downloads_lead: "来自 ShortP2P GitHub Actions 工作流的中间服务器构建 — 非正式发布。打开一次成功的运行，然后下载对应平台的产物。"
+  server_downloads_open: 在 GitHub 打开 CI 构建
+  server_downloads_note: "运行页面公开可见。下载 Actions 产物 ZIP 仍需要任意 GitHub 账号（GitHub 限制）。产物约 90 天后过期。"
   how_kicker: 消息如何走
   how_title: 消息传递的四种方式。
   steps:
@@ -575,6 +603,13 @@ de:
       body: Auf dem Server leben Nachrichten nur als Ciphertext. Chats liest er nicht.
     - title: Nach Empfang gelöscht
       body: Sobald die andere Seite die Nachricht hat, wird sie dauerhaft und unwiderruflich gelöscht.
+  server_cta_ci: Instabile CI-Builds
+  server_cta_ci_note: GitHub Actions · keine Produktionsversion
+  server_downloads_kicker: Builds
+  server_downloads_title: Instabile CI-Builds
+  server_downloads_lead: "Zwischenstände des Servers aus dem GitHub-Actions-Workflow von ShortP2P — keine Produktion. Öffnen Sie einen erfolgreichen Lauf und laden Sie das Artifact für Ihre Plattform herunter."
+  server_downloads_open: CI-Builds auf GitHub öffnen
+  server_downloads_note: "Laufseiten sind öffentlich. Das Herunterladen einer Actions-Artifact-ZIP erfordert weiterhin ein beliebiges GitHub-Konto (GitHub-Beschränkung). Artifacts laufen nach etwa 90 Tagen ab."
   how_kicker: Wie eine Nachricht wandert
   how_title: Vier Wege, wie eine Nachricht sich bewegen kann.
   steps:
@@ -699,6 +734,13 @@ fr:
       body: Sur le serveur, les messages n’existent qu’en texte chiffré. Il ne lit pas les chats.
     - title: Supprimé après réception
       body: Une fois le message reçu par l’autre côté, il est définitivement et irréversiblement supprimé.
+  server_cta_ci: Builds CI instables
+  server_cta_ci_note: GitHub Actions · pas une version de production
+  server_downloads_kicker: Builds
+  server_downloads_title: Builds CI instables
+  server_downloads_lead: "Builds intermédiaires du serveur depuis le workflow GitHub Actions de ShortP2P — pas pour la production. Ouvrez une exécution réussie et téléchargez l’artefact de votre plateforme."
+  server_downloads_open: Ouvrir les builds CI sur GitHub
+  server_downloads_note: "Les pages d’exécution sont publiques. Télécharger un ZIP d’artefact Actions exige toujours un compte GitHub (limitation GitHub). Les artefacts expirent au bout d’environ 90 jours."
   how_kicker: Comment voyage un message
   how_title: Quatre façons de faire circuler un message.
   steps:

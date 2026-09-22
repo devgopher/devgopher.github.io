@@ -685,6 +685,10 @@ h2 {
   padding-bottom: 12px;
 }
 
+.server-hero .cta-row {
+  margin-top: 22px;
+}
+
 .releases-hero h1,
 .server-hero h1 {
   font-size: clamp(2.2rem, 5vw, 3.6rem);

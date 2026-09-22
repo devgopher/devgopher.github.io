@@ -1,4 +1,5 @@
 {% assign t = site.data.i18n[page.lang] %}
+{% assign dl = site.data.downloads %}
 <!DOCTYPE html>
 <html lang="{{ t.html_lang }}">
 <head>
@@ -11,6 +12,10 @@
       <p class="kicker">{{ t.server_kicker }}</p>
       <h1>{{ t.server_title }}</h1>
       <p class="lead">{{ t.server_lead }}</p>
+      <div class="cta-row">
+        <a class="btn-ghost" href="{{ dl.server_actions_url }}">{{ t.server_cta_ci }}</a>
+      </div>
+      <p class="ghost cta-note">{{ t.server_cta_ci_note }}</p>
     </section>
 
     <section class="wrap section">
@@ -22,6 +27,16 @@
           </article>
         {% endfor %}
       </div>
+    </section>
+
+    <section class="wrap section downloads" aria-label="{{ t.server_downloads_title }}">
+      <p class="kicker">{{ t.server_downloads_kicker }}</p>
+      <h2>{{ t.server_downloads_title }}</h2>
+      <p class="downloads-lead">{{ t.server_downloads_lead }}</p>
+      <p class="downloads-cta-wrap">
+        <a class="btn" href="{{ dl.server_actions_url }}">{{ t.server_downloads_open }}</a>
+      </p>
+      <p class="downloads-note">{{ t.server_downloads_note }}</p>
     </section>
   </main>
   {% include site-footer.html %}
