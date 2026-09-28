@@ -14,10 +14,10 @@
         <h1>{{ t.hero_title }}</h1>
         <p class="lead">{{ t.hero_lead }}</p>
         <div class="cta-row">
-          <a class="btn" href="{{ site.github_repo }}/tree/{{ site.github_branch }}">{{ t.cta_source }}</a>
-          <a class="btn-ghost" href="{{ dl.release_url }}">{{ t.cta_ci }}</a>
+          <a class="btn" href="{{ dl.release_url }}">{{ t.cta_release }}</a>
+          <a class="btn-ghost" href="{{ dl.ci_workflow_url }}">{{ t.cta_ci }}</a>
         </div>
-        <p class="ghost cta-note">{{ t.cta_branch }} · {{ t.cta_ci_note }}</p>
+        <p class="ghost cta-note">{{ t.cta_release_note }}</p>
       </div>
       <div class="stage">
         <svg class="mesh" viewBox="0 0 360 360" aria-hidden="true">

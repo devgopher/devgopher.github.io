@@ -1,18 +1,18 @@
-# Intermediate CI builds from Iskra.MAUI (workflow: CI / _ci_targets.yml).
+# Intermediate CI builds from TorgLink (workflow: CI / _ci_targets.yml).
 #
 # source:
 #   actions  — link to successful CI runs; ZIP download needs any GitHub login
 #              (even on public repos). Run pages are publicly viewable.
 #   releases — anonymous browser_download_url from the rolling `ci-builds`
-#              prerelease (softprops in Iskra.MAUI ci.yml). Links 404 until the
+#              prerelease (softprops in TorgLink ci.yml). Links 404 until the
 #              first green CI push publishes that prerelease.
 source: releases
-ci_workflow_url: https://github.com/IskraMessenger/Iskra.MAUI/actions/workflows/ci.yml
-ci_success_url: https://github.com/IskraMessenger/Iskra.MAUI/actions/workflows/ci.yml?query=is%3Asuccess
-ci_runs_api: https://api.github.com/repos/IskraMessenger/Iskra.MAUI/actions/workflows/ci.yml/runs?status=success&per_page=1
+ci_workflow_url: https://github.com/IskraMessenger/TorgLink/actions/workflows/ci.yml
+ci_success_url: https://github.com/IskraMessenger/TorgLink/actions/workflows/ci.yml?query=is%3Asuccess
+ci_runs_api: https://api.github.com/repos/IskraMessenger/TorgLink/actions/workflows/ci.yml/runs?status=success&per_page=1
 release_tag: ci-builds
-release_url: https://github.com/IskraMessenger/Iskra.MAUI/releases/tag/ci-builds
-release_download_base: https://github.com/IskraMessenger/Iskra.MAUI/releases/download/ci-builds
+release_url: https://github.com/IskraMessenger/TorgLink/releases/tag/ci-builds
+release_download_base: https://github.com/IskraMessenger/TorgLink/releases/download/ci-builds
 # Server: ShortP2P 0.1 download buttons open the Actions run artifacts section.
 # Unstable CI stays on the workflow list (server_actions_url).
 server_release_tag: "0.1"

@@ -21,8 +21,8 @@ en:
   releases_view: View on GitHub
   downloads_kicker: Builds
   downloads_title: Unstable CI builds
-  downloads_lead: "Four targets from the public Iskra.MAUI CI workflow. Open the latest successful run, open Artifacts, then download the ZIP named below."
-  downloads_lead_releases: "Rolling CI builds from Iskra.MAUI — not production. Download the Windows installer or Android package for your platform."
+  downloads_lead: "Four targets from the public TorgLink CI workflow. Open the latest successful run, open Artifacts, then download the ZIP named below."
+  downloads_lead_releases: "Rolling CI builds from TorgLink — not production. Download the Windows installer or Android package for your platform."
   downloads_step_open: Open the latest successful CI run (public; no login needed to view).
   downloads_step_artifacts: Scroll to Artifacts on that run page.
   downloads_step_named: Download the ZIP whose name matches your platform.
@@ -39,6 +39,8 @@ en:
   hero_title: Reliability, resilience, security.
   hero_lead: "TorgLink is a messenger that combines client–server and mesh approaches: you can switch between them or use them together. You can run several servers, deployed on Windows or Linux. The messenger itself is cross-platform: Windows, Linux, Android, and iOS."
   cta_source: View the code
+  cta_release: Release 0.1
+  cta_release_note: TorgLink · first published release
   cta_branch: "Branch dev/0.1"
   cta_ci: Unstable CI builds
   cta_ci_note: Not a production release
@@ -157,8 +159,8 @@ ru:
   releases_view: Смотреть на GitHub
   downloads_kicker: Сборки
   downloads_title: Нестабильные сборки CI
-  downloads_lead: "Четыре цели из публичного workflow CI репозитория Iskra.MAUI. Откройте последний успешный прогон, раздел Artifacts, затем скачайте ZIP с именем ниже."
-  downloads_lead_releases: "Промежуточные сборки CI из Iskra.MAUI — не для продакшена. Скачайте установщик Windows или пакет Android под вашу платформу."
+  downloads_lead: "Четыре цели из публичного workflow CI репозитория TorgLink. Откройте последний успешный прогон, раздел Artifacts, затем скачайте ZIP с именем ниже."
+  downloads_lead_releases: "Промежуточные сборки CI из TorgLink — не для продакшена. Скачайте установщик Windows или пакет Android под вашу платформу."
   downloads_step_open: Откройте последний успешный прогон CI (страница публична, вход не нужен).
   downloads_step_artifacts: Найдите на странице прогона раздел Artifacts.
   downloads_step_named: Скачайте ZIP, имя которого совпадает с вашей платформой.
@@ -175,6 +177,8 @@ ru:
   hero_title: Надежность, устойчивость, безопасность.
   hero_lead: "TorgLink — мессенджер, сочетающий работу через сервер и ячеистую сеть: можно переключаться между ними и сочетать их. Серверов может быть несколько; их можно развернуть на устройствах под управлением Windows или Linux. Приложение доступно на Windows, Linux, Android и iOS."
   cta_source: Смотреть код
+  cta_release: Релиз 0.1
+  cta_release_note: TorgLink · первый опубликованный релиз
   cta_branch: "Ветка dev/0.1"
   cta_ci: Нестабильные сборки CI
   cta_ci_note: Не продакшен-релиз
@@ -293,8 +297,8 @@ es:
   releases_view: Ver en GitHub
   downloads_kicker: Builds
   downloads_title: Builds CI inestables
-  downloads_lead: "Cuatro objetivos del workflow CI público de Iskra.MAUI. Abre la última ejecución correcta, abre Artifacts y descarga el ZIP con el nombre de abajo."
-  downloads_lead_releases: "Builds CI continuos de Iskra.MAUI — no son de producción. Descarga el instalador de Windows o el paquete Android de tu plataforma."
+  downloads_lead: "Cuatro objetivos del workflow CI público de TorgLink. Abre la última ejecución correcta, abre Artifacts y descarga el ZIP con el nombre de abajo."
+  downloads_lead_releases: "Builds CI continuos de TorgLink — no son de producción. Descarga el instalador de Windows o el paquete Android de tu plataforma."
   downloads_step_open: Abre la última ejecución CI correcta (pública; no hace falta iniciar sesión para verla).
   downloads_step_artifacts: Ve a la sección Artifacts de esa ejecución.
   downloads_step_named: Descarga el ZIP cuyo nombre coincida con tu plataforma.
@@ -311,6 +315,8 @@ es:
   hero_title: Fiabilidad, resiliencia, seguridad.
   hero_lead: "TorgLink es un mensajero que combina el enfoque cliente-servidor y el mesh: puedes pasar de uno a otro o combinarlos. Puede haber varios servidores, desplegados en Windows o Linux. El propio mensajero es multiplataforma: Windows, Linux, Android e iOS."
   cta_source: Ver el código
+  cta_release: Lanzamiento 0.1
+  cta_release_note: TorgLink · primer lanzamiento publicado
   cta_branch: "Rama dev/0.1"
   cta_ci: Builds CI inestables
   cta_ci_note: No es un lanzamiento de producción
@@ -429,8 +435,8 @@ zh:
   releases_view: 在 GitHub 上查看
   downloads_kicker: 构建
   downloads_title: 不稳定 CI 构建
-  downloads_lead: "来自公开的 Iskra.MAUI CI 工作流的四个目标。打开最近一次成功的运行，进入 Artifacts，然后下载下方名称对应的 ZIP。"
-  downloads_lead_releases: "来自 Iskra.MAUI 的滚动 CI 构建 — 非正式发布。请下载对应平台的 Windows 安装包或 Android 软件包。"
+  downloads_lead: "来自公开的 TorgLink CI 工作流的四个目标。打开最近一次成功的运行，进入 Artifacts，然后下载下方名称对应的 ZIP。"
+  downloads_lead_releases: "来自 TorgLink 的滚动 CI 构建 — 非正式发布。请下载对应平台的 Windows 安装包或 Android 软件包。"
   downloads_step_open: 打开最近一次成功的 CI 运行（公开页面，查看无需登录）。
   downloads_step_artifacts: 在该运行页面找到 Artifacts 区域。
   downloads_step_named: 下载与你的平台名称匹配的 ZIP。
@@ -449,6 +455,8 @@ zh:
   hero_title: 可靠、韧性、安全。
   hero_lead: "TorgLink 是一款结合客户端-服务器与网状（mesh）两种方式的即时通讯应用：可以在两者之间切换，也可以同时使用。服务器可以有多台，可部署在 Windows 或 Linux 设备上。应用本身跨平台：Windows、Linux、Android 和 iOS。"
   cta_source: 查看代码
+  cta_release: 发布 0.1
+  cta_release_note: TorgLink · 首次正式发布
   cta_branch: "分支 dev/0.1"
   cta_ci: 不稳定 CI 构建
   cta_ci_note: 非正式发布
@@ -567,8 +575,8 @@ de:
   releases_view: Auf GitHub ansehen
   downloads_kicker: Builds
   downloads_title: Instabile CI-Builds
-  downloads_lead: "Vier Ziele aus dem öffentlichen Iskra.MAUI-CI-Workflow. Öffnen Sie den letzten erfolgreichen Lauf, dann Artifacts, und laden Sie die unten genannte ZIP herunter."
-  downloads_lead_releases: "Rolling CI-Builds aus Iskra.MAUI — keine Produktion. Laden Sie den Windows-Installer oder das Android-Paket für Ihre Plattform herunter."
+  downloads_lead: "Vier Ziele aus dem öffentlichen TorgLink-CI-Workflow. Öffnen Sie den letzten erfolgreichen Lauf, dann Artifacts, und laden Sie die unten genannte ZIP herunter."
+  downloads_lead_releases: "Rolling CI-Builds aus TorgLink — keine Produktion. Laden Sie den Windows-Installer oder das Android-Paket für Ihre Plattform herunter."
   downloads_step_open: Öffnen Sie den letzten erfolgreichen CI-Lauf (öffentlich; zum Ansehen keine Anmeldung nötig).
   downloads_step_artifacts: Scrollen Sie auf der Laufseite zu Artifacts.
   downloads_step_named: Laden Sie die ZIP herunter, deren Name zu Ihrer Plattform passt.
@@ -585,6 +593,8 @@ de:
   hero_title: Zuverlässigkeit, Widerstandsfähigkeit, Sicherheit.
   hero_lead: "TorgLink ist ein Messenger, der Client-Server- und Mesh-Ansätze verbindet: Sie können zwischen ihnen wechseln oder beide zusammen nutzen. Es können mehrere Server laufen, bereitgestellt unter Windows oder Linux. Der Messenger selbst ist plattformübergreifend: Windows, Linux, Android und iOS."
   cta_source: Code ansehen
+  cta_release: Release 0.1
+  cta_release_note: TorgLink · erste veröffentlichte Version
   cta_branch: "Branch dev/0.1"
   cta_ci: Instabile CI-Builds
   cta_ci_note: Keine Produktionsversion
@@ -703,8 +713,8 @@ fr:
   releases_view: Voir sur GitHub
   downloads_kicker: Builds
   downloads_title: Builds CI instables
-  downloads_lead: "Quatre cibles du workflow CI public d’Iskra.MAUI. Ouvrez la dernière exécution réussie, la section Artifacts, puis téléchargez le ZIP nommé ci-dessous."
-  downloads_lead_releases: "Builds CI continus d’Iskra.MAUI — pas pour la production. Téléchargez l’installeur Windows ou le paquet Android de votre plateforme."
+  downloads_lead: "Quatre cibles du workflow CI public de TorgLink. Ouvrez la dernière exécution réussie, la section Artifacts, puis téléchargez le ZIP nommé ci-dessous."
+  downloads_lead_releases: "Builds CI continus de TorgLink — pas pour la production. Téléchargez l’installeur Windows ou le paquet Android de votre plateforme."
   downloads_step_open: Ouvrez la dernière exécution CI réussie (publique ; pas besoin de compte pour la consulter).
   downloads_step_artifacts: Allez à la section Artifacts de cette exécution.
   downloads_step_named: Téléchargez le ZIP dont le nom correspond à votre plateforme.
@@ -721,6 +731,8 @@ fr:
   hero_title: Fiabilité, résilience, sécurité.
   hero_lead: "TorgLink est une messagerie qui combine les approches client-serveur et mesh : vous pouvez passer de l’une à l’autre ou les utiliser ensemble. Vous pouvez faire tourner plusieurs serveurs, déployés sous Windows ou Linux. Le client est multiplateforme : Windows, Linux, Android et iOS."
   cta_source: Voir le code
+  cta_release: Version 0.1
+  cta_release_note: TorgLink · première version publiée
   cta_branch: "Branche dev/0.1"
   cta_ci: Builds CI instables
   cta_ci_note: Pas une version de production
