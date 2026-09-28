@@ -83,9 +83,9 @@ en:
   server_cta_ci_note: GitHub Actions · not a production release
   server_downloads_kicker: Download
   server_downloads_title: Release 0.1
-  server_downloads_lead: "First published ShortP2P server release. Open the GitHub Actions run for Windows and Linux artifacts."
+  server_downloads_lead: "First published ShortP2P server release. Open GitHub Release 0.1 for Windows and Linux artifacts."
   server_downloads_open: Open release 0.1 artifacts
-  server_downloads_note: "Windows (win-x64) and Linux (amd64) packages are Actions artifacts on the 0.1 release run. Downloading the ZIP requires any GitHub account."
+  server_downloads_note: "Windows (win-x64) and Linux (amd64) packages are listed on GitHub Release 0.1."
   server_downloads_ci: Unstable CI builds
   how_kicker: How a message travels
   how_title: Four ways a message can move.
@@ -219,9 +219,9 @@ ru:
   server_cta_ci_note: GitHub Actions · не продакшен-релиз
   server_downloads_kicker: Скачивание
   server_downloads_title: Релиз 0.1
-  server_downloads_lead: "Первый опубликованный релиз сервера ShortP2P. Откройте прогон GitHub Actions, чтобы скачать артефакты для Windows и Linux."
+  server_downloads_lead: "Первый опубликованный релиз сервера ShortP2P. Откройте GitHub-релиз 0.1, чтобы скачать артефакты для Windows и Linux."
   server_downloads_open: Открыть артефакты релиза 0.1
-  server_downloads_note: "Пакеты Windows (win-x64) и Linux (amd64) — артефакты Actions прогона релиза 0.1. Скачивание ZIP требует любой аккаунт GitHub."
+  server_downloads_note: "Пакеты Windows (win-x64) и Linux (amd64) перечислены на GitHub-релизе 0.1."
   server_downloads_ci: Нестабильные сборки CI
   how_kicker: Как идёт сообщение
   how_title: Четыре способа доставить сообщение.
@@ -355,9 +355,9 @@ es:
   server_cta_ci_note: GitHub Actions · no es un lanzamiento de producción
   server_downloads_kicker: Descarga
   server_downloads_title: Lanzamiento 0.1
-  server_downloads_lead: "Primer lanzamiento publicado del servidor ShortP2P. Abre la ejecución de GitHub Actions para los artefactos de Windows y Linux."
+  server_downloads_lead: "Primer lanzamiento publicado del servidor ShortP2P. Abre el lanzamiento 0.1 en GitHub para los artefactos de Windows y Linux."
   server_downloads_open: Abrir los artefactos del lanzamiento 0.1
-  server_downloads_note: "Los paquetes Windows (win-x64) y Linux (amd64) son artefactos de Actions de la ejecución 0.1. Hace falta una cuenta de GitHub para el ZIP."
+  server_downloads_note: "Los paquetes Windows (win-x64) y Linux (amd64) están en el lanzamiento 0.1 de GitHub."
   server_downloads_ci: Builds CI inestables
   how_kicker: Cómo viaja un mensaje
   how_title: Cuatro modos de mover un mensaje.
@@ -493,9 +493,9 @@ zh:
   server_cta_ci_note: GitHub Actions · 非正式发布
   server_downloads_kicker: 下载
   server_downloads_title: 发布 0.1
-  server_downloads_lead: "ShortP2P 服务器的首次公开发布。打开 GitHub Actions 运行页获取 Windows 与 Linux 产物。"
+  server_downloads_lead: "ShortP2P 服务器的首次公开发布。打开 GitHub Release 0.1 获取 Windows 与 Linux 产物。"
   server_downloads_open: 打开 0.1 发布产物
-  server_downloads_note: "Windows（win-x64）与 Linux（amd64）包是 0.1 发布运行的 Actions 产物。下载 ZIP 需要 GitHub 账号。"
+  server_downloads_note: "Windows（win-x64）与 Linux（amd64）包列在 GitHub Release 0.1 上。"
   server_downloads_ci: 不稳定 CI 构建
   how_kicker: 消息如何走
   how_title: 消息传递的四种方式。
@@ -629,9 +629,9 @@ de:
   server_cta_ci_note: GitHub Actions · keine Produktionsversion
   server_downloads_kicker: Download
   server_downloads_title: Release 0.1
-  server_downloads_lead: "Erste veröffentlichte Version des ShortP2P-Servers. Öffnen Sie den GitHub-Actions-Lauf für Windows- und Linux-Artefakte."
+  server_downloads_lead: "Erste veröffentlichte Version des ShortP2P-Servers. Öffnen Sie GitHub-Release 0.1 für Windows- und Linux-Artefakte."
   server_downloads_open: Release-0.1-Artefakte öffnen
-  server_downloads_note: "Windows- (win-x64) und Linux-Pakete (amd64) sind Actions-Artefakte des 0.1-Release-Laufs. Der ZIP-Download braucht ein GitHub-Konto."
+  server_downloads_note: "Windows- (win-x64) und Linux-Pakete (amd64) stehen auf GitHub-Release 0.1."
   server_downloads_ci: Instabile CI-Builds
   how_kicker: Wie eine Nachricht wandert
   how_title: Vier Wege, wie eine Nachricht sich bewegen kann.
@@ -765,9 +765,9 @@ fr:
   server_cta_ci_note: GitHub Actions · pas une version de production
   server_downloads_kicker: Téléchargement
   server_downloads_title: Version 0.1
-  server_downloads_lead: "Première version publiée du serveur ShortP2P. Ouvrez l’exécution GitHub Actions pour les artefacts Windows et Linux."
+  server_downloads_lead: "Première version publiée du serveur ShortP2P. Ouvrez la version GitHub 0.1 pour les artefacts Windows et Linux."
   server_downloads_open: Ouvrir les artefacts de la version 0.1
-  server_downloads_note: "Les paquets Windows (win-x64) et Linux (amd64) sont des artefacts Actions de l’exécution 0.1. Un compte GitHub est requis pour le ZIP."
+  server_downloads_note: "Les paquets Windows (win-x64) et Linux (amd64) sont listés sur la version GitHub 0.1."
   server_downloads_ci: Builds CI instables
   how_kicker: Comment voyage un message
   how_title: Quatre façons de faire circuler un message.
