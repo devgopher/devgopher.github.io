@@ -18,6 +18,10 @@ release_download_base: https://github.com/IskraMessenger/TorgLink/releases/downl
 server_release_tag: "0.1"
 server_release_url: https://github.com/IskraMessenger/ShortP2P/actions/runs/36399809396#artifacts
 server_actions_url: https://github.com/IskraMessenger/ShortP2P/actions
+# Homepage Platforms cards: which artifact drop to open (no Linux/iOS client builds).
+platform_artifacts:
+  windows: client
+  android: client
 builds:
   - id: winforms-x86
     label: WinForms x86

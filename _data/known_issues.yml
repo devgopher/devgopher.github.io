@@ -1,0 +1,94 @@
+# Documented client issues. Add new entries at the top.
+- id: no-available-servers
+  title:
+    en: No available servers
+    ru: Нет доступных серверов
+    de: Keine verfügbaren Server
+    fr: Aucun serveur disponible
+    es: No hay servidores disponibles
+    zh: 没有可用的服务器
+  body:
+    en: |
+      This happens when all listed servers are unreachable, or when they have lost trust. Open the **Servers** tab in the app and check each server.
+    ru: |
+      Так бывает, когда все добавленные серверы недоступны либо у них пропало доверие. Откройте в приложении вкладку **Серверы** и проверьте каждую запись.
+    de: |
+      Das tritt auf, wenn alle eingetragenen Server unerreichbar sind oder das Vertrauen verloren haben. Öffnen Sie in der App die Registerkarte **Servers** und prüfen Sie jeden Eintrag.
+    fr: |
+      Cela arrive lorsque tous les serveurs listés sont injoignables, ou lorsqu’ils ont perdu la confiance. Ouvrez l’onglet **Servers** dans l’application et vérifiez chaque serveur.
+    es: |
+      Ocurre cuando todos los servidores de la lista son inalcanzables o cuando han perdido la confianza. Abre la pestaña **Servers** en la app y revisa cada servidor.
+    zh: |
+      当列表中的服务器全部不可达，或它们已失去信任时，会出现此情况。请在应用中打开 **Servers** 选项卡，逐条检查。
+  remedies:
+    en: |
+      **Win MAUI / Android (dark UI).** On **Messenger servers**, tap **Check** on a server. Use the **toggles** on the right to turn a server on or off. If the certificate fingerprint does not match, the server is marked untrusted; if it does not respond, it is marked inactive.
+
+      **WinForms (light UI).** On **Messenger servers**, look at the **Active** and **Trusted** columns (`yes` / `no`).
+
+      **What to do.** Confirm the server process is running. Re-add the server or turn it back on. If it is untrusted, compare the fingerprint and restore trust only when the host is yours. Then use **Check** to verify connectivity.
+    ru: |
+      **Win MAUI / Android (тёмный интерфейс).** На экране **Messenger servers** нажмите **Check** у сервера. Переключателями **справа** сервер включают и выключают. Если отпечаток сертификата не совпал, сервер помечается как untrusted; если он не отвечает — как inactive.
+
+      **WinForms (светлый интерфейс).** На экране **Messenger servers** смотрите столбцы **Active** и **Trusted** (`yes` / `no`).
+
+      **Что сделать.** Убедитесь, что процесс сервера запущен. Добавьте сервер снова или включите его. Если он untrusted, сверьте отпечаток и восстанавливайте доверие только если хост ваш. Затем проверьте связь кнопкой **Check**.
+    de: |
+      **Win MAUI / Android (dunkle Oberfläche).** Unter **Messenger servers** tippen Sie bei einem Server auf **Check**. Mit den **Schaltern** rechts schalten Sie einen Server ein oder aus. Stimmen die Zertifikats-Fingerprints nicht überein, gilt der Server als untrusted; antwortet er nicht, als inactive.
+
+      **WinForms (helle Oberfläche).** Unter **Messenger servers** sehen Sie die Spalten **Active** und **Trusted** (`yes` / `no`).
+
+      **Was tun.** Prüfen Sie, ob der Serverprozess läuft. Fügen Sie den Server erneut hinzu oder schalten Sie ihn wieder ein. Ist er untrusted, vergleichen Sie den Fingerprint und stellen Sie das Vertrauen nur wieder her, wenn der Host Ihnen gehört. Prüfen Sie die Verbindung danach mit **Check**.
+    fr: |
+      **Win MAUI / Android (interface sombre).** Sur **Messenger servers**, appuyez sur **Check** pour un serveur. Les **interrupteurs** à droite l’activent ou le désactivent. Si l’empreinte du certificat ne correspond pas, le serveur est marqué untrusted ; s’il ne répond pas, inactive.
+
+      **WinForms (interface claire).** Sur **Messenger servers**, regardez les colonnes **Active** et **Trusted** (`yes` / `no`).
+
+      **Que faire.** Vérifiez que le processus serveur tourne. Réajoutez le serveur ou réactivez-le. S’il est untrusted, comparez l’empreinte et ne rétablissez la confiance que si l’hôte est le vôtre. Puis contrôlez la connectivité avec **Check**.
+    es: |
+      **Win MAUI / Android (interfaz oscura).** En **Messenger servers**, pulsa **Check** en un servidor. Los **interruptores** de la derecha lo activan o desactivan. Si la huella del certificado no coincide, el servidor queda untrusted; si no responde, inactive.
+
+      **WinForms (interfaz clara).** En **Messenger servers**, mira las columnas **Active** y **Trusted** (`yes` / `no`).
+
+      **Qué hacer.** Comprueba que el proceso del servidor está en marcha. Vuelve a añadir el servidor o actívalo. Si está untrusted, compara la huella y restablece la confianza solo si el host es tuyo. Luego verifica la conectividad con **Check**.
+    zh: |
+      **Win MAUI / Android（深色界面）。** 在 **Messenger servers** 上，对某台服务器点 **Check**。右侧的**开关**用于启用或停用。证书指纹不匹配时，服务器会被标为 untrusted；无响应时标为 inactive。
+
+      **WinForms（浅色界面）。** 在 **Messenger servers** 中查看 **Active** 和 **Trusted** 列（`yes` / `no`）。
+
+      **处理办法。** 确认服务器进程正在运行。重新添加或重新启用该服务器。若为 untrusted，请核对指纹，仅在主机属于你时再恢复信任。然后用 **Check** 验证连通性。
+  shots:
+    - file: maui-check-toggles.jpg
+      width: 1024
+      height: 425
+      alt:
+        en: "MAUI Messenger servers: Check is underlined, enable toggles on the right are underlined."
+        ru: "MAUI, Messenger servers: подчёркнуты кнопка Check и переключатели справа."
+        de: "MAUI Messenger servers: Check und die Schalter rechts sind unterstrichen."
+        fr: "MAUI Messenger servers : Check et les interrupteurs à droite sont soulignés."
+        es: "MAUI Messenger servers: Check y los interruptores de la derecha están subrayados."
+        zh: "MAUI Messenger servers：Check 与右侧开关已标出。"
+      caption:
+        en: Check and the on/off toggles
+        ru: Check и переключатели включения
+        de: Check und die Ein/Aus-Schalter
+        fr: Check et les interrupteurs
+        es: Check y los interruptores
+        zh: Check 与开关
+    - file: winforms-active-trusted.png
+      width: 891
+      height: 415
+      alt:
+        en: "WinForms Messenger servers: Active and Trusted column headers are underlined."
+        ru: "WinForms, Messenger servers: подчёркнуты столбцы Active и Trusted."
+        de: "WinForms Messenger servers: die Spalten Active und Trusted sind unterstrichen."
+        fr: "WinForms Messenger servers : les colonnes Active et Trusted sont soulignées."
+        es: "WinForms Messenger servers: las columnas Active y Trusted están subrayadas."
+        zh: "WinForms Messenger servers：Active 与 Trusted 列已标出。"
+      caption:
+        en: Active and Trusted columns
+        ru: Столбцы Active и Trusted
+        de: Spalten Active und Trusted
+        fr: Colonnes Active et Trusted
+        es: Columnas Active y Trusted
+        zh: Active 与 Trusted 列

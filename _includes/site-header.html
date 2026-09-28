@@ -3,7 +3,6 @@
 <a class="skip" href="#main">Skip</a>
 <div class="draft-bar">
   <span>{{ t.draft_label }} · {{ t.version_label }}</span>
-  <span>{{ t.footer_draft }}</span>
 </div>
 <header class="site-header">
   <div class="wrap site-header-inner">
@@ -14,6 +13,7 @@
       <a href="{{ home_url | relative_url }}" {% unless page.section %}aria-current="page"{% endunless %}>{{ t.nav_overview }}</a>
       <a href="{{ server_url | relative_url }}" {% if page.section == 'server' %}aria-current="page"{% endif %}>{{ t.nav_server }}</a>
       <a href="{{ quickstart_url | relative_url }}" {% if page.section == 'quickstart' %}aria-current="page"{% endif %}>{{ t.nav_quickstart }}</a>
+      <a href="{{ known_issues_url | relative_url }}" {% if page.section == 'known-issues' %}aria-current="page"{% endif %}>{{ t.nav_known_issues }}</a>
       <a href="{{ releases_url | relative_url }}" {% if page.section == 'releases' %}aria-current="page"{% endif %}>{{ t.nav_releases }}</a>
     </nav>
     <nav class="langs" aria-label="Language">

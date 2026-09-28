@@ -100,19 +100,36 @@
       <p class="plats-note">{{ t.platforms_note }}</p>
       <div class="plats">
         {% for item in t.platforms %}
-          <article class="plat">
+          {% assign plat_key = item.name | downcase %}
+          {% assign plat_kind = site.data.downloads.platform_artifacts[plat_key] %}
+          {% assign plat_href = '' %}
+          {% assign plat_label = '' %}
+          {% if plat_kind == 'client' %}
+            {% assign plat_href = dl.release_url %}
+            {% assign plat_label = t.platforms_client_artifacts %}
+          {% endif %}
+          {% if plat_href != '' %}
+          <a class="plat" href="{{ plat_href }}">
             <div class="os-mark">
               <img src="{{ item.name | downcase | prepend: '/assets/img/os/' | append: '.svg' | relative_url }}" alt="" width="28" height="28">
             </div>
             <div>
               <h3>{{ item.name }}</h3>
               <p>{{ item.detail }}</p>
-              {% assign plat_key = item.name | downcase %}
-              {% if plat_key == 'windows' or plat_key == 'android' %}
-                <a class="plat-ci" href="{{ dl.release_url }}">{{ t.cta_ci }}</a>
-              {% endif %}
+              <span class="plat-ci">{{ plat_label }}</span>
+            </div>
+          </a>
+          {% else %}
+          <article class="plat">
+            <div class="os-mark">
+              <img src="{{ item.name | downcase | prepend: '/assets/img/os/' | append: '.svg' | relative_url }}" alt="" width="28" height="28">
+            </div>
+            <div>
+              <h3>{{ item.name }}</h3>
+              <p>{{ t.platforms_unavailable }}</p>
             </div>
           </article>
+          {% endif %}
         {% endfor %}
       </div>
     </section>

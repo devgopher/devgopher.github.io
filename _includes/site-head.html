@@ -6,6 +6,9 @@
 {% elsif page.section == 'quickstart' %}
   {% assign page_title = t.quickstart_meta_title %}
   {% assign page_description = t.quickstart_meta_description %}
+{% elsif page.section == 'known-issues' %}
+  {% assign page_title = t.known_issues_meta_title %}
+  {% assign page_description = t.known_issues_meta_description %}
 {% elsif page.section == 'server' %}
   {% assign page_title = t.server_meta_title %}
   {% assign page_description = t.server_meta_description %}

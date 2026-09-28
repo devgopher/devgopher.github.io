@@ -1,0 +1,65 @@
+{% assign t = site.data.i18n[page.lang] %}
+<!DOCTYPE html>
+<html lang="{{ t.html_lang }}">
+<head>
+  {% include site-head.html %}
+</head>
+<body>
+  {% include site-header.html %}
+  <main id="main">
+    <section class="wrap section releases-hero">
+      <p class="kicker">{{ t.known_issues_kicker }}</p>
+      <h1>{{ t.known_issues_title }}</h1>
+      <p class="lead">{{ t.known_issues_lead }}</p>
+    </section>
+
+    <section class="wrap section issues-list" data-issues-filter aria-label="{{ t.known_issues_title }}">
+      <div class="issues-search">
+        <label class="issues-search-label" for="issues-search">{{ t.known_issues_search_label }}</label>
+        <input id="issues-search" type="search" autocomplete="off" spellcheck="false" placeholder="{{ t.known_issues_search_placeholder }}">
+      </div>
+
+      {% if site.data.known_issues.size == 0 %}
+        <p class="issues-empty">{{ t.known_issues_empty }}</p>
+      {% else %}
+        {% for issue in site.data.known_issues %}
+          {% assign issue_title = issue.title[page.lang] | default: issue.title.en %}
+          {% assign issue_body = issue.body[page.lang] | default: issue.body.en %}
+          {% assign issue_remedies = issue.remedies[page.lang] | default: issue.remedies.en %}
+          {% capture search_blob %}{{ issue_title }} {{ issue_body }} {{ issue_remedies }}{% endcapture %}
+          <details class="issue" id="{{ issue.id }}" data-search="{{ search_blob | strip_html | downcase | escape }}">
+            <summary>
+              <span class="issue-title">{{ issue_title }}</span>
+              <span class="issue-chevron" aria-hidden="true"></span>
+            </summary>
+            <div class="issue-panel">
+              <div class="issue-body">
+                {{ issue_body | markdownify }}
+              </div>
+              <h3>{{ t.known_issues_remedies }}</h3>
+              <div class="issue-body">
+                {{ issue_remedies | markdownify }}
+              </div>
+              {% if issue.shots %}
+              <div class="qs-shots">
+                {% for shot in issue.shots %}
+                  {% assign shot_alt = shot.alt[page.lang] | default: shot.alt.en %}
+                  {% assign shot_cap = shot.caption[page.lang] | default: shot.caption.en %}
+                  <figure>
+                    <img src="{{ '/assets/img/known-issues/' | append: shot.file | relative_url }}" alt="{{ shot_alt | escape }}" width="{{ shot.width }}" height="{{ shot.height }}">
+                    <figcaption>{{ shot_cap }}</figcaption>
+                  </figure>
+                {% endfor %}
+              </div>
+              {% endif %}
+            </div>
+          </details>
+        {% endfor %}
+        <p class="issues-empty" hidden>{{ t.known_issues_empty }}</p>
+      {% endif %}
+    </section>
+  </main>
+  {% include site-footer.html %}
+  <script src="{{ '/assets/js/known-issues.js' | relative_url }}" defer></script>
+</body>
+</html>

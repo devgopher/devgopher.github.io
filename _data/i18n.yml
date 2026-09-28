@@ -10,6 +10,7 @@ en:
   nav_server: Server
   nav_releases: Releases
   nav_quickstart: Quick Start
+  nav_known_issues: Known Issues
   nav_source: Source
   server_meta_title: TorgLink — server (draft 0.1)
   server_meta_description: "A store-and-forward server for finding clients and delivering encrypted messages reliably. Messages are stored exclusively in encrypted form and are permanently deleted after they are received."
@@ -59,7 +60,7 @@ en:
     - Tap Servers.
     - Enter the Base URL (for example https://host:7196).
     - Tap Add server. Import server is optional.
-  quickstart_app_winforms_title: WinForms
+  quickstart_app_winforms_title: WinForms — for older PCs and Windows versions (Windows 7 SP1 and later)
   quickstart_app_winforms_steps:
     - Open the Servers tab (Серверы).
     - Enter the Base URL.
@@ -74,6 +75,15 @@ en:
   quickstart_app_cap_maui_add: "Base URL → Add server"
   quickstart_app_cap_winforms_tab: Серверы
   quickstart_app_cap_winforms_dialog: "Base URL → Добавить"
+  known_issues_meta_title: TorgLink — known issues (draft 0.1)
+  known_issues_meta_description: "Known issues in TorgLink draft 0.1 and what to try. Not a production release."
+  known_issues_kicker: Troubleshooting
+  known_issues_title: Known Issues
+  known_issues_lead: "Documented problems in draft 0.1. Search by title or description, then expand an issue for details and remedies."
+  known_issues_search_label: Search issues
+  known_issues_search_placeholder: Search by title or description
+  known_issues_empty: No issues match this search.
+  known_issues_remedies: Remedies
   downloads_kicker: Builds
   downloads_title: Unstable CI builds
   downloads_lead: "Four targets from the public TorgLink CI workflow. Open the latest successful run, open Artifacts, then download the ZIP named below."
@@ -164,18 +174,20 @@ en:
   platforms_kicker: Platforms
   platforms_title: Available on these platforms
   platforms_note: We aim to support a wide range of devices, including ones that are considered outdated today (Windows 7).
+  platforms_client_artifacts: Client artifacts
+  platforms_unavailable: Not available yet
   platforms:
     - name: Windows
       detail: Client, including Windows 7. You can also host a server here.
     - name: Linux
-      detail: Client. You can also host a server here.
+      detail: Not available yet
     - name: Android
       detail: Client.
     - name: iOS
-      detail: Client.
+      detail: Not available yet
   source_kicker: Source
   source_title: TorgLink is the product. ShortP2P is the protocol.
-  source_body: The MAUI app lives in Iskra.MAUI. Mesh, crypto, discovery, and the optional messenger server live in the ShortP2P tree. This site is a landing draft for branch 0.1 — not a shipping announcement.
+  source_body: The MAUI app lives in Iskra.MAUI. Mesh, crypto, discovery, and the optional messenger server live in the ShortP2P tree.
   disclaimer_title: Early stage
   disclaimer_body: The project is in an early stage of development.
   legal_title: Disclaimer (Limitation of Liability)
@@ -189,7 +201,6 @@ en:
     - Use of the code and the built applications is the sole responsibility of the end user — at their own risk.
   footer_product: TorgLink
   footer_protocol: Protocol ShortP2P
-  footer_draft: Landing draft · not a release
 
 ru:
   html_lang: ru
@@ -203,6 +214,7 @@ ru:
   nav_server: Сервер
   nav_releases: Релизы
   nav_quickstart: Быстрый старт
+  nav_known_issues: Известные проблемы
   nav_source: Исходный код
   server_meta_title: TorgLink — сервер (черновик 0.1)
   server_meta_description: "Store-and-forward сервер для поиска клиентов и надёжной передачи зашифрованных сообщений. Сообщения хранятся исключительно в зашифрованном виде и удаляются после получения безвозвратно."
@@ -252,7 +264,7 @@ ru:
     - Нажмите Servers.
     - Введите Base URL (например https://host:7196).
     - Нажмите Add server. Import server — по желанию.
-  quickstart_app_winforms_title: WinForms
+  quickstart_app_winforms_title: WinForms — для старых компьютеров и версий Windows (начиная с Windows 7 SP1)
   quickstart_app_winforms_steps:
     - Откройте вкладку «Серверы».
     - Введите Base URL.
@@ -267,6 +279,15 @@ ru:
   quickstart_app_cap_maui_add: "Base URL → Add server"
   quickstart_app_cap_winforms_tab: Серверы
   quickstart_app_cap_winforms_dialog: "Base URL → Добавить"
+  known_issues_meta_title: TorgLink — известные проблемы (черновик 0.1)
+  known_issues_meta_description: "Известные проблемы черновика TorgLink 0.1 и способы лечения. Не продакшен-релиз."
+  known_issues_kicker: Неисправности
+  known_issues_title: Известные проблемы
+  known_issues_lead: "Зафиксированные проблемы черновика 0.1. Ищите по названию или описанию, затем раскройте карточку — внутри описание и способы лечения."
+  known_issues_search_label: Поиск по проблемам
+  known_issues_search_placeholder: Поиск по названию или описанию
+  known_issues_empty: Ничего не найдено.
+  known_issues_remedies: Способы лечения
   downloads_kicker: Сборки
   downloads_title: Нестабильные сборки CI
   downloads_lead: "Четыре цели из публичного workflow CI репозитория TorgLink. Откройте последний успешный прогон, раздел Artifacts, затем скачайте ZIP с именем ниже."
@@ -357,18 +378,20 @@ ru:
   platforms_kicker: Платформы
   platforms_title: Доступен для платформ
   platforms_note: Мы стараемся поддерживать широкий спектр устройств, в том числе те, что сегодня считают устаревшими (Windows 7).
+  platforms_client_artifacts: Артефакты клиента
+  platforms_unavailable: Пока недоступен
   platforms:
     - name: Windows
       detail: Клиент, в том числе Windows 7. Здесь также можно развернуть сервер.
     - name: Linux
-      detail: Клиент. Здесь также можно развернуть сервер.
+      detail: Пока недоступен
     - name: Android
       detail: Клиент.
     - name: iOS
-      detail: Клиент.
+      detail: Пока недоступен
   source_kicker: Исходники
   source_title: TorgLink — продукт. ShortP2P — протокол.
-  source_body: Клиент MAUI — в Iskra.MAUI. Ячеистая сеть, шифрование, обнаружение узлов и необязательный сервер — в дереве ShortP2P. Этот сайт — черновик лендинга для ветки 0.1, а не анонс выпуска.
+  source_body: Клиент MAUI — в Iskra.MAUI. Ячеистая сеть, шифрование, обнаружение узлов и необязательный сервер — в дереве ShortP2P.
   disclaimer_title: Ранняя стадия
   disclaimer_body: Проект находится в ранней стадии своего развития.
   legal_title: Disclaimer (Ограничение ответственности)
@@ -382,7 +405,6 @@ ru:
     - Использование кода и собранных приложений является исключительной ответственностью конечного пользователя — на свой страх и риск.
   footer_product: TorgLink
   footer_protocol: Протокол ShortP2P
-  footer_draft: Черновик страницы · не выпуск
 
 es:
   html_lang: es
@@ -396,6 +418,7 @@ es:
   nav_server: Servidor
   nav_releases: Lanzamientos
   nav_quickstart: Inicio rápido
+  nav_known_issues: Problemas conocidos
   nav_source: Código
   server_meta_title: TorgLink — servidor (borrador 0.1)
   server_meta_description: "Un servidor store-and-forward para encontrar clientes y entregar mensajes cifrados de forma fiable. Los mensajes se guardan exclusivamente cifrados y se borran de forma permanente e irreversible tras su recepción."
@@ -445,7 +468,7 @@ es:
     - Pulsa Servers.
     - Introduce la Base URL (por ejemplo https://host:7196).
     - Pulsa Add server. Import server es opcional.
-  quickstart_app_winforms_title: WinForms
+  quickstart_app_winforms_title: WinForms — para PCs y versiones de Windows antiguas (a partir de Windows 7 SP1)
   quickstart_app_winforms_steps:
     - Abre la pestaña Servers (Серверы).
     - Introduce la Base URL.
@@ -460,6 +483,15 @@ es:
   quickstart_app_cap_maui_add: "Base URL → Add server"
   quickstart_app_cap_winforms_tab: Серверы
   quickstart_app_cap_winforms_dialog: "Base URL → Добавить"
+  known_issues_meta_title: TorgLink — problemas conocidos (borrador 0.1)
+  known_issues_meta_description: "Problemas conocidos del borrador TorgLink 0.1 y qué probar. No es un lanzamiento de producción."
+  known_issues_kicker: Incidencias
+  known_issues_title: Problemas conocidos
+  known_issues_lead: "Problemas documentados del borrador 0.1. Busca por título o descripción y despliega una ficha para ver detalles y soluciones."
+  known_issues_search_label: Buscar problemas
+  known_issues_search_placeholder: Buscar por título o descripción
+  known_issues_empty: Ningún problema coincide con esta búsqueda.
+  known_issues_remedies: Soluciones
   downloads_kicker: Builds
   downloads_title: Builds CI inestables
   downloads_lead: "Cuatro objetivos del workflow CI público de TorgLink. Abre la última ejecución correcta, abre Artifacts y descarga el ZIP con el nombre de abajo."
@@ -550,18 +582,20 @@ es:
   platforms_kicker: Plataformas
   platforms_title: Disponible en estas plataformas
   platforms_note: Procuramos dar soporte a una amplia gama de dispositivos, incluidos los que hoy se consideran obsoletos (Windows 7).
+  platforms_client_artifacts: Artefactos del cliente
+  platforms_unavailable: Aún no disponible
   platforms:
     - name: Windows
       detail: Cliente, incluido Windows 7. También puedes desplegar un servidor.
     - name: Linux
-      detail: Cliente; también puedes desplegar un servidor.
+      detail: Aún no disponible
     - name: Android
       detail: Cliente.
     - name: iOS
-      detail: Cliente.
+      detail: Aún no disponible
   source_kicker: Código
   source_title: TorgLink es el producto. ShortP2P es el protocolo.
-  source_body: La app MAUI está en Iskra.MAUI. La malla, la criptografía, el discovery y el servidor opcional viven en el árbol ShortP2P. Este sitio es un borrador de landing para la rama 0.1, no un anuncio de lanzamiento.
+  source_body: La app MAUI está en Iskra.MAUI. La malla, la criptografía, el discovery y el servidor opcional viven en el árbol ShortP2P.
   disclaimer_title: Etapa temprana
   disclaimer_body: El proyecto se encuentra en una etapa temprana de su desarrollo.
   legal_title: Descargo de responsabilidad (Limitación de responsabilidad)
@@ -575,7 +609,6 @@ es:
     - El uso del código y de las aplicaciones compiladas es responsabilidad exclusiva del usuario final — bajo su propio riesgo.
   footer_product: TorgLink
   footer_protocol: Protocolo ShortP2P
-  footer_draft: Borrador de landing · no es un lanzamiento
 
 zh:
   html_lang: zh-Hans
@@ -589,6 +622,7 @@ zh:
   nav_server: 服务器
   nav_releases: 发布
   nav_quickstart: 快速开始
+  nav_known_issues: 已知问题
   nav_source: 源代码
   server_meta_title: TorgLink — 服务器（草案 0.1）
   server_meta_description: "Store-and-forward 服务器，用于查找客户端并可靠投递加密消息。消息仅以密文形式存储，对方收到后即被永久、不可恢复地删除。"
@@ -638,7 +672,7 @@ zh:
     - 点 Servers。
     - 输入 Base URL（例如 https://host:7196）。
     - 点 Add server。Import server 为可选项。
-  quickstart_app_winforms_title: WinForms
+  quickstart_app_winforms_title: WinForms — 适用于较旧的电脑和 Windows 版本（Windows 7 SP1 及更高）
   quickstart_app_winforms_steps:
     - 打开 Servers（Серверы）选项卡。
     - 输入 Base URL。
@@ -653,6 +687,15 @@ zh:
   quickstart_app_cap_maui_add: "Base URL → Add server"
   quickstart_app_cap_winforms_tab: Серверы
   quickstart_app_cap_winforms_dialog: "Base URL → Добавить"
+  known_issues_meta_title: TorgLink — 已知问题（草案 0.1）
+  known_issues_meta_description: "TorgLink 草案 0.1 中的已知问题及处理方法。非正式发布。"
+  known_issues_kicker: 故障排除
+  known_issues_title: 已知问题
+  known_issues_lead: "草案 0.1 中已记录的问题。可按标题或正文搜索，展开后查看说明与处理方法。"
+  known_issues_search_label: 搜索问题
+  known_issues_search_placeholder: 按标题或正文搜索
+  known_issues_empty: 没有匹配的问题。
+  known_issues_remedies: 处理方法
   downloads_kicker: 构建
   downloads_title: 不稳定 CI 构建
   downloads_lead: "来自公开的 TorgLink CI 工作流的四个目标。打开最近一次成功的运行，进入 Artifacts，然后下载下方名称对应的 ZIP。"
@@ -745,18 +788,20 @@ zh:
   platforms_kicker: 平台
   platforms_title: 可用于以下平台
   platforms_note: 我们尽量支持广泛的设备，包括如今被视为过时的设备（Windows 7）。
+  platforms_client_artifacts: 客户端产物
+  platforms_unavailable: 暂不可用
   platforms:
     - name: Windows
       detail: 客户端，含 Windows 7。也可在此部署服务器。
     - name: Linux
-      detail: 客户端；也可在此部署服务器。
+      detail: 暂不可用
     - name: Android
       detail: 客户端。
     - name: iOS
-      detail: 客户端。
+      detail: 暂不可用
   source_kicker: 源码
   source_title: TorgLink 是产品。ShortP2P 是协议。
-  source_body: MAUI 应用位于 Iskra.MAUI。网状网络、加密、发现以及可选的消息服务器位于 ShortP2P 目录。本站是 0.1 分支的着陆页草稿，不是发版公告。
+  source_body: MAUI 应用位于 Iskra.MAUI。网状网络、加密、发现以及可选的消息服务器位于 ShortP2P 目录。
   disclaimer_title: 早期阶段
   disclaimer_body: 项目仍处于早期发展阶段。
   legal_title: 免责声明（责任限制）
@@ -770,7 +815,6 @@ zh:
     - 代码及已构建应用程序的使用完全由最终用户自行承担责任——风险自负。
   footer_product: TorgLink
   footer_protocol: 协议 ShortP2P
-  footer_draft: 着陆页草稿 · 非正式发布
 
 de:
   html_lang: de
@@ -784,6 +828,7 @@ de:
   nav_server: Server
   nav_releases: Releases
   nav_quickstart: Schnellstart
+  nav_known_issues: Bekannte Probleme
   nav_source: Quellcode
   server_meta_title: TorgLink — Server (Entwurf 0.1)
   server_meta_description: "Ein Store-and-Forward-Server zum Finden von Clients und zur zuverlässigen Zustellung verschlüsselter Nachrichten. Nachrichten werden ausschließlich verschlüsselt gespeichert und nach dem Empfang unwiderruflich gelöscht."
@@ -833,7 +878,7 @@ de:
     - Tippen Sie auf Servers.
     - Geben Sie die Base URL ein (zum Beispiel https://host:7196).
     - Tippen Sie auf Add server. Import server ist optional.
-  quickstart_app_winforms_title: WinForms
+  quickstart_app_winforms_title: WinForms — für ältere PCs und Windows-Versionen (ab Windows 7 SP1)
   quickstart_app_winforms_steps:
     - Öffnen Sie die Registerkarte Servers (Серверы).
     - Geben Sie die Base URL ein.
@@ -848,6 +893,15 @@ de:
   quickstart_app_cap_maui_add: "Base URL → Add server"
   quickstart_app_cap_winforms_tab: Серверы
   quickstart_app_cap_winforms_dialog: "Base URL → Добавить"
+  known_issues_meta_title: TorgLink — bekannte Probleme (Entwurf 0.1)
+  known_issues_meta_description: "Bekannte Probleme in TorgLink-Entwurf 0.1 und mögliche Abhilfe. Keine Produktionsversion."
+  known_issues_kicker: Fehler
+  known_issues_title: Bekannte Probleme
+  known_issues_lead: "Dokumentierte Probleme im Entwurf 0.1. Suchen Sie nach Titel oder Beschreibung und klappen Sie einen Eintrag für Details und Abhilfe auf."
+  known_issues_search_label: Probleme durchsuchen
+  known_issues_search_placeholder: Suche nach Titel oder Beschreibung
+  known_issues_empty: Keine Treffer für diese Suche.
+  known_issues_remedies: Abhilfe
   downloads_kicker: Builds
   downloads_title: Instabile CI-Builds
   downloads_lead: "Vier Ziele aus dem öffentlichen TorgLink-CI-Workflow. Öffnen Sie den letzten erfolgreichen Lauf, dann Artifacts, und laden Sie die unten genannte ZIP herunter."
@@ -938,18 +992,20 @@ de:
   platforms_kicker: Plattformen
   platforms_title: Verfügbar auf diesen Plattformen
   platforms_note: Wir wollen ein breites Spektrum an Geräten unterstützen, auch solche, die heute als veraltet gelten (Windows 7).
+  platforms_client_artifacts: Client-Artefakte
+  platforms_unavailable: Noch nicht verfügbar
   platforms:
     - name: Windows
       detail: Client, einschließlich Windows 7. Hier kann auch ein Server gehostet werden.
     - name: Linux
-      detail: Client. Hier kann auch ein Server gehostet werden.
+      detail: Noch nicht verfügbar
     - name: Android
       detail: Client.
     - name: iOS
-      detail: Client.
+      detail: Noch nicht verfügbar
   source_kicker: Quellcode
   source_title: TorgLink ist das Produkt. ShortP2P ist das Protokoll.
-  source_body: Die MAUI-App liegt in Iskra.MAUI. Mesh, Krypto, Discovery und der optionale Messenger-Server liegen im ShortP2P-Baum. Diese Seite ist ein Landing-Entwurf für den Branch 0.1 — keine Versandankündigung.
+  source_body: Die MAUI-App liegt in Iskra.MAUI. Mesh, Krypto, Discovery und der optionale Messenger-Server liegen im ShortP2P-Baum.
   disclaimer_title: Frühe Phase
   disclaimer_body: Das Projekt befindet sich in einer frühen Entwicklungsphase.
   legal_title: Disclaimer (Haftungsausschluss)
@@ -963,7 +1019,6 @@ de:
     - Die Nutzung des Codes und der gebauten Anwendungen liegt in der alleinigen Verantwortung des Endnutzers — auf eigene Gefahr.
   footer_product: TorgLink
   footer_protocol: Protokoll ShortP2P
-  footer_draft: Landing-Entwurf · keine Veröffentlichung
 
 fr:
   html_lang: fr
@@ -977,6 +1032,7 @@ fr:
   nav_server: Serveur
   nav_releases: Versions
   nav_quickstart: Démarrage rapide
+  nav_known_issues: Problèmes connus
   nav_source: Code source
   server_meta_title: TorgLink — serveur (brouillon 0.1)
   server_meta_description: "Un serveur store-and-forward pour trouver les clients et transmettre des messages chiffrés de façon fiable. Les messages sont stockés exclusivement sous forme chiffrée et sont définitivement, irréversiblement, supprimés après réception."
@@ -1026,7 +1082,7 @@ fr:
     - Appuyez sur Servers.
     - Saisissez la Base URL (par exemple https://host:7196).
     - Appuyez sur Add server. Import server est facultatif.
-  quickstart_app_winforms_title: WinForms
+  quickstart_app_winforms_title: WinForms — pour les PC et versions Windows plus anciens (à partir de Windows 7 SP1)
   quickstart_app_winforms_steps:
     - Ouvrez l’onglet Servers (Серверы).
     - Saisissez la Base URL.
@@ -1041,6 +1097,15 @@ fr:
   quickstart_app_cap_maui_add: "Base URL → Add server"
   quickstart_app_cap_winforms_tab: Серверы
   quickstart_app_cap_winforms_dialog: "Base URL → Добавить"
+  known_issues_meta_title: TorgLink — problèmes connus (brouillon 0.1)
+  known_issues_meta_description: "Problèmes connus du brouillon TorgLink 0.1 et pistes de correction. Pas une version de production."
+  known_issues_kicker: Dépannage
+  known_issues_title: Problèmes connus
+  known_issues_lead: "Problèmes documentés du brouillon 0.1. Cherchez par titre ou description, puis ouvrez une fiche pour le détail et les remèdes."
+  known_issues_search_label: Rechercher des problèmes
+  known_issues_search_placeholder: Recherche par titre ou description
+  known_issues_empty: Aucun problème ne correspond à cette recherche.
+  known_issues_remedies: Remèdes
   downloads_kicker: Builds
   downloads_title: Builds CI instables
   downloads_lead: "Quatre cibles du workflow CI public de TorgLink. Ouvrez la dernière exécution réussie, la section Artifacts, puis téléchargez le ZIP nommé ci-dessous."
@@ -1131,18 +1196,20 @@ fr:
   platforms_kicker: Plateformes
   platforms_title: Disponible sur ces plateformes
   platforms_note: Nous visons à prendre en charge un large éventail d’appareils, y compris ceux considérés comme obsolètes aujourd’hui (Windows 7).
+  platforms_client_artifacts: Artefacts client
+  platforms_unavailable: Pas encore disponible
   platforms:
     - name: Windows
       detail: Client, y compris Windows 7. Vous pouvez aussi héberger un serveur ici.
     - name: Linux
-      detail: Client. Vous pouvez aussi héberger un serveur ici.
+      detail: Pas encore disponible
     - name: Android
       detail: Client.
     - name: iOS
-      detail: Client.
+      detail: Pas encore disponible
   source_kicker: Code source
   source_title: TorgLink est le produit. ShortP2P est le protocole.
-  source_body: L’app MAUI vit dans Iskra.MAUI. Le mesh, la crypto, la découverte et le serveur de messagerie optionnel vivent dans l’arbre ShortP2P. Ce site est un brouillon de landing pour la branche 0.1 — pas une annonce de sortie.
+  source_body: L’app MAUI vit dans Iskra.MAUI. Le mesh, la crypto, la découverte et le serveur de messagerie optionnel vivent dans l’arbre ShortP2P.
   disclaimer_title: Stade précoce
   disclaimer_body: Le projet est à un stade précoce de son développement.
   legal_title: Avertissement (Limitation de responsabilité)
@@ -1156,4 +1223,3 @@ fr:
     - L’utilisation du code et des applications compilées relève de la seule responsabilité de l’utilisateur final — à ses risques et périls.
   footer_product: TorgLink
   footer_protocol: Protocole ShortP2P
-  footer_draft: Brouillon de landing · pas une publication

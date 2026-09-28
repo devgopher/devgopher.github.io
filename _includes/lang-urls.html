@@ -3,34 +3,47 @@
     {% assign home_url = '/torglink/ru/' %}
     {% assign server_url = '/torglink/ru/server/' %}
     {% assign quickstart_url = '/torglink/ru/quickstart/' %}
+    {% assign known_issues_url = '/torglink/ru/known-issues/' %}
     {% assign releases_url = '/torglink/ru/releases/' %}
   {% when 'de' %}
     {% assign home_url = '/torglink/de/' %}
     {% assign server_url = '/torglink/de/server/' %}
     {% assign quickstart_url = '/torglink/de/quickstart/' %}
+    {% assign known_issues_url = '/torglink/de/known-issues/' %}
     {% assign releases_url = '/torglink/de/releases/' %}
   {% when 'fr' %}
     {% assign home_url = '/torglink/fr/' %}
     {% assign server_url = '/torglink/fr/server/' %}
     {% assign quickstart_url = '/torglink/fr/quickstart/' %}
+    {% assign known_issues_url = '/torglink/fr/known-issues/' %}
     {% assign releases_url = '/torglink/fr/releases/' %}
   {% when 'es' %}
     {% assign home_url = '/torglink/es/' %}
     {% assign server_url = '/torglink/es/server/' %}
     {% assign quickstart_url = '/torglink/es/quickstart/' %}
+    {% assign known_issues_url = '/torglink/es/known-issues/' %}
     {% assign releases_url = '/torglink/es/releases/' %}
   {% when 'zh' %}
     {% assign home_url = '/torglink/zh/' %}
     {% assign server_url = '/torglink/zh/server/' %}
     {% assign quickstart_url = '/torglink/zh/quickstart/' %}
+    {% assign known_issues_url = '/torglink/zh/known-issues/' %}
     {% assign releases_url = '/torglink/zh/releases/' %}
   {% else %}
     {% assign home_url = '/torglink/' %}
     {% assign server_url = '/torglink/server/' %}
     {% assign quickstart_url = '/torglink/quickstart/' %}
+    {% assign known_issues_url = '/torglink/known-issues/' %}
     {% assign releases_url = '/torglink/releases/' %}
 {% endcase %}
-{% if page.section == 'releases' %}
+{% if page.section == 'known-issues' %}
+  {% assign en_alt = '/torglink/known-issues/' %}
+  {% assign ru_alt = '/torglink/ru/known-issues/' %}
+  {% assign de_alt = '/torglink/de/known-issues/' %}
+  {% assign fr_alt = '/torglink/fr/known-issues/' %}
+  {% assign es_alt = '/torglink/es/known-issues/' %}
+  {% assign zh_alt = '/torglink/zh/known-issues/' %}
+{% elsif page.section == 'releases' %}
   {% assign en_alt = '/torglink/releases/' %}
   {% assign ru_alt = '/torglink/ru/releases/' %}
   {% assign de_alt = '/torglink/de/releases/' %}
