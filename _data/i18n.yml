@@ -197,6 +197,10 @@ en:
     - Does not control, administer, or have access to servers that users may deploy on their own.
     - Is not responsible for users' choices, their actions, or the compliance of their local servers with the requirements of local legislation.
     - Use of the code and the built applications is the sole responsibility of the end user — at their own risk.
+  promo_label: TorgLink promo video
+  promo_quality: Quality
+  promo_quality_original: Original (1080p)
+  promo_captions: Captions
   footer_product: TorgLink
   footer_protocol: Protocol ShortP2P
 
@@ -399,6 +403,10 @@ ru:
     - Не контролирует, не администрирует и не имеет доступа к серверам, которые пользователи могут развернуть самостоятельно.
     - Не несет ответственности за выбор пользователей, их действия, а также за соответствие их локальных серверов требованиям местного законодательства.
     - Использование кода и собранных приложений является исключительной ответственностью конечного пользователя — на свой страх и риск.
+  promo_label: Промо-ролик TorgLink
+  promo_quality: Качество
+  promo_quality_original: Оригинал (1080p)
+  promo_captions: Субтитры
   footer_product: TorgLink
   footer_protocol: Протокол ShortP2P
 
@@ -601,6 +609,10 @@ es:
     - No controla, no administra ni tiene acceso a los servidores que los usuarios puedan desplegar por su cuenta.
     - No se hace responsable de las elecciones de los usuarios, de sus acciones ni del cumplimiento de la legislación local por parte de sus servidores locales.
     - El uso del código y de las aplicaciones compiladas es responsabilidad exclusiva del usuario final — bajo su propio riesgo.
+  promo_label: Vídeo promo de TorgLink
+  promo_quality: Calidad
+  promo_quality_original: Original (1080p)
+  promo_captions: Subtítulos
   footer_product: TorgLink
   footer_protocol: Protocolo ShortP2P
 
@@ -805,6 +817,10 @@ zh:
     - 不控制、不管理，也无法访问用户可能自行部署的服务器。
     - 不对用户的选择、其行为以及其本地服务器是否符合当地法律法规的要求承担责任。
     - 代码及已构建应用程序的使用完全由最终用户自行承担责任——风险自负。
+  promo_label: TorgLink 宣传视频
+  promo_quality: 画质
+  promo_quality_original: 原始 (1080p)
+  promo_captions: 字幕
   footer_product: TorgLink
   footer_protocol: 协议 ShortP2P
 
@@ -1007,6 +1023,10 @@ de:
     - Kontrolliert, verwaltet nicht und hat keinen Zugriff auf Server, die Nutzer selbstständig bereitstellen können.
     - Übernimmt keine Verantwortung für die Entscheidungen der Nutzer, deren Handlungen oder die Einhaltung lokaler Gesetze durch deren lokale Server.
     - Die Nutzung des Codes und der gebauten Anwendungen liegt in der alleinigen Verantwortung des Endnutzers — auf eigene Gefahr.
+  promo_label: TorgLink-Promo
+  promo_quality: Qualität
+  promo_quality_original: Original (1080p)
+  promo_captions: Untertitel
   footer_product: TorgLink
   footer_protocol: Protokoll ShortP2P
 
@@ -1209,5 +1229,9 @@ fr:
     - Ne contrôle pas, n’administre pas et n’a pas accès aux serveurs que les utilisateurs peuvent déployer eux-mêmes.
     - N’est pas responsable des choix des utilisateurs, de leurs actions, ni de la conformité de leurs serveurs locaux avec la législation locale.
     - L’utilisation du code et des applications compilées relève de la seule responsabilité de l’utilisateur final — à ses risques et périls.
+  promo_label: Vidéo promo TorgLink
+  promo_quality: Qualité
+  promo_quality_original: Original (1080p)
+  promo_captions: Sous-titres
   footer_product: TorgLink
   footer_protocol: Protocole ShortP2P

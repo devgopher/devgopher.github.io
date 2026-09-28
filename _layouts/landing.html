@@ -20,31 +20,36 @@
         <p class="ghost cta-note">{{ t.cta_release_note }}</p>
       </div>
       <div class="stage">
-        <svg class="mesh" viewBox="0 0 360 360" aria-hidden="true">
-          <line x1="52" y1="80" x2="180" y2="48" stroke="#ff6a00" stroke-opacity="0.45"/>
-          <line x1="180" y1="48" x2="300" y2="120" stroke="#ff6a00" stroke-opacity="0.35" stroke-dasharray="4 5"/>
-          <line x1="52" y1="80" x2="96" y2="240" stroke="#ff6a00" stroke-opacity="0.25" stroke-dasharray="4 5"/>
-          <line x1="180" y1="48" x2="230" y2="250" stroke="#ff6a00" stroke-opacity="0.2" stroke-dasharray="3 6"/>
-          <circle class="node" cx="52" cy="80" r="7"/>
-          <circle class="node" cx="180" cy="48" r="7"/>
-          <circle class="node" cx="300" cy="120" r="7"/>
-          <circle class="node" cx="96" cy="240" r="7"/>
-          <circle class="node" cx="230" cy="250" r="7"/>
-          <text class="node-label" x="64" y="84">{{ t.mesh_lan }}</text>
-          <text class="node-label" x="190" y="44">{{ t.mesh_you }}</text>
-          <text class="node-label" x="310" y="116">{{ t.mesh_peer }}</text>
-          <text class="node-label" x="108" y="244">{{ t.mesh_relay }}</text>
-          <text class="node-label" x="242" y="254">{{ t.mesh_server }}</text>
-        </svg>
-        <div class="phone">
-          <div class="phone-top">
-            <div>
-              <div class="phone-name">{{ t.phone_peer }}</div>
-              <div class="phone-status">{{ t.phone_status }}</div>
+        <div class="stage-visual">
+          <div class="stage-mock">
+          <svg class="mesh" viewBox="0 0 360 360" aria-hidden="true">
+            <line x1="52" y1="80" x2="180" y2="48" stroke="#ff6a00" stroke-opacity="0.45"/>
+            <line x1="180" y1="48" x2="300" y2="120" stroke="#ff6a00" stroke-opacity="0.35" stroke-dasharray="4 5"/>
+            <line x1="52" y1="80" x2="96" y2="240" stroke="#ff6a00" stroke-opacity="0.25" stroke-dasharray="4 5"/>
+            <line x1="180" y1="48" x2="230" y2="250" stroke="#ff6a00" stroke-opacity="0.2" stroke-dasharray="3 6"/>
+            <circle class="node" cx="52" cy="80" r="7"/>
+            <circle class="node" cx="180" cy="48" r="7"/>
+            <circle class="node" cx="300" cy="120" r="7"/>
+            <circle class="node" cx="96" cy="240" r="7"/>
+            <circle class="node" cx="230" cy="250" r="7"/>
+            <text class="node-label" x="64" y="84">{{ t.mesh_lan }}</text>
+            <text class="node-label" x="190" y="44">{{ t.mesh_you }}</text>
+            <text class="node-label" x="310" y="116">{{ t.mesh_peer }}</text>
+            <text class="node-label" x="108" y="244">{{ t.mesh_relay }}</text>
+            <text class="node-label" x="242" y="254">{{ t.mesh_server }}</text>
+          </svg>
+          <div class="phone">
+            <div class="phone-top">
+              <div>
+                <div class="phone-name">{{ t.phone_peer }}</div>
+                <div class="phone-status">{{ t.phone_status }}</div>
+              </div>
             </div>
+            <div class="bubble in">{{ t.phone_in }}</div>
+            <div class="bubble out">{{ t.phone_out }}<span class="meta">{{ t.phone_meta }}</span></div>
           </div>
-          <div class="bubble in">{{ t.phone_in }}</div>
-          <div class="bubble out">{{ t.phone_out }}<span class="meta">{{ t.phone_meta }}</span></div>
+          </div>
+          {% include promo-player.html %}
         </div>
       </div>
     </section>
@@ -167,5 +172,6 @@
     </section>
   </main>
   {% include site-footer.html %}
+  <script src="{{ '/assets/js/promo-player.js' | relative_url }}" defer></script>
 </body>
 </html>

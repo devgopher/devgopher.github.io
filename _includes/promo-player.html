@@ -1,0 +1,44 @@
+{% assign promo_lang = page.lang %}
+{% assign promo_langs = "en,ru,de,fr,es,zh" | split: "," %}
+{% unless promo_langs contains promo_lang %}
+  {% assign promo_lang = "en" %}
+{% endunless %}
+{% assign promo_base = "/assets/promo/" | relative_url %}
+<figure
+  class="promo"
+  data-promo
+  data-promo-lang="{{ promo_lang }}"
+  data-promo-base="{{ promo_base }}"
+  data-promo-label="{{ t.promo_label | escape }}"
+>
+  <div class="promo-frame">
+    <video
+      class="promo-video"
+      controls
+      playsinline
+      preload="none"
+      poster="{{ promo_base }}promo-{{ promo_lang }}.jpg"
+      aria-label="{{ t.promo_label | escape }}"
+    >
+      <source src="{{ promo_base }}promo-{{ promo_lang }}-480.mp4" type="video/mp4">
+      <track
+        kind="captions"
+        srclang="{{ promo_lang }}"
+        src="{{ promo_base }}promo-{{ promo_lang }}.vtt"
+        label="{{ t.promo_captions | escape }}"
+      >
+    </video>
+  </div>
+  <figcaption class="promo-toolbar">
+    <label class="promo-quality">
+      <span>{{ t.promo_quality }}</span>
+      <select class="promo-quality-select" aria-label="{{ t.promo_quality | escape }}">
+        <option value="1080">{{ t.promo_quality_original }}</option>
+        <option value="480" selected>480p</option>
+        <option value="360">360p</option>
+        <option value="240">240p</option>
+        <option value="144">144p</option>
+      </select>
+    </label>
+  </figcaption>
+</figure>
