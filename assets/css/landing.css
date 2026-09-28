@@ -23,6 +23,9 @@
 }
 
 html {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: clip;
   scroll-behavior: smooth;
 }
 
@@ -38,6 +41,8 @@ html[lang^="zh"] {
 body {
   margin: 0;
   min-height: 100vh;
+  max-width: 100%;
+  overflow-x: clip;
   color: var(--ink);
   background: var(--bg);
   font-family: var(--sans);
@@ -61,7 +66,8 @@ a {
   color: inherit;
 }
 
-img {
+img,
+video {
   max-width: 100%;
   display: block;
 }
@@ -203,10 +209,15 @@ img {
   position: relative;
   z-index: 1;
   display: grid;
-  grid-template-columns: 1.1fr 0.9fr;
+  grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);
   gap: 48px;
   align-items: start;
   padding: 48px 0 72px;
+}
+
+.hero > * {
+  min-width: 0;
+  max-width: 100%;
 }
 
 .hero::after {
@@ -245,7 +256,7 @@ h1 {
 
 .lead {
   margin: 22px 0 28px;
-  max-width: 38rem;
+  max-width: min(38rem, 100%);
   font-size: 1.12rem;
   color: #d8d0c7;
 }
@@ -318,6 +329,8 @@ h1 {
   position: relative;
   min-width: 0;
   min-height: 0;
+  width: 100%;
+  max-width: 100%;
 }
 
 .stage-visual {
@@ -326,12 +339,17 @@ h1 {
   flex-direction: column;
   align-items: stretch;
   gap: 16px;
+  min-width: 0;
   min-height: 0;
+  width: 100%;
+  max-width: 100%;
 }
 
 .stage-mock {
   position: relative;
+  flex: 0 0 auto;
   min-width: 0;
+  max-width: 100%;
 }
 
 .mesh {
@@ -413,10 +431,19 @@ h1 {
   z-index: 1;
   margin: 0;
   width: 100%;
+  max-width: calc(100vw - 40px);
+  min-width: 0;
+  min-height: 0;
+  flex: 0 1 auto;
 }
 
 .promo-frame {
+  position: relative;
   overflow: hidden;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  aspect-ratio: 16 / 9;
   border-radius: 18px;
   border: 1px solid #2c2c2e;
   background: #121212;
@@ -426,10 +453,16 @@ h1 {
 .promo-video {
   display: block;
   width: 100%;
-  height: auto;
-  aspect-ratio: 16 / 9;
+  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  min-width: 0;
+  min-height: 0;
+  object-fit: contain;
+  object-position: center;
   background: #000;
-  vertical-align: middle;
+  color-scheme: dark;
+  vertical-align: top;
 }
 
 .promo-toolbar {
@@ -452,6 +485,8 @@ h1 {
 
 .promo-quality-select {
   appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
   background: var(--bg-raised);
   color: var(--ink);
   border: 1px solid #2c2c2e;
@@ -1121,7 +1156,7 @@ a.plat:focus-visible {
 @media (max-width: 900px) {
   .hero,
   .source-block {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
   }
 
   .hero::after {
@@ -1141,7 +1176,6 @@ a.plat:focus-visible {
   }
 
   .promo {
-    max-width: 520px;
     margin-inline: auto;
   }
 
