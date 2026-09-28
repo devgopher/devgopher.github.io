@@ -1,9 +1,6 @@
 {% assign t = site.data.i18n[page.lang] %}
 {% include lang-urls.html %}
 <a class="skip" href="#main">Skip</a>
-<div class="draft-bar">
-  <span>{{ t.draft_label }} · {{ t.version_label }}</span>
-</div>
 <header class="site-header">
   <div class="wrap site-header-inner">
     <a class="brand" href="{{ home_url | relative_url }}">

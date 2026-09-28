@@ -85,28 +85,6 @@ img {
   padding: 8px 12px;
 }
 
-.draft-bar {
-  position: relative;
-  z-index: 2;
-  display: flex;
-  justify-content: space-between;
-  gap: 12px;
-  padding: 10px 20px;
-  background: repeating-linear-gradient(
-    -45deg,
-    #1a0e07,
-    #1a0e07 8px,
-    #241408 8px,
-    #241408 16px
-  );
-  border-bottom: 1px solid var(--ember);
-  font-family: var(--mono);
-  font-size: 12px;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  color: var(--ember);
-}
-
 .site-header {
   position: relative;
   z-index: 2;

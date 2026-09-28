@@ -3,8 +3,6 @@ en:
   locale: en
   meta_title: TorgLink — mesh-first messenger (draft 0.1)
   meta_description: "TorgLink combines client–server and mesh. Run several servers on Windows or Linux. Cross-platform client: Windows, Linux, Android, and iOS."
-  draft_label: Draft
-  version_label: "0.1"
   nav_aria: Site
   nav_overview: Overview
   nav_server: Server
@@ -207,8 +205,6 @@ ru:
   locale: ru
   meta_title: TorgLink — мессенджер с ячеистой сетью (черновик 0.1)
   meta_description: "TorgLink — мессенджер, сочетающий работу через сервер и ячеистую сеть. Несколько серверов на Windows или Linux. Приложение: Windows, Linux, Android, iOS."
-  draft_label: Черновик
-  version_label: "0.1"
   nav_aria: Сайт
   nav_overview: Обзор
   nav_server: Сервер
@@ -411,8 +407,6 @@ es:
   locale: es
   meta_title: TorgLink — mensajero mesh (borrador 0.1)
   meta_description: "TorgLink combina cliente-servidor y mesh. Varios servidores en Windows o Linux. Cliente multiplataforma: Windows, Linux, Android e iOS."
-  draft_label: Borrador
-  version_label: "0.1"
   nav_aria: Sitio
   nav_overview: Resumen
   nav_server: Servidor
@@ -615,8 +609,6 @@ zh:
   locale: zh-Hans
   meta_title: TorgLink — 网状优先的即时通讯（草案 0.1）
   meta_description: "TorgLink 结合客户端-服务器与网状网络。可在 Windows 或 Linux 上部署多台服务器。客户端支持 Windows、Linux、Android 和 iOS。"
-  draft_label: 草案
-  version_label: "0.1"
   nav_aria: 站点
   nav_overview: 概览
   nav_server: 服务器
@@ -821,8 +813,6 @@ de:
   locale: de
   meta_title: TorgLink — Mesh-Messenger (Entwurf 0.1)
   meta_description: "TorgLink kombiniert Client-Server und Mesh. Mehrere Server unter Windows oder Linux. Cross-Platform-Client: Windows, Linux, Android und iOS."
-  draft_label: Entwurf
-  version_label: "0.1"
   nav_aria: Website
   nav_overview: Überblick
   nav_server: Server
@@ -1025,8 +1015,6 @@ fr:
   locale: fr
   meta_title: TorgLink — messagerie mesh (brouillon 0.1)
   meta_description: "TorgLink combine client-serveur et mesh. Plusieurs serveurs sous Windows ou Linux. Client multiplateforme : Windows, Linux, Android et iOS."
-  draft_label: Brouillon
-  version_label: "0.1"
   nav_aria: Site
   nav_overview: Aperçu
   nav_server: Serveur
