@@ -13,9 +13,10 @@
       <h1>{{ t.server_title }}</h1>
       <p class="lead">{{ t.server_lead }}</p>
       <div class="cta-row">
+        <a class="btn" href="{{ dl.server_release_url }}">{{ t.server_cta_release }}</a>
         <a class="btn-ghost" href="{{ dl.server_actions_url }}">{{ t.server_cta_ci }}</a>
       </div>
-      <p class="ghost cta-note">{{ t.server_cta_ci_note }}</p>
+      <p class="ghost cta-note">{{ t.server_cta_release_note }}</p>
     </section>
 
     <section class="wrap section">
@@ -34,9 +35,46 @@
       <h2>{{ t.server_downloads_title }}</h2>
       <p class="downloads-lead">{{ t.server_downloads_lead }}</p>
       <p class="downloads-cta-wrap">
-        <a class="btn" href="{{ dl.server_actions_url }}">{{ t.server_downloads_open }}</a>
+        <a class="btn" href="{{ dl.server_release_url }}">{{ t.server_downloads_open }}</a>
       </p>
       <p class="downloads-note">{{ t.server_downloads_note }}</p>
+      <a class="release-link" href="{{ dl.server_actions_url }}">{{ t.server_downloads_ci }}</a>
+    </section>
+
+    <section class="wrap section" aria-label="{{ t.releases_title }}">
+      <p class="kicker">{{ t.releases_kicker }}</p>
+      <h2>{{ t.releases_title }}</h2>
+      {% if site.data.server_releases.size == 0 %}
+        <p class="releases-empty">{{ t.releases_empty }}</p>
+      {% else %}
+        <div class="releases-list">
+        {% for release in site.data.server_releases %}
+          {% assign note = release.notes[page.lang] | default: release.notes.en %}
+          {% assign release_title = release.title[page.lang] | default: release.title.en %}
+          {% if release.channel == 'stable' %}
+            {% assign channel_label = t.channel_stable %}
+          {% else %}
+            {% assign channel_label = t.channel_draft %}
+          {% endif %}
+          <article class="release" id="v{{ release.version | slugify }}">
+            <header class="release-head">
+              <div class="release-meta">
+                <span class="release-version">{{ release.version }}</span>
+                <span class="release-channel">{{ channel_label }}</span>
+                <time class="release-date" datetime="{{ release.date }}">{{ release.date }}</time>
+              </div>
+              <h2>{{ release_title }}</h2>
+            </header>
+            <div class="release-notes">
+              {{ note | markdownify }}
+            </div>
+            {% if release.github_url %}
+              <a class="release-link" href="{{ release.github_url }}">{{ t.releases_view }}</a>
+            {% endif %}
+          </article>
+        {% endfor %}
+        </div>
+      {% endif %}
     </section>
   </main>
   {% include site-footer.html %}

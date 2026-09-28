@@ -1,0 +1,37 @@
+# ShortP2P server releases. Add new entries at the top.
+- version: "0.1"
+  date: "2026-09-28"
+  channel: draft
+  github_url: https://github.com/IskraMessenger/ShortP2P/releases/tag/0.1
+  title:
+    en: First ShortP2P release
+    ru: Первый релиз ShortP2P
+    de: Erstes ShortP2P-Release
+    fr: Première version ShortP2P
+    es: Primer lanzamiento de ShortP2P
+    zh: ShortP2P 首个发布
+  notes:
+    en: |
+      - First published ShortP2P release: protocol and main mesh functionality.
+      - Store-and-forward server.
+      - Sample messenger clients for MAUI and WinForms.
+    ru: |
+      - Первый релиз ShortP2P: протокол и основная mesh-функциональность.
+      - Store-and-forward сервер.
+      - Примеры клиентов мессенджера для MAUI и WinForms.
+    de: |
+      - Erstes Release von ShortP2P: Protokoll und wesentliche Mesh-Funktionen.
+      - Store-and-Forward-Server.
+      - Beispiel-Messenger-Clients für MAUI und WinForms.
+    fr: |
+      - Première version de ShortP2P : protocole et fonctionnalités mesh principales.
+      - Serveur store-and-forward.
+      - Clients messagerie d’exemple pour MAUI et WinForms.
+    es: |
+      - Primer lanzamiento de ShortP2P: protocolo y funcionalidad mesh principal.
+      - Servidor store-and-forward.
+      - Clientes de mensajería de ejemplo para MAUI y WinForms.
+    zh: |
+      - ShortP2P 首个发布：协议与主要网状功能。
+      - Store-and-forward 服务器。
+      - MAUI 与 WinForms 示例即时通讯客户端。
