@@ -2,7 +2,7 @@
 - version: "ShortP2P 0.1"
   date: "2026-09-28"
   channel: draft
-  github_url: https://github.com/IskraMessenger/ShortP2P/releases/tag/0.1
+  github_url: https://github.com/IskraMessenger/ShortP2P/actions/runs/36399809396
   title:
     en: ShortP2P server
     ru: Сервер ShortP2P
@@ -38,7 +38,7 @@
 - version: "0.1"
   date: "2026-09-05"
   channel: draft
-  github_url: https://github.com/IskraMessenger/Iskra.MAUI/tree/dev/0.1
+  github_url: https://github.com/IskraMessenger/Iskra.MAUI/releases/tag/ci-builds
   title:
     en: First public draft
     ru: Первый публичный черновик

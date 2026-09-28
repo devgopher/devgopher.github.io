@@ -83,9 +83,9 @@ en:
   server_cta_ci_note: GitHub Actions · not a production release
   server_downloads_kicker: Download
   server_downloads_title: Release 0.1
-  server_downloads_lead: "First published ShortP2P server release. Open the GitHub release for source and notes."
-  server_downloads_open: Open release 0.1 on GitHub
-  server_downloads_note: "The GitHub release has source and notes. Platform binaries are not attached yet. Intermediate CI artifacts remain available from Actions; downloading those ZIPs still requires any GitHub account."
+  server_downloads_lead: "First published ShortP2P server release. Open the GitHub Actions run for Windows and Linux artifacts."
+  server_downloads_open: Open release 0.1 artifacts
+  server_downloads_note: "Windows (win-x64) and Linux (amd64) packages are Actions artifacts on the 0.1 release run. Downloading the ZIP requires any GitHub account."
   server_downloads_ci: Unstable CI builds
   how_kicker: How a message travels
   how_title: Four ways a message can move.
@@ -102,6 +102,8 @@ en:
     - n: "04"
       title: Server
       body: If nobody is reachable, the server keeps the sealed payload until the other side polls. Servers are deployed independently by the network’s clients.
+  news_kicker: News
+  news_title: What's new
   platforms_kicker: Platforms
   platforms_title: Available on these platforms
   platforms_note: We aim to support a wide range of devices, including ones that are considered outdated today (Windows 7).
@@ -217,9 +219,9 @@ ru:
   server_cta_ci_note: GitHub Actions · не продакшен-релиз
   server_downloads_kicker: Скачивание
   server_downloads_title: Релиз 0.1
-  server_downloads_lead: "Первый опубликованный релиз сервера ShortP2P. Откройте страницу релиза на GitHub, чтобы скачать исходники и прочитать заметки."
-  server_downloads_open: Открыть релиз 0.1 на GitHub
-  server_downloads_note: "На странице релиза — исходный код и заметки. Бинарники платформ пока не приложены. Промежуточные сборки CI по-прежнему доступны в Actions; для скачивания ZIP нужен любой аккаунт GitHub."
+  server_downloads_lead: "Первый опубликованный релиз сервера ShortP2P. Откройте прогон GitHub Actions, чтобы скачать артефакты для Windows и Linux."
+  server_downloads_open: Открыть артефакты релиза 0.1
+  server_downloads_note: "Пакеты Windows (win-x64) и Linux (amd64) — артефакты Actions прогона релиза 0.1. Скачивание ZIP требует любой аккаунт GitHub."
   server_downloads_ci: Нестабильные сборки CI
   how_kicker: Как идёт сообщение
   how_title: Четыре способа доставить сообщение.
@@ -236,6 +238,8 @@ ru:
     - n: "04"
       title: Сервер
       body: Если никто не отвечает, сервер держит запечатанное содержимое, пока вторая сторона его не заберёт. Серверы разворачиваются самостоятельно клиентами сети.
+  news_kicker: Новости
+  news_title: Что нового
   platforms_kicker: Платформы
   platforms_title: Доступен для платформ
   platforms_note: Мы стараемся поддерживать широкий спектр устройств, в том числе те, что сегодня считают устаревшими (Windows 7).
@@ -351,9 +355,9 @@ es:
   server_cta_ci_note: GitHub Actions · no es un lanzamiento de producción
   server_downloads_kicker: Descarga
   server_downloads_title: Lanzamiento 0.1
-  server_downloads_lead: "Primer lanzamiento publicado del servidor ShortP2P. Abre la página de GitHub para el código fuente y las notas."
-  server_downloads_open: Abrir el lanzamiento 0.1 en GitHub
-  server_downloads_note: "El lanzamiento incluye código fuente y notas. Aún no hay binarios de plataforma. Los artefactos CI intermedios siguen en Actions; hace falta una cuenta de GitHub para el ZIP."
+  server_downloads_lead: "Primer lanzamiento publicado del servidor ShortP2P. Abre la ejecución de GitHub Actions para los artefactos de Windows y Linux."
+  server_downloads_open: Abrir los artefactos del lanzamiento 0.1
+  server_downloads_note: "Los paquetes Windows (win-x64) y Linux (amd64) son artefactos de Actions de la ejecución 0.1. Hace falta una cuenta de GitHub para el ZIP."
   server_downloads_ci: Builds CI inestables
   how_kicker: Cómo viaja un mensaje
   how_title: Cuatro modos de mover un mensaje.
@@ -370,6 +374,8 @@ es:
     - n: "04"
       title: Servidor
       body: Si nadie está al alcance, el servidor guarda el payload sellado hasta que el otro lado lo recoja. Los servidores los despliegan de forma independiente los clientes de la red.
+  news_kicker: Noticias
+  news_title: Novedades
   platforms_kicker: Plataformas
   platforms_title: Disponible en estas plataformas
   platforms_note: Procuramos dar soporte a una amplia gama de dispositivos, incluidos los que hoy se consideran obsoletos (Windows 7).
@@ -487,9 +493,9 @@ zh:
   server_cta_ci_note: GitHub Actions · 非正式发布
   server_downloads_kicker: 下载
   server_downloads_title: 发布 0.1
-  server_downloads_lead: "ShortP2P 服务器的首次公开发布。打开 GitHub 发布页获取源码与说明。"
-  server_downloads_open: 在 GitHub 打开 0.1 发布
-  server_downloads_note: "该发布页提供源码和说明。尚未附带平台二进制文件。中间 CI 产物仍可从 Actions 获取（下载 ZIP 需要 GitHub 账号）。"
+  server_downloads_lead: "ShortP2P 服务器的首次公开发布。打开 GitHub Actions 运行页获取 Windows 与 Linux 产物。"
+  server_downloads_open: 打开 0.1 发布产物
+  server_downloads_note: "Windows（win-x64）与 Linux（amd64）包是 0.1 发布运行的 Actions 产物。下载 ZIP 需要 GitHub 账号。"
   server_downloads_ci: 不稳定 CI 构建
   how_kicker: 消息如何走
   how_title: 消息传递的四种方式。
@@ -506,6 +512,8 @@ zh:
     - n: "04"
       title: 服务器
       body: 如果无人可达，服务器保存密封载荷，直到对方取走。服务器由网络中的客户端自行部署。
+  news_kicker: 新闻
+  news_title: 最新动态
   platforms_kicker: 平台
   platforms_title: 可用于以下平台
   platforms_note: 我们尽量支持广泛的设备，包括如今被视为过时的设备（Windows 7）。
@@ -621,9 +629,9 @@ de:
   server_cta_ci_note: GitHub Actions · keine Produktionsversion
   server_downloads_kicker: Download
   server_downloads_title: Release 0.1
-  server_downloads_lead: "Erste veröffentlichte Version des ShortP2P-Servers. Öffnen Sie die GitHub-Release-Seite für Quellcode und Hinweise."
-  server_downloads_open: Release 0.1 auf GitHub öffnen
-  server_downloads_note: "Das Release enthält Quellcode und Hinweise. Plattform-Binaries sind noch nicht angehängt. Zwischenstände aus CI bleiben unter Actions verfügbar; der ZIP-Download braucht ein GitHub-Konto."
+  server_downloads_lead: "Erste veröffentlichte Version des ShortP2P-Servers. Öffnen Sie den GitHub-Actions-Lauf für Windows- und Linux-Artefakte."
+  server_downloads_open: Release-0.1-Artefakte öffnen
+  server_downloads_note: "Windows- (win-x64) und Linux-Pakete (amd64) sind Actions-Artefakte des 0.1-Release-Laufs. Der ZIP-Download braucht ein GitHub-Konto."
   server_downloads_ci: Instabile CI-Builds
   how_kicker: Wie eine Nachricht wandert
   how_title: Vier Wege, wie eine Nachricht sich bewegen kann.
@@ -640,6 +648,8 @@ de:
     - n: "04"
       title: Server
       body: Ist niemand erreichbar, behält der Server die versiegelte Nutzlast, bis die andere Seite abruft. Server werden von den Clients des Netzwerks eigenständig bereitgestellt.
+  news_kicker: Neuigkeiten
+  news_title: Was gibt es Neues
   platforms_kicker: Plattformen
   platforms_title: Verfügbar auf diesen Plattformen
   platforms_note: Wir wollen ein breites Spektrum an Geräten unterstützen, auch solche, die heute als veraltet gelten (Windows 7).
@@ -755,9 +765,9 @@ fr:
   server_cta_ci_note: GitHub Actions · pas une version de production
   server_downloads_kicker: Téléchargement
   server_downloads_title: Version 0.1
-  server_downloads_lead: "Première version publiée du serveur ShortP2P. Ouvrez la page GitHub pour le code source et les notes."
-  server_downloads_open: Ouvrir la version 0.1 sur GitHub
-  server_downloads_note: "La version contient le code source et les notes. Les binaires de plateforme ne sont pas encore joints. Les artefacts CI intermédiaires restent dans Actions ; un compte GitHub est requis pour le ZIP."
+  server_downloads_lead: "Première version publiée du serveur ShortP2P. Ouvrez l’exécution GitHub Actions pour les artefacts Windows et Linux."
+  server_downloads_open: Ouvrir les artefacts de la version 0.1
+  server_downloads_note: "Les paquets Windows (win-x64) et Linux (amd64) sont des artefacts Actions de l’exécution 0.1. Un compte GitHub est requis pour le ZIP."
   server_downloads_ci: Builds CI instables
   how_kicker: Comment voyage un message
   how_title: Quatre façons de faire circuler un message.
@@ -774,6 +784,8 @@ fr:
     - n: "04"
       title: Serveur
       body: Si personne n’est joignable, le serveur garde la charge scellée jusqu’à ce que l’autre côté la récupère. Les serveurs sont déployés de façon indépendante par les clients du réseau.
+  news_kicker: Actualités
+  news_title: Quoi de neuf
   platforms_kicker: Plateformes
   platforms_title: Disponible sur ces plateformes
   platforms_note: Nous visons à prendre en charge un large éventail d’appareils, y compris ceux considérés comme obsolètes aujourd’hui (Windows 7).

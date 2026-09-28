@@ -76,6 +76,24 @@
       </div>
     </section>
 
+    <section class="wrap section" aria-labelledby="news-heading">
+      <p class="kicker">{{ t.news_kicker }}</p>
+      <h2 id="news-heading">{{ t.news_title }}</h2>
+      <div class="news-list">
+        {% for item in site.data.news %}
+          {% assign news_title = item.title[page.lang] | default: item.title.en %}
+          {% assign news_body = item.body[page.lang] | default: item.body.en %}
+          <article class="card news-item">
+            <time class="news-date" datetime="{{ item.date }}">{{ item.date }}</time>
+            <h3>{{ news_title }}</h3>
+            <div class="news-body">
+              {{ news_body | markdownify }}
+            </div>
+          </article>
+        {% endfor %}
+      </div>
+    </section>
+
     <section class="wrap section">
       <p class="kicker">{{ t.platforms_kicker }}</p>
       <h2>{{ t.platforms_title }}</h2>
