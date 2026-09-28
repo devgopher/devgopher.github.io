@@ -1,0 +1,126 @@
+{% assign t = site.data.i18n[page.lang] %}
+{% assign dl = site.data.downloads %}
+{% assign use_releases = false %}
+{% if dl.source == 'releases' %}
+  {% assign use_releases = true %}
+{% endif %}
+<!DOCTYPE html>
+<html lang="{{ t.html_lang }}">
+<head>
+  {% include site-head.html %}
+</head>
+<body>
+  {% include site-header.html %}
+  <main id="main">
+    <section class="wrap section releases-hero">
+      <p class="kicker">{{ t.quickstart_kicker }}</p>
+      <h1>{{ t.quickstart_title }}</h1>
+      <p class="lead">{{ t.quickstart_lead }}</p>
+    </section>
+
+    <section class="wrap section downloads" id="client" aria-label="{{ t.quickstart_client_title }}">
+      <p class="kicker">{{ t.quickstart_client_kicker }}</p>
+      <h2>{{ t.quickstart_client_title }}</h2>
+      <p class="downloads-lead">{{ t.quickstart_client_lead }}</p>
+      <ol class="downloads-steps">
+        {% for step in t.quickstart_client_steps %}
+          <li>{{ step }}</li>
+        {% endfor %}
+      </ol>
+      <ul class="download-list">
+        {% for build in dl.builds %}
+          <li class="download-item">
+            {% if use_releases %}
+              <a class="download-link" href="{{ dl.release_download_base }}/{{ build.asset }}">{{ build.label }}</a>
+              <span class="download-artifact">{{ t.downloads_file }}: <code>{{ build.asset }}</code></span>
+            {% else %}
+              <a class="download-link" href="{{ dl.release_url }}">{{ build.label }}</a>
+              <span class="download-artifact">{{ t.downloads_artifact }}: <code>{{ build.artifact }}</code></span>
+            {% endif %}
+          </li>
+        {% endfor %}
+      </ul>
+      <p class="downloads-cta-wrap">
+        <a class="btn" href="{{ dl.release_url }}">{{ t.quickstart_client_open }}</a>
+      </p>
+      <p class="downloads-note">{% if use_releases %}{{ t.downloads_note_releases }}{% else %}{{ t.downloads_note }}{% endif %}</p>
+      {% if use_releases %}
+        <a class="release-link" href="{{ dl.release_url }}">{{ t.downloads_release_page }}</a>
+      {% else %}
+        <a class="release-link" href="{{ dl.ci_workflow_url }}">{{ t.downloads_workflow }}</a>
+      {% endif %}
+    </section>
+
+    <section class="wrap section downloads" id="server" aria-label="{{ t.quickstart_server_title }}">
+      <p class="kicker">{{ t.quickstart_server_kicker }}</p>
+      <h2>{{ t.quickstart_server_title }}</h2>
+      <p class="downloads-lead">{{ t.quickstart_server_lead }}</p>
+      <ol class="downloads-steps">
+        {% for step in t.quickstart_server_steps %}
+          <li>{{ step }}</li>
+        {% endfor %}
+      </ol>
+      <ul class="download-list">
+        <li class="download-item">
+          <a class="download-link" href="{{ dl.server_release_url }}">{{ t.quickstart_server_win }}</a>
+        </li>
+        <li class="download-item">
+          <a class="download-link" href="{{ dl.server_release_url }}">{{ t.quickstart_server_linux }}</a>
+        </li>
+      </ul>
+      <p class="downloads-cta-wrap">
+        <a class="btn" href="{{ dl.server_release_url }}">{{ t.quickstart_server_open }}</a>
+      </p>
+      <p class="downloads-note">{{ t.server_downloads_note }}</p>
+      <a class="release-link" href="{{ dl.server_actions_url }}">{{ t.server_downloads_ci }}</a>
+    </section>
+
+    <section class="wrap section downloads" id="app-servers" aria-label="{{ t.quickstart_app_title }}">
+      <p class="kicker">{{ t.quickstart_app_kicker }}</p>
+      <h2>{{ t.quickstart_app_title }}</h2>
+      <p class="downloads-lead">{{ t.quickstart_app_lead }}</p>
+      <p class="downloads-note">{{ t.quickstart_app_maui_note }}</p>
+
+      <article class="qs-platform" id="android">
+        <h3>{{ t.quickstart_app_android_title }}</h3>
+        <ol class="downloads-steps">
+          {% for step in t.quickstart_app_android_steps %}
+            <li>{{ step }}</li>
+          {% endfor %}
+        </ol>
+        {% include quickstart-maui-shots.html %}
+      </article>
+
+      <article class="qs-platform" id="win-maui">
+        <h3>{{ t.quickstart_app_maui_title }}</h3>
+        <ol class="downloads-steps">
+          {% for step in t.quickstart_app_maui_steps %}
+            <li>{{ step }}</li>
+          {% endfor %}
+        </ol>
+        {% include quickstart-maui-shots.html %}
+      </article>
+
+      <article class="qs-platform" id="winforms">
+        <h3>{{ t.quickstart_app_winforms_title }}</h3>
+        <ol class="downloads-steps">
+          {% for step in t.quickstart_app_winforms_steps %}
+            <li>{{ step }}</li>
+          {% endfor %}
+        </ol>
+        <div class="qs-shots">
+          <figure>
+            <img src="{{ '/assets/img/quickstart/winforms-servers-tab.png' | relative_url }}" alt="{{ t.quickstart_app_alt_winforms_tab }}" width="817" height="532">
+            <figcaption>{{ t.quickstart_app_cap_winforms_tab }}</figcaption>
+          </figure>
+          <figure>
+            <img src="{{ '/assets/img/quickstart/winforms-add-server.png' | relative_url }}" alt="{{ t.quickstart_app_alt_winforms_dialog }}" width="915" height="427">
+            <figcaption>{{ t.quickstart_app_cap_winforms_dialog }}</figcaption>
+          </figure>
+        </div>
+      </article>
+    </section>
+  </main>
+  {% include site-footer.html %}
+</body>
+</html>

@@ -2,26 +2,32 @@
   {% when 'ru' %}
     {% assign home_url = '/torglink/ru/' %}
     {% assign server_url = '/torglink/ru/server/' %}
+    {% assign quickstart_url = '/torglink/ru/quickstart/' %}
     {% assign releases_url = '/torglink/ru/releases/' %}
   {% when 'de' %}
     {% assign home_url = '/torglink/de/' %}
     {% assign server_url = '/torglink/de/server/' %}
+    {% assign quickstart_url = '/torglink/de/quickstart/' %}
     {% assign releases_url = '/torglink/de/releases/' %}
   {% when 'fr' %}
     {% assign home_url = '/torglink/fr/' %}
     {% assign server_url = '/torglink/fr/server/' %}
+    {% assign quickstart_url = '/torglink/fr/quickstart/' %}
     {% assign releases_url = '/torglink/fr/releases/' %}
   {% when 'es' %}
     {% assign home_url = '/torglink/es/' %}
     {% assign server_url = '/torglink/es/server/' %}
+    {% assign quickstart_url = '/torglink/es/quickstart/' %}
     {% assign releases_url = '/torglink/es/releases/' %}
   {% when 'zh' %}
     {% assign home_url = '/torglink/zh/' %}
     {% assign server_url = '/torglink/zh/server/' %}
+    {% assign quickstart_url = '/torglink/zh/quickstart/' %}
     {% assign releases_url = '/torglink/zh/releases/' %}
   {% else %}
     {% assign home_url = '/torglink/' %}
     {% assign server_url = '/torglink/server/' %}
+    {% assign quickstart_url = '/torglink/quickstart/' %}
     {% assign releases_url = '/torglink/releases/' %}
 {% endcase %}
 {% if page.section == 'releases' %}
@@ -31,6 +37,13 @@
   {% assign fr_alt = '/torglink/fr/releases/' %}
   {% assign es_alt = '/torglink/es/releases/' %}
   {% assign zh_alt = '/torglink/zh/releases/' %}
+{% elsif page.section == 'quickstart' %}
+  {% assign en_alt = '/torglink/quickstart/' %}
+  {% assign ru_alt = '/torglink/ru/quickstart/' %}
+  {% assign de_alt = '/torglink/de/quickstart/' %}
+  {% assign fr_alt = '/torglink/fr/quickstart/' %}
+  {% assign es_alt = '/torglink/es/quickstart/' %}
+  {% assign zh_alt = '/torglink/zh/quickstart/' %}
 {% elsif page.section == 'server' %}
   {% assign en_alt = '/torglink/server/' %}
   {% assign ru_alt = '/torglink/ru/server/' %}

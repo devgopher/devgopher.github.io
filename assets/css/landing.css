@@ -679,7 +679,47 @@ h2 {
   font-size: 14px;
 }
 
+.qs-platform {
+  margin-top: 28px;
+  padding-top: 22px;
+  border-top: 1px solid var(--line);
+}
+
+.qs-platform h3 {
+  margin: 0 0 12px;
+  font-size: clamp(1.15rem, 2.4vw, 1.45rem);
+}
+
+.qs-shots {
+  display: grid;
+  gap: 18px;
+  margin: 16px 0 4px;
+  max-width: 36rem;
+}
+
+.qs-shots figure {
+  margin: 0;
+}
+
+.qs-shots img {
+  display: block;
+  width: 100%;
+  max-width: 560px;
+  height: auto;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: #121212;
+}
+
+.qs-shots figcaption {
+  margin-top: 8px;
+  font-size: 13px;
+  color: var(--muted);
+  max-width: 36rem;
+}
+
 .releases-hero,
+.quickstart-hero,
 .server-hero {
   padding-top: 48px;
   padding-bottom: 12px;
@@ -690,6 +730,7 @@ h2 {
 }
 
 .releases-hero h1,
+.quickstart-hero h1,
 .server-hero h1 {
   font-size: clamp(2.2rem, 5vw, 3.6rem);
 }

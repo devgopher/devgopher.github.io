@@ -9,6 +9,7 @@ en:
   nav_overview: Overview
   nav_server: Server
   nav_releases: Releases
+  nav_quickstart: Quick Start
   nav_source: Source
   server_meta_title: TorgLink — server (draft 0.1)
   server_meta_description: "A store-and-forward server for finding clients and delivering encrypted messages reliably. Messages are stored exclusively in encrypted form and are permanently deleted after they are received."
@@ -19,6 +20,60 @@ en:
   releases_lead: Development builds and draft notes for branch 0.1. Nothing here is a production release.
   releases_empty: No published releases yet. Track the source branch for ongoing work.
   releases_view: View on GitHub
+  quickstart_meta_title: TorgLink — quick start (draft 0.1)
+  quickstart_meta_description: "Install the TorgLink client and, optionally, a ShortP2P server from draft 0.1 artifacts. Not a production release."
+  quickstart_kicker: Setup
+  quickstart_title: Quick Start
+  quickstart_lead: "Short steps to install the TorgLink client and, if you want, a self-hosted ShortP2P server. Draft 0.1 builds — not a production release."
+  quickstart_client_kicker: Client
+  quickstart_client_title: Install client
+  quickstart_client_lead: "Published 0.1 client packages: Windows installers and an Android package from the rolling ci-builds prerelease."
+  quickstart_client_steps:
+    - Open the TorgLink Release 0.1 artifacts.
+    - Download the Windows installer or the Android ZIP that matches your platform.
+    - Run the Windows setup, or unpack the Android ZIP and install the APK.
+  quickstart_client_open: Open TorgLink 0.1 artifacts
+  quickstart_server_kicker: Server
+  quickstart_server_title: Install server
+  quickstart_server_lead: "Optional store-and-forward server. You host it yourself on Windows or Linux. Messages stay encrypted and are deleted after the recipient receives them."
+  quickstart_server_steps:
+    - Open the ShortP2P 0.1 artifacts on the GitHub Actions run.
+    - Download the Windows (win-x64) or Linux (amd64) ZIP. Downloading an Actions artifact requires a GitHub account.
+    - Unpack the archive on the host machine and run the server.
+  quickstart_server_open: Open ShortP2P 0.1 artifacts
+  quickstart_server_win: Windows (win-x64)
+  quickstart_server_linux: Linux (amd64)
+  quickstart_app_kicker: In the app
+  quickstart_app_title: Configure servers in the app
+  quickstart_app_lead: "Once the client is running, add the Base URL of your ShortP2P server. The app stores the server certificate fingerprint."
+  quickstart_app_maui_note: "The dark screenshots are from the MAUI client on Windows. Android uses the same MAUI UI — there is no separate Android layout in these shots."
+  quickstart_app_android_title: Android
+  quickstart_app_android_steps:
+    - Open Network.
+    - Tap Servers.
+    - Enter the Base URL (for example https://host:7196).
+    - Tap Add server. Import server is optional.
+  quickstart_app_maui_title: Win MAUI
+  quickstart_app_maui_steps:
+    - Open Network.
+    - Tap Servers.
+    - Enter the Base URL (for example https://host:7196).
+    - Tap Add server. Import server is optional.
+  quickstart_app_winforms_title: WinForms
+  quickstart_app_winforms_steps:
+    - Open the Servers tab (Серверы).
+    - Enter the Base URL.
+    - Click Add (Добавить). You can also import a QR from a file (QR из файла).
+  quickstart_app_alt_maui_network: "MAUI client: Network in the top navigation."
+  quickstart_app_alt_maui_servers: "MAUI client: orange Servers button on the Network screen."
+  quickstart_app_alt_maui_add: "MAUI client: Base URL field and Add server button."
+  quickstart_app_alt_winforms_tab: "WinForms: Servers tab (Серверы) in the main window."
+  quickstart_app_alt_winforms_dialog: "WinForms: Messenger servers dialog with Base URL and Add (Добавить)."
+  quickstart_app_cap_maui_network: Network
+  quickstart_app_cap_maui_servers: Servers
+  quickstart_app_cap_maui_add: "Base URL → Add server"
+  quickstart_app_cap_winforms_tab: Серверы
+  quickstart_app_cap_winforms_dialog: "Base URL → Добавить"
   downloads_kicker: Builds
   downloads_title: Unstable CI builds
   downloads_lead: "Four targets from the public TorgLink CI workflow. Open the latest successful run, open Artifacts, then download the ZIP named below."
@@ -147,6 +202,7 @@ ru:
   nav_overview: Обзор
   nav_server: Сервер
   nav_releases: Релизы
+  nav_quickstart: Быстрый старт
   nav_source: Исходный код
   server_meta_title: TorgLink — сервер (черновик 0.1)
   server_meta_description: "Store-and-forward сервер для поиска клиентов и надёжной передачи зашифрованных сообщений. Сообщения хранятся исключительно в зашифрованном виде и удаляются после получения безвозвратно."
@@ -157,6 +213,60 @@ ru:
   releases_lead: Черновые сборки и заметки для ветки 0.1. Здесь нет продакшен-релизов.
   releases_empty: Опубликованных релизов пока нет. Следите за исходной веткой.
   releases_view: Смотреть на GitHub
+  quickstart_meta_title: TorgLink — быстрый старт (черновик 0.1)
+  quickstart_meta_description: "Установка клиента TorgLink и, при необходимости, сервера ShortP2P из артефактов черновика 0.1. Не продакшен-релиз."
+  quickstart_kicker: Установка
+  quickstart_title: Быстрый старт
+  quickstart_lead: "Краткие шаги: установить клиент TorgLink и, если нужно, свой сервер ShortP2P. Сборки черновика 0.1 — не продакшен."
+  quickstart_client_kicker: Клиент
+  quickstart_client_title: Установка клиента
+  quickstart_client_lead: "Опубликованные пакеты клиента 0.1: установщики Windows и пакет Android из rolling-пререлиза ci-builds."
+  quickstart_client_steps:
+    - Откройте артефакты релиза TorgLink 0.1.
+    - Скачайте установщик Windows или ZIP Android под вашу платформу.
+    - Запустите установщик Windows либо распакуйте ZIP Android и установите APK.
+  quickstart_client_open: Открыть артефакты TorgLink 0.1
+  quickstart_server_kicker: Сервер
+  quickstart_server_title: Установка сервера
+  quickstart_server_lead: "Необязательный store-and-forward сервер. Вы разворачиваете его сами на Windows или Linux. Сообщения хранятся только как шифротекст и удаляются после получения."
+  quickstart_server_steps:
+    - Откройте артефакты ShortP2P 0.1 на странице прогона GitHub Actions.
+    - Скачайте ZIP для Windows (win-x64) или Linux (amd64). Скачивание артефакта Actions требует аккаунт GitHub.
+    - Распакуйте архив на машине-хосте и запустите сервер.
+  quickstart_server_open: Открыть артефакты ShortP2P 0.1
+  quickstart_server_win: Windows (win-x64)
+  quickstart_server_linux: Linux (amd64)
+  quickstart_app_kicker: В приложении
+  quickstart_app_title: Настройка серверов в приложении
+  quickstart_app_lead: "Когда клиент запущен, добавьте Base URL вашего сервера ShortP2P. Приложение сохраняет отпечаток сертификата сервера."
+  quickstart_app_maui_note: "Тёмные скриншоты — клиент MAUI на Windows. На Android тот же интерфейс MAUI; отдельной Android-вёрстки на этих кадрах нет."
+  quickstart_app_android_title: Android
+  quickstart_app_android_steps:
+    - Откройте Network.
+    - Нажмите Servers.
+    - Введите Base URL (например https://host:7196).
+    - Нажмите Add server. Import server — по желанию.
+  quickstart_app_maui_title: Win MAUI
+  quickstart_app_maui_steps:
+    - Откройте Network.
+    - Нажмите Servers.
+    - Введите Base URL (например https://host:7196).
+    - Нажмите Add server. Import server — по желанию.
+  quickstart_app_winforms_title: WinForms
+  quickstart_app_winforms_steps:
+    - Откройте вкладку «Серверы».
+    - Введите Base URL.
+    - Нажмите «Добавить». Можно также импортировать QR из файла.
+  quickstart_app_alt_maui_network: "Клиент MAUI: пункт Network в верхней навигации."
+  quickstart_app_alt_maui_servers: "Клиент MAUI: оранжевая кнопка Servers на экране Network."
+  quickstart_app_alt_maui_add: "Клиент MAUI: поле Base URL и кнопка Add server."
+  quickstart_app_alt_winforms_tab: "WinForms: вкладка «Серверы» в главном окне."
+  quickstart_app_alt_winforms_dialog: "WinForms: диалог Messenger servers, поле Base URL и кнопка «Добавить»."
+  quickstart_app_cap_maui_network: Network
+  quickstart_app_cap_maui_servers: Servers
+  quickstart_app_cap_maui_add: "Base URL → Add server"
+  quickstart_app_cap_winforms_tab: Серверы
+  quickstart_app_cap_winforms_dialog: "Base URL → Добавить"
   downloads_kicker: Сборки
   downloads_title: Нестабильные сборки CI
   downloads_lead: "Четыре цели из публичного workflow CI репозитория TorgLink. Откройте последний успешный прогон, раздел Artifacts, затем скачайте ZIP с именем ниже."
@@ -285,6 +395,7 @@ es:
   nav_overview: Resumen
   nav_server: Servidor
   nav_releases: Lanzamientos
+  nav_quickstart: Inicio rápido
   nav_source: Código
   server_meta_title: TorgLink — servidor (borrador 0.1)
   server_meta_description: "Un servidor store-and-forward para encontrar clientes y entregar mensajes cifrados de forma fiable. Los mensajes se guardan exclusivamente cifrados y se borran de forma permanente e irreversible tras su recepción."
@@ -295,6 +406,60 @@ es:
   releases_lead: Compilaciones de desarrollo y notas borrador para la rama 0.1. Nada de esto es un lanzamiento de producción.
   releases_empty: Aún no hay lanzamientos publicados. Sigue la rama de código fuente.
   releases_view: Ver en GitHub
+  quickstart_meta_title: TorgLink — inicio rápido (borrador 0.1)
+  quickstart_meta_description: "Instala el cliente TorgLink y, si quieres, un servidor ShortP2P desde los artefactos del borrador 0.1. No es un lanzamiento de producción."
+  quickstart_kicker: Instalación
+  quickstart_title: Inicio rápido
+  quickstart_lead: "Pasos breves para instalar el cliente TorgLink y, si quieres, un servidor ShortP2P autohospedado. Builds del borrador 0.1 — no es un lanzamiento de producción."
+  quickstart_client_kicker: Cliente
+  quickstart_client_title: Instalar el cliente
+  quickstart_client_lead: "Paquetes de cliente 0.1 publicados: instaladores de Windows y un paquete Android del prerelease rolling ci-builds."
+  quickstart_client_steps:
+    - Abre los artefactos del lanzamiento TorgLink 0.1.
+    - Descarga el instalador de Windows o el ZIP de Android de tu plataforma.
+    - Ejecuta el instalador de Windows, o descomprime el ZIP de Android e instala el APK.
+  quickstart_client_open: Abrir los artefactos de TorgLink 0.1
+  quickstart_server_kicker: Servidor
+  quickstart_server_title: Instalar el servidor
+  quickstart_server_lead: "Servidor store-and-forward opcional. Lo hospedas tú en Windows o Linux. Los mensajes siguen cifrados y se borran cuando el destinatario los recibe."
+  quickstart_server_steps:
+    - Abre los artefactos de ShortP2P 0.1 en la ejecución de GitHub Actions.
+    - Descarga el ZIP de Windows (win-x64) o de Linux (amd64). Hace falta una cuenta de GitHub para artefactos de Actions.
+    - Descomprime el archivo en la máquina anfitriona y ejecuta el servidor.
+  quickstart_server_open: Abrir los artefactos de ShortP2P 0.1
+  quickstart_server_win: Windows (win-x64)
+  quickstart_server_linux: Linux (amd64)
+  quickstart_app_kicker: En la app
+  quickstart_app_title: Configurar servidores en la app
+  quickstart_app_lead: "Cuando el cliente está en marcha, añade la Base URL de tu servidor ShortP2P. La app guarda la huella del certificado del servidor."
+  quickstart_app_maui_note: "Las capturas oscuras son del cliente MAUI en Windows. Android usa la misma interfaz MAUI; no hay un diseño Android distinto en estas imágenes."
+  quickstart_app_android_title: Android
+  quickstart_app_android_steps:
+    - Abre Network.
+    - Pulsa Servers.
+    - Introduce la Base URL (por ejemplo https://host:7196).
+    - Pulsa Add server. Import server es opcional.
+  quickstart_app_maui_title: Win MAUI
+  quickstart_app_maui_steps:
+    - Abre Network.
+    - Pulsa Servers.
+    - Introduce la Base URL (por ejemplo https://host:7196).
+    - Pulsa Add server. Import server es opcional.
+  quickstart_app_winforms_title: WinForms
+  quickstart_app_winforms_steps:
+    - Abre la pestaña Servers (Серверы).
+    - Introduce la Base URL.
+    - Pulsa Add (Добавить). También puedes importar un QR desde un archivo (QR из файла).
+  quickstart_app_alt_maui_network: "Cliente MAUI: Network en la navegación superior."
+  quickstart_app_alt_maui_servers: "Cliente MAUI: botón naranja Servers en la pantalla Network."
+  quickstart_app_alt_maui_add: "Cliente MAUI: campo Base URL y botón Add server."
+  quickstart_app_alt_winforms_tab: "WinForms: pestaña Servers (Серверы) en la ventana principal."
+  quickstart_app_alt_winforms_dialog: "WinForms: diálogo Messenger servers con Base URL y Add (Добавить)."
+  quickstart_app_cap_maui_network: Network
+  quickstart_app_cap_maui_servers: Servers
+  quickstart_app_cap_maui_add: "Base URL → Add server"
+  quickstart_app_cap_winforms_tab: Серверы
+  quickstart_app_cap_winforms_dialog: "Base URL → Добавить"
   downloads_kicker: Builds
   downloads_title: Builds CI inestables
   downloads_lead: "Cuatro objetivos del workflow CI público de TorgLink. Abre la última ejecución correcta, abre Artifacts y descarga el ZIP con el nombre de abajo."
@@ -423,6 +588,7 @@ zh:
   nav_overview: 概览
   nav_server: 服务器
   nav_releases: 发布
+  nav_quickstart: 快速开始
   nav_source: 源代码
   server_meta_title: TorgLink — 服务器（草案 0.1）
   server_meta_description: "Store-and-forward 服务器，用于查找客户端并可靠投递加密消息。消息仅以密文形式存储，对方收到后即被永久、不可恢复地删除。"
@@ -433,6 +599,60 @@ zh:
   releases_lead: 面向 0.1 分支的开发构建与草案说明。此处没有生产环境发布。
   releases_empty: 尚无已发布版本。请关注源码分支的进展。
   releases_view: 在 GitHub 上查看
+  quickstart_meta_title: TorgLink — 快速开始（草案 0.1）
+  quickstart_meta_description: "从草案 0.1 产物安装 TorgLink 客户端，以及可选的 ShortP2P 服务器。非正式发布。"
+  quickstart_kicker: 安装
+  quickstart_title: 快速开始
+  quickstart_lead: "简要步骤：安装 TorgLink 客户端，如需要再自行托管 ShortP2P 服务器。草案 0.1 构建 — 非正式发布。"
+  quickstart_client_kicker: 客户端
+  quickstart_client_title: 安装客户端
+  quickstart_client_lead: "已发布的 0.1 客户端包：来自滚动预发布 ci-builds 的 Windows 安装包与 Android 软件包。"
+  quickstart_client_steps:
+    - 打开 TorgLink 0.1 发布产物。
+    - 下载对应平台的 Windows 安装包或 Android ZIP。
+    - 运行 Windows 安装程序，或解压 Android ZIP 并安装 APK。
+  quickstart_client_open: 打开 TorgLink 0.1 产物
+  quickstart_server_kicker: 服务器
+  quickstart_server_title: 安装服务器
+  quickstart_server_lead: "可选的 store-and-forward 服务器。由你在 Windows 或 Linux 上自行托管。消息保持加密，接收方收到后即删除。"
+  quickstart_server_steps:
+    - 打开 GitHub Actions 运行上的 ShortP2P 0.1 产物。
+    - 下载 Windows（win-x64）或 Linux（amd64）ZIP。下载 Actions 产物需要 GitHub 账号。
+    - 在主机上解压归档并运行服务器。
+  quickstart_server_open: 打开 ShortP2P 0.1 产物
+  quickstart_server_win: Windows (win-x64)
+  quickstart_server_linux: Linux (amd64)
+  quickstart_app_kicker: 在应用中
+  quickstart_app_title: 在应用中配置服务器
+  quickstart_app_lead: "客户端运行后，添加你的 ShortP2P 服务器 Base URL。应用会保存服务器证书指纹。"
+  quickstart_app_maui_note: "深色截图来自 Windows 上的 MAUI 客户端。Android 使用同一套 MAUI 界面，这些画面没有单独的 Android 布局。"
+  quickstart_app_android_title: Android
+  quickstart_app_android_steps:
+    - 打开 Network。
+    - 点 Servers。
+    - 输入 Base URL（例如 https://host:7196）。
+    - 点 Add server。Import server 为可选项。
+  quickstart_app_maui_title: Win MAUI
+  quickstart_app_maui_steps:
+    - 打开 Network。
+    - 点 Servers。
+    - 输入 Base URL（例如 https://host:7196）。
+    - 点 Add server。Import server 为可选项。
+  quickstart_app_winforms_title: WinForms
+  quickstart_app_winforms_steps:
+    - 打开 Servers（Серверы）选项卡。
+    - 输入 Base URL。
+    - 点击 Add（Добавить）。也可以从文件导入 QR（QR из файла）。
+  quickstart_app_alt_maui_network: "MAUI 客户端：顶部导航中的 Network。"
+  quickstart_app_alt_maui_servers: "MAUI 客户端：Network 屏幕上的橙色 Servers 按钮。"
+  quickstart_app_alt_maui_add: "MAUI 客户端：Base URL 字段与 Add server 按钮。"
+  quickstart_app_alt_winforms_tab: "WinForms：主窗口中的 Servers（Серверы）选项卡。"
+  quickstart_app_alt_winforms_dialog: "WinForms：Messenger servers 对话框中的 Base URL 与 Add（Добавить）。"
+  quickstart_app_cap_maui_network: Network
+  quickstart_app_cap_maui_servers: Servers
+  quickstart_app_cap_maui_add: "Base URL → Add server"
+  quickstart_app_cap_winforms_tab: Серверы
+  quickstart_app_cap_winforms_dialog: "Base URL → Добавить"
   downloads_kicker: 构建
   downloads_title: 不稳定 CI 构建
   downloads_lead: "来自公开的 TorgLink CI 工作流的四个目标。打开最近一次成功的运行，进入 Artifacts，然后下载下方名称对应的 ZIP。"
@@ -563,6 +783,7 @@ de:
   nav_overview: Überblick
   nav_server: Server
   nav_releases: Releases
+  nav_quickstart: Schnellstart
   nav_source: Quellcode
   server_meta_title: TorgLink — Server (Entwurf 0.1)
   server_meta_description: "Ein Store-and-Forward-Server zum Finden von Clients und zur zuverlässigen Zustellung verschlüsselter Nachrichten. Nachrichten werden ausschließlich verschlüsselt gespeichert und nach dem Empfang unwiderruflich gelöscht."
@@ -573,6 +794,60 @@ de:
   releases_lead: Entwicklungsbuilds und Entwurfsnotizen für Branch 0.1. Hier gibt es keine Produktionsveröffentlichung.
   releases_empty: Noch keine veröffentlichten Releases. Folgen Sie dem Quellcode-Branch.
   releases_view: Auf GitHub ansehen
+  quickstart_meta_title: TorgLink — Schnellstart (Entwurf 0.1)
+  quickstart_meta_description: "Installieren Sie den TorgLink-Client und optional einen ShortP2P-Server aus den Entwurf-0.1-Artefakten. Keine Produktionsversion."
+  quickstart_kicker: Einrichtung
+  quickstart_title: Schnellstart
+  quickstart_lead: "Kurze Schritte, um den TorgLink-Client und optional einen selbst gehosteten ShortP2P-Server zu installieren. Entwurfsbuilds 0.1 — keine Produktionsversion."
+  quickstart_client_kicker: Client
+  quickstart_client_title: Client installieren
+  quickstart_client_lead: "Veröffentlichte 0.1-Client-Pakete: Windows-Installer und ein Android-Paket aus dem rolling-Prerelease ci-builds."
+  quickstart_client_steps:
+    - Öffnen Sie die TorgLink-Release-0.1-Artefakte.
+    - Laden Sie den Windows-Installer oder die Android-ZIP für Ihre Plattform herunter.
+    - Führen Sie das Windows-Setup aus oder entpacken Sie die Android-ZIP und installieren Sie die APK.
+  quickstart_client_open: TorgLink-0.1-Artefakte öffnen
+  quickstart_server_kicker: Server
+  quickstart_server_title: Server installieren
+  quickstart_server_lead: "Optionaler Store-and-Forward-Server. Sie betreiben ihn selbst unter Windows oder Linux. Nachrichten bleiben verschlüsselt und werden nach Empfang gelöscht."
+  quickstart_server_steps:
+    - Öffnen Sie die ShortP2P-0.1-Artefakte auf dem GitHub-Actions-Lauf.
+    - Laden Sie die Windows- (win-x64) oder Linux-ZIP (amd64) herunter. Für Actions-Artefakte ist ein GitHub-Konto nötig.
+    - Entpacken Sie das Archiv auf dem Host und starten Sie den Server.
+  quickstart_server_open: ShortP2P-0.1-Artefakte öffnen
+  quickstart_server_win: Windows (win-x64)
+  quickstart_server_linux: Linux (amd64)
+  quickstart_app_kicker: In der App
+  quickstart_app_title: Server in der App einrichten
+  quickstart_app_lead: "Wenn der Client läuft, tragen Sie die Base URL Ihres ShortP2P-Servers ein. Die App speichert den Zertifikats-Fingerprint des Servers."
+  quickstart_app_maui_note: "Die dunklen Screenshots stammen vom MAUI-Client unter Windows. Android nutzt dieselbe MAUI-Oberfläche — es gibt in diesen Aufnahmen kein eigenes Android-Layout."
+  quickstart_app_android_title: Android
+  quickstart_app_android_steps:
+    - Öffnen Sie Network.
+    - Tippen Sie auf Servers.
+    - Geben Sie die Base URL ein (zum Beispiel https://host:7196).
+    - Tippen Sie auf Add server. Import server ist optional.
+  quickstart_app_maui_title: Win MAUI
+  quickstart_app_maui_steps:
+    - Öffnen Sie Network.
+    - Tippen Sie auf Servers.
+    - Geben Sie die Base URL ein (zum Beispiel https://host:7196).
+    - Tippen Sie auf Add server. Import server ist optional.
+  quickstart_app_winforms_title: WinForms
+  quickstart_app_winforms_steps:
+    - Öffnen Sie die Registerkarte Servers (Серверы).
+    - Geben Sie die Base URL ein.
+    - Klicken Sie auf Add (Добавить). Optional können Sie einen QR aus einer Datei importieren (QR из файла).
+  quickstart_app_alt_maui_network: "MAUI-Client: Network in der oberen Navigation."
+  quickstart_app_alt_maui_servers: "MAUI-Client: orangefarbene Schaltfläche Servers auf dem Network-Bildschirm."
+  quickstart_app_alt_maui_add: "MAUI-Client: Feld Base URL und Schaltfläche Add server."
+  quickstart_app_alt_winforms_tab: "WinForms: Registerkarte Servers (Серверы) im Hauptfenster."
+  quickstart_app_alt_winforms_dialog: "WinForms: Dialog Messenger servers mit Base URL und Add (Добавить)."
+  quickstart_app_cap_maui_network: Network
+  quickstart_app_cap_maui_servers: Servers
+  quickstart_app_cap_maui_add: "Base URL → Add server"
+  quickstart_app_cap_winforms_tab: Серверы
+  quickstart_app_cap_winforms_dialog: "Base URL → Добавить"
   downloads_kicker: Builds
   downloads_title: Instabile CI-Builds
   downloads_lead: "Vier Ziele aus dem öffentlichen TorgLink-CI-Workflow. Öffnen Sie den letzten erfolgreichen Lauf, dann Artifacts, und laden Sie die unten genannte ZIP herunter."
@@ -701,6 +976,7 @@ fr:
   nav_overview: Aperçu
   nav_server: Serveur
   nav_releases: Versions
+  nav_quickstart: Démarrage rapide
   nav_source: Code source
   server_meta_title: TorgLink — serveur (brouillon 0.1)
   server_meta_description: "Un serveur store-and-forward pour trouver les clients et transmettre des messages chiffrés de façon fiable. Les messages sont stockés exclusivement sous forme chiffrée et sont définitivement, irréversiblement, supprimés après réception."
@@ -711,6 +987,60 @@ fr:
   releases_lead: Builds de développement et notes brouillon pour la branche 0.1. Rien ici n’est une version de production.
   releases_empty: Aucune version publiée pour l’instant. Suivez la branche source.
   releases_view: Voir sur GitHub
+  quickstart_meta_title: TorgLink — démarrage rapide (brouillon 0.1)
+  quickstart_meta_description: "Installez le client TorgLink et, éventuellement, un serveur ShortP2P à partir des artefacts du brouillon 0.1. Pas une version de production."
+  quickstart_kicker: Installation
+  quickstart_title: Démarrage rapide
+  quickstart_lead: "Étapes courtes pour installer le client TorgLink et, si vous le souhaitez, un serveur ShortP2P auto-hébergé. Builds brouillon 0.1 — pas une version de production."
+  quickstart_client_kicker: Client
+  quickstart_client_title: Installer le client
+  quickstart_client_lead: "Paquets client 0.1 publiés : installeurs Windows et un paquet Android depuis la prerelease rolling ci-builds."
+  quickstart_client_steps:
+    - Ouvrez les artefacts de la version TorgLink 0.1.
+    - Téléchargez l’installeur Windows ou le ZIP Android correspondant à votre plateforme.
+    - Lancez l’installeur Windows, ou décompressez le ZIP Android et installez l’APK.
+  quickstart_client_open: Ouvrir les artefacts TorgLink 0.1
+  quickstart_server_kicker: Serveur
+  quickstart_server_title: Installer le serveur
+  quickstart_server_lead: "Serveur store-and-forward optionnel. Vous l’hébergez vous-même sous Windows ou Linux. Les messages restent chiffrés et sont supprimés après réception."
+  quickstart_server_steps:
+    - Ouvrez les artefacts ShortP2P 0.1 sur l’exécution GitHub Actions.
+    - Téléchargez le ZIP Windows (win-x64) ou Linux (amd64). Un compte GitHub est requis pour les artefacts Actions.
+    - Décompressez l’archive sur la machine hôte et lancez le serveur.
+  quickstart_server_open: Ouvrir les artefacts ShortP2P 0.1
+  quickstart_server_win: Windows (win-x64)
+  quickstart_server_linux: Linux (amd64)
+  quickstart_app_kicker: Dans l’app
+  quickstart_app_title: Configurer les serveurs dans l’app
+  quickstart_app_lead: "Une fois le client lancé, ajoutez l’URL de base de votre serveur ShortP2P. L’app enregistre l’empreinte du certificat du serveur."
+  quickstart_app_maui_note: "Les captures sombres viennent du client MAUI sous Windows. Android utilise la même interface MAUI ; il n’y a pas de mise en page Android distincte sur ces images."
+  quickstart_app_android_title: Android
+  quickstart_app_android_steps:
+    - Ouvrez Network.
+    - Appuyez sur Servers.
+    - Saisissez la Base URL (par exemple https://host:7196).
+    - Appuyez sur Add server. Import server est facultatif.
+  quickstart_app_maui_title: Win MAUI
+  quickstart_app_maui_steps:
+    - Ouvrez Network.
+    - Appuyez sur Servers.
+    - Saisissez la Base URL (par exemple https://host:7196).
+    - Appuyez sur Add server. Import server est facultatif.
+  quickstart_app_winforms_title: WinForms
+  quickstart_app_winforms_steps:
+    - Ouvrez l’onglet Servers (Серверы).
+    - Saisissez la Base URL.
+    - Cliquez sur Add (Добавить). Vous pouvez aussi importer un QR depuis un fichier (QR из файла).
+  quickstart_app_alt_maui_network: "Client MAUI : Network dans la navigation supérieure."
+  quickstart_app_alt_maui_servers: "Client MAUI : bouton orange Servers sur l’écran Network."
+  quickstart_app_alt_maui_add: "Client MAUI : champ Base URL et bouton Add server."
+  quickstart_app_alt_winforms_tab: "WinForms : onglet Servers (Серверы) dans la fenêtre principale."
+  quickstart_app_alt_winforms_dialog: "WinForms : dialogue Messenger servers avec Base URL et Add (Добавить)."
+  quickstart_app_cap_maui_network: Network
+  quickstart_app_cap_maui_servers: Servers
+  quickstart_app_cap_maui_add: "Base URL → Add server"
+  quickstart_app_cap_winforms_tab: Серверы
+  quickstart_app_cap_winforms_dialog: "Base URL → Добавить"
   downloads_kicker: Builds
   downloads_title: Builds CI instables
   downloads_lead: "Quatre cibles du workflow CI public de TorgLink. Ouvrez la dernière exécution réussie, la section Artifacts, puis téléchargez le ZIP nommé ci-dessous."

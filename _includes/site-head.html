@@ -3,6 +3,9 @@
 {% if page.section == 'releases' %}
   {% assign page_title = t.releases_meta_title %}
   {% assign page_description = t.releases_meta_description %}
+{% elsif page.section == 'quickstart' %}
+  {% assign page_title = t.quickstart_meta_title %}
+  {% assign page_description = t.quickstart_meta_description %}
 {% elsif page.section == 'server' %}
   {% assign page_title = t.server_meta_title %}
   {% assign page_description = t.server_meta_description %}
