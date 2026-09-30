@@ -22,15 +22,21 @@ server_actions_url: https://github.com/IskraMessenger/ShortP2P/actions
 platform_artifacts:
   windows: client
   android: client
+# A build may carry `url` to pin it to one Actions run instead of the rolling
+# release asset; that link wins over both source modes and is left alone by
+# assets/js/ci-downloads.js. WinForms x86/x64 ship in one `winforms-Release`
+# artifact, so both entries point at the same run.
 builds:
   - id: winforms-x86
     label: WinForms x86
-    artifact: winforms-x86-Release
+    artifact: winforms-Release
     asset: TorgLink-0.1-winforms-x86-setup.exe
+    url: https://github.com/IskraMessenger/TorgLink/actions/runs/36701754190#artifacts
   - id: winforms-x64
     label: WinForms x64
-    artifact: winforms-x64-Release
+    artifact: winforms-Release
     asset: TorgLink-0.1-winforms-x64-setup.exe
+    url: https://github.com/IskraMessenger/TorgLink/actions/runs/36701754190#artifacts
   - id: maui-windows-x64
     label: MAUI Windows x64
     artifact: maui-windows-x64-Release

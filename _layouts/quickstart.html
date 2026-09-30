@@ -30,7 +30,10 @@
       <ul class="download-list">
         {% for build in dl.builds %}
           <li class="download-item">
-            {% if use_releases %}
+            {% if build.url %}
+              <a class="download-link" href="{{ build.url }}">{{ build.label }}</a>
+              <span class="download-artifact">{{ t.downloads_artifact }}: <code>{{ build.artifact }}</code></span>
+            {% elsif use_releases %}
               <a class="download-link" href="{{ dl.release_download_base }}/{{ build.asset }}">{{ build.label }}</a>
               <span class="download-artifact">{{ t.downloads_file }}: <code>{{ build.asset }}</code></span>
             {% else %}
