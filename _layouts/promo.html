@@ -1,0 +1,48 @@
+{% assign t = site.data.i18n[page.lang] %}
+{% assign videos = site.data.promo_videos | sort: "date" | reverse %}
+<!DOCTYPE html>
+<html lang="{{ t.html_lang }}">
+<head>
+  {% include site-head.html %}
+</head>
+<body>
+  {% include site-header.html %}
+  <main id="main">
+    <section class="wrap section">
+      <p class="kicker">{{ t.promo_archive_kicker }}</p>
+      <h1>{{ t.promo_archive_title }}</h1>
+      <p class="lead">{{ t.promo_archive_lead }}</p>
+    </section>
+
+    <section
+      class="wrap section promo-archive"
+      data-promo-archive
+      data-page-size="5"
+      aria-label="{{ t.promo_archive_title | escape }}"
+    >
+      {% for video in videos %}
+        {% assign video_title = video.title[page.lang] | default: video.title.en %}
+        <article class="promo-archive-item" data-promo-item>
+          <header class="promo-archive-head">
+            <time class="promo-archive-date" datetime="{{ video.date }}">{{ video.date }}</time>
+            <h2>{{ video_title }}</h2>
+          </header>
+          {% include promo-player.html name=video.id qualities=video.qualities %}
+        </article>
+      {% endfor %}
+      <nav class="promo-pager" data-promo-pager aria-label="{{ t.promo_archive_title | escape }}" hidden>
+        <button type="button" class="promo-pager-btn" data-pager-newer>{{ t.promo_archive_newer }}</button>
+        <span
+          class="promo-pager-status"
+          data-pager-status
+          data-template="{{ t.promo_archive_page | escape }}"
+        ></span>
+        <button type="button" class="promo-pager-btn" data-pager-older>{{ t.promo_archive_older }}</button>
+      </nav>
+    </section>
+  </main>
+  {% include site-footer.html %}
+  <script src="{{ '/assets/js/promo-player.js' | relative_url }}" defer></script>
+  <script src="{{ '/assets/js/promo-archive.js' | relative_url }}" defer></script>
+</body>
+</html>

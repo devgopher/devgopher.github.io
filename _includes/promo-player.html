@@ -3,12 +3,21 @@
 {% unless promo_langs contains promo_lang %}
   {% assign promo_lang = "en" %}
 {% endunless %}
+{% assign promo_name = include.name | default: "promo" %}
+{% assign promo_qualities = include.qualities | default: "1080,480,360,240,144" %}
+{% assign promo_qlist = promo_qualities | split: "," %}
+{% assign promo_default_q = promo_qlist[0] %}
+{% if promo_qlist contains "480" %}
+  {% assign promo_default_q = "480" %}
+{% endif %}
 {% assign promo_base = "/assets/promo/" | relative_url %}
 <figure
   class="promo"
   data-promo
   data-promo-lang="{{ promo_lang }}"
   data-promo-base="{{ promo_base }}"
+  data-promo-name="{{ promo_name }}"
+  data-promo-qualities="{{ promo_qualities }}"
   data-promo-label="{{ t.promo_label | escape }}"
 >
   <div class="promo-frame">
@@ -17,14 +26,14 @@
       controls
       playsinline
       preload="none"
-      poster="{{ promo_base }}promo-{{ promo_lang }}.jpg"
+      poster="{{ promo_base }}{{ promo_name }}-{{ promo_lang }}.jpg"
       aria-label="{{ t.promo_label | escape }}"
     >
-      <source src="{{ promo_base }}promo-{{ promo_lang }}-480.mp4" type="video/mp4">
+      <source src="{{ promo_base }}{{ promo_name }}-{{ promo_lang }}-{{ promo_default_q }}.mp4" type="video/mp4">
       <track
         kind="captions"
         srclang="{{ promo_lang }}"
-        src="{{ promo_base }}promo-{{ promo_lang }}.vtt"
+        src="{{ promo_base }}{{ promo_name }}-{{ promo_lang }}.vtt"
         label="{{ t.promo_captions | escape }}"
       >
     </video>
@@ -33,11 +42,14 @@
     <label class="promo-quality">
       <span>{{ t.promo_quality }}</span>
       <select class="promo-quality-select" aria-label="{{ t.promo_quality | escape }}">
-        <option value="1080">{{ t.promo_quality_original }}</option>
-        <option value="480" selected>480p</option>
-        <option value="360">360p</option>
-        <option value="240">240p</option>
-        <option value="144">144p</option>
+        {% for q in promo_qlist %}
+          {% if forloop.first %}
+            {% assign q_label = t.promo_quality_original | append: " (" | append: q | append: "p)" %}
+          {% else %}
+            {% assign q_label = q | append: "p" %}
+          {% endif %}
+          <option value="{{ q }}" {% if q == promo_default_q %}selected{% endif %}>{{ q_label }}</option>
+        {% endfor %}
       </select>
     </label>
   </figcaption>

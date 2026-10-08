@@ -49,7 +49,10 @@
             <div class="bubble out">{{ t.phone_out }}<span class="meta">{{ t.phone_meta }}</span></div>
           </div>
           </div>
-          {% include promo-player.html %}
+          {% assign landing_promo_name = "promo2" %}
+          {% assign landing_promo_qualities = "720,480,360,240,144" %}
+          {% include promo-player.html name=landing_promo_name qualities=landing_promo_qualities %}
+          <p class="promo-archive-link"><a href="{{ promo_url | relative_url }}">{{ t.promo_archive_link }}</a></p>
         </div>
       </div>
     </section>

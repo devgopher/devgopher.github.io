@@ -199,8 +199,17 @@ en:
     - Use of the code and the built applications is the sole responsibility of the end user — at their own risk.
   promo_label: TorgLink promo video
   promo_quality: Quality
-  promo_quality_original: Original (1080p)
+  promo_quality_original: Original
   promo_captions: Captions
+  promo_archive_link: All promo videos
+  promo_archive_meta_title: TorgLink — promo videos (draft 0.1)
+  promo_archive_meta_description: "All TorgLink promo videos in one archive: every version with subtitles and quality selection."
+  promo_archive_kicker: Videos
+  promo_archive_title: Promo videos
+  promo_archive_lead: "Every TorgLink promo video, newest first. Each one plays with subtitles in your language."
+  promo_archive_newer: Newer
+  promo_archive_older: Older
+  promo_archive_page: "Page {current} of {total}"
   footer_product: TorgLink
   footer_protocol: Protocol ShortP2P
 
@@ -405,8 +414,17 @@ ru:
     - Использование кода и собранных приложений является исключительной ответственностью конечного пользователя — на свой страх и риск.
   promo_label: Промо-ролик TorgLink
   promo_quality: Качество
-  promo_quality_original: Оригинал (1080p)
+  promo_quality_original: Оригинал
   promo_captions: Субтитры
+  promo_archive_link: Все промо-ролики
+  promo_archive_meta_title: TorgLink — промо-ролики (черновик 0.1)
+  promo_archive_meta_description: "Все промо-ролики TorgLink в одном архиве: каждая версия с субтитрами и выбором качества."
+  promo_archive_kicker: Видео
+  promo_archive_title: Промо-ролики
+  promo_archive_lead: "Все промо-ролики TorgLink, сначала новые. Каждый — с субтитрами на вашем языке."
+  promo_archive_newer: Новее
+  promo_archive_older: Старше
+  promo_archive_page: "Страница {current} из {total}"
   footer_product: TorgLink
   footer_protocol: Протокол ShortP2P
 
@@ -611,8 +629,17 @@ es:
     - El uso del código y de las aplicaciones compiladas es responsabilidad exclusiva del usuario final — bajo su propio riesgo.
   promo_label: Vídeo promo de TorgLink
   promo_quality: Calidad
-  promo_quality_original: Original (1080p)
+  promo_quality_original: Original
   promo_captions: Subtítulos
+  promo_archive_link: Todos los videos promocionales
+  promo_archive_meta_title: TorgLink — videos promocionales (borrador 0.1)
+  promo_archive_meta_description: "Todos los videos promocionales de TorgLink en un solo archivo: cada versión con subtítulos y selección de calidad."
+  promo_archive_kicker: Videos
+  promo_archive_title: Videos promocionales
+  promo_archive_lead: "Todos los videos promocionales de TorgLink, del más nuevo al más antiguo. Cada uno con subtítulos en tu idioma."
+  promo_archive_newer: Más recientes
+  promo_archive_older: Más antiguos
+  promo_archive_page: "Página {current} de {total}"
   footer_product: TorgLink
   footer_protocol: Protocolo ShortP2P
 
@@ -819,8 +846,17 @@ zh:
     - 代码及已构建应用程序的使用完全由最终用户自行承担责任——风险自负。
   promo_label: TorgLink 宣传视频
   promo_quality: 画质
-  promo_quality_original: 原始 (1080p)
+  promo_quality_original: 原始
   promo_captions: 字幕
+  promo_archive_link: 所有宣传视频
+  promo_archive_meta_title: TorgLink — 宣传视频（草案 0.1）
+  promo_archive_meta_description: "TorgLink 所有宣传视频存档：每个版本都带字幕并可选择画质。"
+  promo_archive_kicker: 视频
+  promo_archive_title: 宣传视频
+  promo_archive_lead: "所有 TorgLink 宣传视频，最新优先。每个视频都配有您语言的字幕。"
+  promo_archive_newer: 更新的
+  promo_archive_older: 更早的
+  promo_archive_page: "第 {current} 页，共 {total} 页"
   footer_product: TorgLink
   footer_protocol: 协议 ShortP2P
 
@@ -1025,8 +1061,17 @@ de:
     - Die Nutzung des Codes und der gebauten Anwendungen liegt in der alleinigen Verantwortung des Endnutzers — auf eigene Gefahr.
   promo_label: TorgLink-Promo
   promo_quality: Qualität
-  promo_quality_original: Original (1080p)
+  promo_quality_original: Original
   promo_captions: Untertitel
+  promo_archive_link: Alle Promo-Videos
+  promo_archive_meta_title: TorgLink — Promo-Videos (Entwurf 0.1)
+  promo_archive_meta_description: "Alle TorgLink-Promo-Videos in einem Archiv: jede Version mit Untertiteln und Qualitätsauswahl."
+  promo_archive_kicker: Videos
+  promo_archive_title: Promo-Videos
+  promo_archive_lead: "Alle TorgLink-Promo-Videos, die neuesten zuerst. Jedes mit Untertiteln in Ihrer Sprache."
+  promo_archive_newer: Neuere
+  promo_archive_older: Ältere
+  promo_archive_page: "Seite {current} von {total}"
   footer_product: TorgLink
   footer_protocol: Protokoll ShortP2P
 
@@ -1231,7 +1276,16 @@ fr:
     - L’utilisation du code et des applications compilées relève de la seule responsabilité de l’utilisateur final — à ses risques et périls.
   promo_label: Vidéo promo TorgLink
   promo_quality: Qualité
-  promo_quality_original: Original (1080p)
+  promo_quality_original: Original
   promo_captions: Sous-titres
+  promo_archive_link: Toutes les vidéos promo
+  promo_archive_meta_title: TorgLink — vidéos promo (brouillon 0.1)
+  promo_archive_meta_description: "Toutes les vidéos promo de TorgLink dans une archive : chaque version avec sous-titres et choix de qualité."
+  promo_archive_kicker: Vidéos
+  promo_archive_title: Vidéos promo
+  promo_archive_lead: "Toutes les vidéos promo de TorgLink, de la plus récente à la plus ancienne. Chacune avec des sous-titres dans votre langue."
+  promo_archive_newer: Plus récentes
+  promo_archive_older: Plus anciennes
+  promo_archive_page: "Page {current} sur {total}"
   footer_product: TorgLink
   footer_protocol: Protocole ShortP2P

@@ -1,0 +1,26 @@
+# Promo video archive, newest first.
+# id       — file prefix under base: {base}{id}-{lang}-{quality}.mp4, {id}-{lang}.jpg, {id}-{lang}.vtt
+# date     — publication date (YYYY-MM-DD)
+# qualities — available ladder rungs, best first
+- id: promo2
+  date: "2026-10-08"
+  base: /assets/promo/
+  qualities: "720,480,360,240,144"
+  title:
+    en: "Promo 2 — Every messenger is down"
+    ru: "Промо 2 — Все мессенджеры лежат"
+    de: "Promo 2 — Alle Messenger sind down"
+    fr: "Promo 2 — Tous les messagers sont en panne"
+    es: "Promo 2 — Todos los mensajeros se cayeron"
+    zh: "宣传视频 2 — 所有即时通讯工具都宕机了"
+- id: promo
+  date: "2026-09-28"
+  base: /assets/promo/
+  qualities: "1080,480,360,240,144"
+  title:
+    en: "Promo 1 — No signal"
+    ru: "Промо 1 — Нет сигнала"
+    de: "Promo 1 — Kein Signal"
+    fr: "Promo 1 — Pas de signal"
+    es: "Promo 1 — Sin señal"
+    zh: "宣传视频 1 — 没有信号"
